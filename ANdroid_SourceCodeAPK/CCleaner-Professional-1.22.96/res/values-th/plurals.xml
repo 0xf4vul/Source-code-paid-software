@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="analysis_group_short_summary">
+        <item quantity="other">ทั้งหมด: %1$d รายการ, %2$s ที่จะล้าง</item>
+    </plurals>
+    <plurals name="analysis_group_short_summary_no_mb">
+        <item quantity="other">ทั้งหมด: %1$d รายการที่จะล้าง</item>
+    </plurals>
+    <plurals name="apk_files_analysis_progress_info">
+        <item quantity="other">ไฟล์ APK: %1$d ไฟล์, %2$s</item>
+    </plurals>
+    <plurals name="bluetooth_folder_analysis_progress_info">
+        <item quantity="other">โฟลเดอร์บลูทูธ: %1$d ไฟล์, %2$s</item>
+    </plurals>
+    <plurals name="cache_analysis_short_summary">
+        <item quantity="other">ทั้งหมด: %1$d แอพ, %2$s ที่จะล้าง</item>
+    </plurals>
+    <plurals name="calls">
+        <item quantity="other">%1$d สาย</item>
+    </plurals>
+    <plurals name="calls_found">
+        <item quantity="other">%1$d สายที่พบ</item>
+    </plurals>
+    <plurals name="calls_have_been_deleted">
+        <item quantity="other">%1$d สาย</item>
+    </plurals>
+    <plurals name="calls_to_delete">
+        <item quantity="other">%1$d สายที่จะลบ</item>
+    </plurals>
+    <plurals name="clean_processes">
+        <item quantity="other">หยุดกระบวนการ</item>
+    </plurals>
+    <plurals name="custom_folders_analysis_progress_info">
+        <item quantity="other">กำหนดไฟล์และโฟลเดอร์เอง: %1$d ไฟล์, %2$s</item>
+    </plurals>
+    <plurals name="download_analysis_progress_info">
+        <item quantity="other">ดาวน์โหลด: %1$d ไฟล์, %2$s</item>
+    </plurals>
+    <plurals name="empty_folders_analysis_progress_info">
+        <item quantity="other">โฟลเดอร์ว่าง: %1$d โฟลเดอร์</item>
+    </plurals>
+    <plurals name="empty_folders_analysis_short_summary">
+        <item quantity="other">%1$d โฟลเดอร์</item>
+    </plurals>
+    <plurals name="folder_analysis_short_summary">
+        <item quantity="other">ทั้งหมด: %1$d ไฟล์, %2$s ที่จะล้าง</item>
+    </plurals>
+    <plurals name="folder_contains_locked_items">
+        <item quantity="other">โฟลเดอร์นี้จะไม่ถูกลบเนื่องจากมี %d รายการที่ถูกล็อก</item>
+    </plurals>
+    <plurals name="google_play_number_of_items_in_search_history">
+        <item quantity="other">%1$d รายการ</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="other">%1$d ข้อความ</item>
+    </plurals>
+    <plurals name="messages_found">
+        <item quantity="other">%1$d ข้อความที่พบ</item>
+    </plurals>
+    <plurals name="messages_have_been_deleted">
+        <item quantity="other">%1$d ข้อความ</item>
+    </plurals>
+    <plurals name="messages_to_delete">
+        <item quantity="other">%1$d ข้อความที่จะลบ</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d ถูกเลือก</item>
+    </plurals>
+    <plurals name="processes_quantity">
+        <item quantity="other">%1$d กระบวนการ</item>
+    </plurals>
+    <plurals name="result_clean_empty_folders">
+        <item quantity="other">%1$d โฟลเดอร์</item>
+    </plurals>
+    <plurals name="result_clean_folder">
+        <item quantity="other">%1$d ไฟล์, %2$s</item>
+    </plurals>
+    <plurals name="root_system_app_uninstall_reboot_countdown_text">
+        <item quantity="other">กำลังเริ่มระบบใหม่ภายใน %d วินาที…</item>
+    </plurals>
+    <plurals name="thumbnail_cache_analysis_progress_info">
+        <item quantity="other">แคชรูปขนาดย่อ: %1$d ไฟล์, %2$s</item>
+    </plurals>
+    <plurals name="visited_sites">
+        <item quantity="other">%1$d เว็บไซต์ที่เข้าชม</item>
+    </plurals>
+    <plurals name="whatsapp_old_backups_analysis_progress_info">
+        <item quantity="other">การสำรองที่เก่าของ WhatsApp: %1$d ไฟล์, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_audio_analysis_progress_info">
+        <item quantity="other">เสียงที่ส่งจาก WhatsApp: %1$d ไฟล์, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_images_analysis_progress_info">
+        <item quantity="other">รูปภาพที่ส่งจาก WhatsApp: %1$d ไฟล์, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_video_analysis_progress_info">
+        <item quantity="other">วิดีโอที่ส่งจาก WhatsApp: %1$d ไฟล์, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_voice_notes_analysis_progress_info">
+        <item quantity="other">การบันทึกเสียงของ WhatsApp: %1$d ไฟล์, %2$s</item>
+    </plurals>
+    <plurals name="ad_cache_analysis_progress_info">
+        <item quantity="other">แคชโฆษณา: %1$d ไฟล์, %2$s</item>
+    </plurals>
+    <plurals name="analysis_group_short_summary_no_mb_post_cleaning">
+        <item quantity="other">%1$d รายการที่ล้างแล้ว</item>
+    </plurals>
+    <plurals name="analysis_group_tiny_summary">
+        <item quantity="other">%1$d รายการ, %2$s ที่จะล้าง</item>
+    </plurals>
+    <plurals name="analysis_group_tiny_summary_post_cleaning">
+        <item quantity="other">%1$d รายการ, %2$s ที่ล้างแล้ว</item>
+    </plurals>
+    <plurals name="apps_lower_case">
+        <item quantity="other">%1$d แอพ</item>
+    </plurals>
+    <plurals name="cache_analysis_short_summary_count">
+        <item quantity="other">%1$d แอพ</item>
+    </plurals>
+    <plurals name="empty_folders_to_delete">
+        <item quantity="other">%1$d โฟลเดอร์ว่างที่เลือก</item>
+    </plurals>
+    <plurals name="files_to_delete">
+        <item quantity="other">%1$d ไฟล์ที่เลือก</item>
+    </plurals>
+    <plurals name="folder_analysis_tiny_summary">
+        <item quantity="other">%1$d ไฟล์, %2$s ที่จะล้าง</item>
+    </plurals>
+    <plurals name="google_play_items_to_delete">
+        <item quantity="other">%1$d รายการที่เลือก</item>
+    </plurals>
+    <plurals name="processes_to_end">
+        <item quantity="other">%1$d กระบวนการที่เลือก</item>
+    </plurals>
+    <plurals name="processes_using_x">
+        <item quantity="other">%1$d กระบวนการที่ใช้โดย %2$s</item>
+    </plurals>
+    <plurals name="files">
+        <item quantity="other">%1$d ไฟล์</item>
+    </plurals>
+</resources>

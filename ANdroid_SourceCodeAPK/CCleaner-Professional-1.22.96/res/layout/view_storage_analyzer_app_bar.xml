@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.Toolbar android:id="@id/toolbar" style="@style/Toolbar" />
+    <com.piriform.ccleaner.ui.view.HeaderUsageBarView android:id="@id/usage_bar" style="@style/HeaderUsageBar.Storage" />
+    <com.piriform.ccleaner.ui.view.InfoBarView android:id="@id/info_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/info_bar_height" />
+</merge>

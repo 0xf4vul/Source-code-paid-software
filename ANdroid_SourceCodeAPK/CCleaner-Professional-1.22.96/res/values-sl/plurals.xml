@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="calls">
+        <item quantity="other">%1$d klicev</item>
+        <item quantity="one">%1$d klic</item>
+        <item quantity="two">%1$d klica</item>
+        <item quantity="few">%1$d klici</item>
+    </plurals>
+    <plurals name="calls_found">
+        <item quantity="other">Toliko najdenih klicev: %1$d</item>
+        <item quantity="one">%1$d klic najden</item>
+        <item quantity="two">%1$d klica najdena</item>
+        <item quantity="few">%1$d klicev najdeno</item>
+    </plurals>
+    <plurals name="messages_found">
+        <item quantity="other">%1$d najdenih sporočil</item>
+        <item quantity="one">%1$d najdeno sporočilo</item>
+        <item quantity="two">%1$d najdeni sporočili</item>
+        <item quantity="few">%1$d najdena sporočila</item>
+    </plurals>
+</resources>

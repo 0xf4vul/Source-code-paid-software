@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SettingsGridItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/analysis_image" android:duplicateParentState="true" android:src="@drawable/ic_cache" android:layout_centerHorizontal="true" android:contentDescription="@null" style="@style/SettingsGridItemImage" />
+    <ImageView android:id="@id/emblem" android:duplicateParentState="true" android:layout_width="@dimen/settings_check_width" android:layout_height="@dimen/settings_check_height" android:src="@drawable/settings_analysis_checkbox" android:layout_alignRight="@id/analysis_image" android:layout_alignBottom="@id/analysis_image" android:contentDescription="@null" />
+    <TextView android:id="@id/analysis_name" android:layout_below="@id/analysis_image" android:layout_centerHorizontal="true" style="@style/SettingsGridItemText" />
+</RelativeLayout>

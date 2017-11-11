@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="analysis_group_short_summary">
+        <item quantity="other">总计：%1$d个条目，%2$s 可清理</item>
+    </plurals>
+    <plurals name="analysis_group_short_summary_no_mb">
+        <item quantity="other">%1$d个条目可清理</item>
+    </plurals>
+    <plurals name="apk_files_analysis_progress_info">
+        <item quantity="other">APK 文件：%1$d个文件，%2$s</item>
+    </plurals>
+    <plurals name="bluetooth_folder_analysis_progress_info">
+        <item quantity="other">蓝牙文件夹：%1$d个文件，%2$s</item>
+    </plurals>
+    <plurals name="cache_analysis_short_summary">
+        <item quantity="other">全部：%1$d个应用程序，可清理 %2$s</item>
+    </plurals>
+    <plurals name="calls">
+        <item quantity="other">%1$d个通话记录</item>
+    </plurals>
+    <plurals name="calls_found">
+        <item quantity="other">已找到%1$d个通话记录</item>
+    </plurals>
+    <plurals name="calls_have_been_deleted">
+        <item quantity="other">%1$d个通话记录</item>
+    </plurals>
+    <plurals name="calls_to_delete">
+        <item quantity="other">可删除%1$d个通话记录</item>
+    </plurals>
+    <plurals name="clean_processes">
+        <item quantity="other">结束进程</item>
+    </plurals>
+    <plurals name="custom_folders_analysis_progress_info">
+        <item quantity="other">自定义文件及文件夹：%1$d个文件， %2$s</item>
+    </plurals>
+    <plurals name="download_analysis_progress_info">
+        <item quantity="other">已下载：%1$d个文件，%2$s</item>
+    </plurals>
+    <plurals name="empty_folders_analysis_progress_info">
+        <item quantity="other">空文件夹：%1$d个文件夹</item>
+    </plurals>
+    <plurals name="empty_folders_analysis_short_summary">
+        <item quantity="other">%1$d个文件夹</item>
+    </plurals>
+    <plurals name="folder_analysis_short_summary">
+        <item quantity="other">全部：%1$d个文件，可清理 %2$s</item>
+    </plurals>
+    <plurals name="folder_contains_locked_items">
+        <item quantity="other">此文件夹不能被删除，因为含有%d个已锁定项目</item>
+    </plurals>
+    <plurals name="google_play_number_of_items_in_search_history">
+        <item quantity="other">%1$d个项目</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="other">%1$d条短信</item>
+    </plurals>
+    <plurals name="messages_found">
+        <item quantity="other">已找到%1$d条短信</item>
+    </plurals>
+    <plurals name="messages_have_been_deleted">
+        <item quantity="other">%1$d条短信</item>
+    </plurals>
+    <plurals name="messages_to_delete">
+        <item quantity="other">可删除%1$d条短信</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">已选择%1$d项</item>
+    </plurals>
+    <plurals name="processes_quantity">
+        <item quantity="other">%1$d个进程</item>
+    </plurals>
+    <plurals name="result_clean_empty_folders">
+        <item quantity="other">%1$d个文件夹</item>
+    </plurals>
+    <plurals name="result_clean_folder">
+        <item quantity="other">%1$d个文件，%2$s</item>
+    </plurals>
+    <plurals name="root_system_app_uninstall_reboot_countdown_text">
+        <item quantity="other">设备将在%d秒后重启</item>
+    </plurals>
+    <plurals name="thumbnail_cache_analysis_progress_info">
+        <item quantity="other">缩略图缓存：%1$d个文件，%2$s</item>
+    </plurals>
+    <plurals name="visited_sites">
+        <item quantity="other">%1$d个已访问的网页</item>
+    </plurals>
+    <plurals name="whatsapp_old_backups_analysis_progress_info">
+        <item quantity="other">WhatsApp 旧的备份：%1$d个文件，%2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_audio_analysis_progress_info">
+        <item quantity="other">WhatsApp 发送的音频：%1$d个文件，%2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_images_analysis_progress_info">
+        <item quantity="other">WhatsApp 发送的图片：%1$d个文件，%2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_video_analysis_progress_info">
+        <item quantity="other">WhatsApp 发送的视频：%1$d个文件，%2$s</item>
+    </plurals>
+    <plurals name="whatsapp_voice_notes_analysis_progress_info">
+        <item quantity="other">WhatsApp 语音备忘：%1$d个文件，%2$s</item>
+    </plurals>
+    <plurals name="ad_cache_analysis_progress_info">
+        <item quantity="other">广告文件缓存： %1$d个文件，%2$s</item>
+    </plurals>
+    <plurals name="analysis_group_short_summary_no_mb_post_cleaning">
+        <item quantity="other">已清理%1$d个条目</item>
+    </plurals>
+    <plurals name="analysis_group_tiny_summary">
+        <item quantity="other">%1$d个条目，%2$s 可清理</item>
+    </plurals>
+    <plurals name="analysis_group_tiny_summary_post_cleaning">
+        <item quantity="other">%1$d个条目，已清理%2$s</item>
+    </plurals>
+    <plurals name="apps_lower_case">
+        <item quantity="other">%1$d个应用</item>
+    </plurals>
+    <plurals name="cache_analysis_short_summary_count">
+        <item quantity="other">%1$d个应用</item>
+    </plurals>
+    <plurals name="empty_folders_to_delete">
+        <item quantity="other">已选择%1$d个空文件夹到清理项目</item>
+    </plurals>
+    <plurals name="files_to_delete">
+        <item quantity="other">已选择%1$d个文件到清理项目</item>
+    </plurals>
+    <plurals name="folder_analysis_tiny_summary">
+        <item quantity="other">%1$d个文件，%2$s 可清理</item>
+    </plurals>
+    <plurals name="google_play_items_to_delete">
+        <item quantity="other">已选择%1$d个条目到清理项目</item>
+    </plurals>
+    <plurals name="processes_to_end">
+        <item quantity="other">已选择%1$d个进程终止</item>
+    </plurals>
+    <plurals name="processes_using_x">
+        <item quantity="other">%1$d个进程，已使用%2$s</item>
+    </plurals>
+    <plurals name="files">
+        <item quantity="other">%1$d个文件</item>
+    </plurals>
+</resources>

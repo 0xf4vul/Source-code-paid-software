@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout android:id="@id/drawer_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/drawer_layout_content" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.piriform.ccleaner.ui.view.AppManagerAppBar android:id="@id/app_bar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <android.support.v4.view.ViewPager android:id="@id/app_manager_view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+        <com.piriform.ccleaner.appmanager.AppManagerButtonsView android:id="@id/bottom_buttons" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <include layout="@layout/include_nav_drawer" />
+</android.support.v4.widget.DrawerLayout>

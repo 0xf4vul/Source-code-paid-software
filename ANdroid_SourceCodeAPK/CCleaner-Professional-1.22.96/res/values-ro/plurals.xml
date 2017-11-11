@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="analysis_group_short_summary">
+        <item quantity="other">Total: %1$d articole, %2$s pentru curățat</item>
+        <item quantity="one">Total: %1$d articol, %2$s pentru curățat</item>
+        <item quantity="few">Total: %1$d articole, %2$s pentru curățat</item>
+    </plurals>
+    <plurals name="analysis_group_short_summary_no_mb">
+        <item quantity="other">%1$d articole pentru curățat</item>
+        <item quantity="one">%1$d articol pentru curățat</item>
+        <item quantity="few">%1$d articole pentru curățat</item>
+    </plurals>
+    <plurals name="apk_files_analysis_progress_info">
+        <item quantity="other">Fișiere Apk: %1$d fișiere, %2$s</item>
+        <item quantity="one">Fișiere Apk: %1$d fișier, %2$s</item>
+        <item quantity="few">Fișiere Apk: %1$d fișiere, %2$s</item>
+    </plurals>
+    <plurals name="bluetooth_folder_analysis_progress_info">
+        <item quantity="other">Dosar Bluetooth: %1$d fișiere, %2$s</item>
+        <item quantity="one">Dosar Bluetooth: %1$d fișier, %2$s</item>
+        <item quantity="few">Dosar Bluetooth: %1$d fișiere, %2$s</item>
+    </plurals>
+    <plurals name="cache_analysis_short_summary">
+        <item quantity="other">Total: %1$d aplicații, %2$s pentru curățare</item>
+        <item quantity="one">Total: %1$d aplicație, %2$s pentru curățare</item>
+        <item quantity="few">Total: %1$d aplicații, %2$s pentru curățare</item>
+    </plurals>
+    <plurals name="calls">
+        <item quantity="other">%1$d apeluri</item>
+        <item quantity="one">%1$d apel</item>
+        <item quantity="few">%1$d apeluri</item>
+    </plurals>
+    <plurals name="calls_found">
+        <item quantity="other">%1$d apeluri găsite</item>
+        <item quantity="one">%1$d apel găsit</item>
+        <item quantity="few">%1$d apeluri găsite</item>
+    </plurals>
+    <plurals name="calls_have_been_deleted">
+        <item quantity="other">%1$d apeluri</item>
+        <item quantity="one">%1$d apel</item>
+        <item quantity="few">%1$d apeluri</item>
+    </plurals>
+    <plurals name="calls_to_delete">
+        <item quantity="other">%1$d apeluri pentru șters</item>
+        <item quantity="one">%1$d apel pentru șters</item>
+        <item quantity="few">%1$d apeluri pentru șters</item>
+    </plurals>
+    <plurals name="clean_processes">
+        <item quantity="other">Terminare procese</item>
+        <item quantity="one">Terminare proces</item>
+        <item quantity="few">Terminare procese</item>
+    </plurals>
+    <plurals name="custom_folders_analysis_progress_info">
+        <item quantity="other">Fișiere și dosare personalizate: %1$d fișiere, %2$s</item>
+        <item quantity="one">Fișiere și dosare personalizate: %1$d fișier, %2$s</item>
+        <item quantity="few">Fișiere și dosare personalizate: %1$d fișiere, %2$s</item>
+    </plurals>
+    <plurals name="download_analysis_progress_info">
+        <item quantity="other">Descărcări: %1$d fișiere, %2$s</item>
+        <item quantity="one">Descărcări: %1$d fișier, %2$s</item>
+        <item quantity="few">Descărcări: %1$d fișiere, %2$s</item>
+    </plurals>
+    <plurals name="empty_folders_analysis_progress_info">
+        <item quantity="other">Dosare goale: %1$d dosare</item>
+        <item quantity="one">Dosare goale: %1$d dosar</item>
+        <item quantity="few">Dosare goale: %1$d dosare</item>
+    </plurals>
+    <plurals name="empty_folders_analysis_short_summary">
+        <item quantity="other">%1$d dosare</item>
+        <item quantity="one">%1$d dosar</item>
+        <item quantity="few">%1$d dosare</item>
+    </plurals>
+    <plurals name="folder_analysis_short_summary">
+        <item quantity="other">Total: %1$d fișiere, %2$s pentru curățat</item>
+        <item quantity="one">Total: %1$d fișier, %2$s pentru curățat</item>
+        <item quantity="few">Total: %1$d fișiere, %2$s pentru curățat</item>
+    </plurals>
+    <plurals name="folder_contains_locked_items">
+        <item quantity="other">Acest dosar nu poate fi eliminat, deoarece conține %d articole blocate.</item>
+        <item quantity="one">Acest dosar nu poate fi eliminat, deoarece conține %d articol blocate.</item>
+        <item quantity="few">Acest dosar nu poate fi eliminat, deoarece conține %d articole blocate.</item>
+    </plurals>
+    <plurals name="google_play_number_of_items_in_search_history">
+        <item quantity="other">%1$d articole</item>
+        <item quantity="one">%1$d articol</item>
+        <item quantity="few">%1$d articole</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="other">%1$d mesaje</item>
+        <item quantity="one">%1$d mesaj</item>
+        <item quantity="few">%1$d mesaje</item>
+    </plurals>
+    <plurals name="messages_found">
+        <item quantity="other">%1$d mesaje găsite</item>
+        <item quantity="one">%1$d mesaj găsit</item>
+        <item quantity="few">%1$d mesaje găsite</item>
+    </plurals>
+    <plurals name="messages_have_been_deleted">
+        <item quantity="other">%1$d mesaje</item>
+        <item quantity="one">%1$d mesaj</item>
+        <item quantity="few">%1$d mesaje</item>
+    </plurals>
+    <plurals name="messages_to_delete">
+        <item quantity="other">%1$d mesaje pentru șters</item>
+        <item quantity="one">%1$d mesaj pentru șters</item>
+        <item quantity="few">%1$d mesaje pentru șters</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d selectate</item>
+        <item quantity="one">%1$d selectat</item>
+        <item quantity="few">%1$d selectate</item>
+    </plurals>
+    <plurals name="processes_quantity">
+        <item quantity="other">%1$d procese</item>
+        <item quantity="one">%1$d proces</item>
+        <item quantity="few">%1$d procese</item>
+    </plurals>
+    <plurals name="result_clean_empty_folders">
+        <item quantity="other">%1$d dosare</item>
+        <item quantity="one">%1$d dosar</item>
+        <item quantity="few">%1$d dosare</item>
+    </plurals>
+    <plurals name="result_clean_folder">
+        <item quantity="other">%1$d fișiere, %2$s</item>
+        <item quantity="one">%1$d fișier, %2$s</item>
+        <item quantity="few">%1$d fișiere, %2$s</item>
+    </plurals>
+    <plurals name="root_system_app_uninstall_reboot_countdown_text">
+        <item quantity="other">Repornirea dispozitivului în %d secunde…</item>
+        <item quantity="one">Repornirea dispozitivului în %d secundă…</item>
+        <item quantity="few">Repornirea dispozitivului în %d secunde…</item>
+    </plurals>
+    <plurals name="thumbnail_cache_analysis_progress_info">
+        <item quantity="other">Cache miniaturi: %1$d fișiere, %2$s</item>
+        <item quantity="one">Cache miniaturi: %1$d fișier, %2$s</item>
+        <item quantity="few">Cache miniaturi: %1$d fișiere, %2$s</item>
+    </plurals>
+    <plurals name="visited_sites">
+        <item quantity="other">%1$d site-uri vizitate</item>
+        <item quantity="one">%1$d site vizitat</item>
+        <item quantity="few">%1$d site-uri vizitate</item>
+    </plurals>
+    <plurals name="whatsapp_old_backups_analysis_progress_info">
+        <item quantity="other">Copii de rezervă vechi WhatsApp: %1$d fișiere, %2$s</item>
+        <item quantity="one">Copii de rezervă vechi WhatsApp: %1$d fișier, %2$s</item>
+        <item quantity="few">Copii de rezervă vechi WhatsApp: %1$d fișiere, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_audio_analysis_progress_info">
+        <item quantity="other">Fișiere audio trimise WhatsApp: %1$d fișiere, %2$s</item>
+        <item quantity="one">Fișiere audio trimise WhatsApp: %1$d fișier, %2$s</item>
+        <item quantity="few">Fișiere audio trimise WhatsApp: %1$d fișiere, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_images_analysis_progress_info">
+        <item quantity="other">Imagini trimise WhatsApp: %1$d fisiere, %2$s</item>
+        <item quantity="one">Imagini trimise WhatsApp: %1$d fisier, %2$s</item>
+        <item quantity="few">Imagini trimise WhatsApp: %1$d fisiere, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_video_analysis_progress_info">
+        <item quantity="other">Video trimise WhatsApp: %1$d fișiere, %2$s</item>
+        <item quantity="one">Video trimise WhatsApp: %1$d fișier, %2$s</item>
+        <item quantity="few">Video trimise WhatsApp: %1$d fișiere, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_voice_notes_analysis_progress_info">
+        <item quantity="other">Note vocale WhatsApp: %1$d fișiere, %2$s</item>
+        <item quantity="one">Note vocale WhatsApp: %1$d fișier, %2$s</item>
+        <item quantity="few">Note vocale WhatsApp: %1$d fișiere, %2$s</item>
+    </plurals>
+    <plurals name="ad_cache_analysis_progress_info">
+        <item quantity="other">Cache reclame: %1$d fișiere, %2$s</item>
+        <item quantity="one">Cache reclame: %1$d fișier, %2$s</item>
+        <item quantity="few">Cache reclame: %1$d fișiere, %2$s</item>
+    </plurals>
+    <plurals name="analysis_group_short_summary_no_mb_post_cleaning">
+        <item quantity="other">%1$d articole curățate</item>
+        <item quantity="one">%1$d articol curățat</item>
+        <item quantity="few">%1$d articole curățate</item>
+    </plurals>
+    <plurals name="analysis_group_tiny_summary">
+        <item quantity="other">%1$d articole, %2$s pentru curățat</item>
+        <item quantity="one">%1$d articol, %2$s pentru curățat</item>
+        <item quantity="few">%1$d articole, %2$s pentru curățat</item>
+    </plurals>
+    <plurals name="analysis_group_tiny_summary_post_cleaning">
+        <item quantity="other">%1$d articole, %2$s curățate</item>
+        <item quantity="one">%1$d articol, %2$s curățat</item>
+        <item quantity="few">%1$d articole, %2$s curățate</item>
+    </plurals>
+    <plurals name="apps_lower_case">
+        <item quantity="other">%1$d aplicații</item>
+        <item quantity="one">%1$d aplicație</item>
+        <item quantity="few">%1$d aplicații</item>
+    </plurals>
+    <plurals name="cache_analysis_short_summary_count">
+        <item quantity="other">%1$d aplicații</item>
+        <item quantity="one">%1$d aplicație</item>
+        <item quantity="few">%1$d aplicații</item>
+    </plurals>
+    <plurals name="empty_folders_to_delete">
+        <item quantity="other">%1$d dosare goale selectate pentru șters</item>
+        <item quantity="one">%1$d dosar gol selectat pentru șters</item>
+        <item quantity="few">%1$d dosare goale selectate pentru șters</item>
+    </plurals>
+    <plurals name="files_to_delete">
+        <item quantity="other">%1$d fișiere selectate pentru șters</item>
+        <item quantity="one">%1$d fișier selectat pentru șters</item>
+        <item quantity="few">%1$d fișiere selectate pentru șters</item>
+    </plurals>
+    <plurals name="folder_analysis_tiny_summary">
+        <item quantity="other">%1$d fișiere, %2$s pentru curățat</item>
+        <item quantity="one">%1$d fișier, %2$s pentru curățat</item>
+        <item quantity="few">%1$d fișiere, %2$s pentru curățat</item>
+    </plurals>
+    <plurals name="google_play_items_to_delete">
+        <item quantity="other">%1$d articole selectate pentru curățare</item>
+        <item quantity="one">%1$d articol selectat pentru curățare</item>
+        <item quantity="few">%1$d articole selectate pentru curățare</item>
+    </plurals>
+    <plurals name="processes_to_end">
+        <item quantity="other">%1$d procese selectate pentru terminare</item>
+        <item quantity="one">%1$d proces selectat pentru terminare</item>
+        <item quantity="few">%1$d procese selectate pentru terminare</item>
+    </plurals>
+    <plurals name="processes_using_x">
+        <item quantity="other">%1$d procese utilizează %2$s</item>
+        <item quantity="one">%1$d proces utilizează %2$s</item>
+        <item quantity="few">%1$d procese utilizează %2$s</item>
+    </plurals>
+    <plurals name="files">
+        <item quantity="other">%1$d fișiere</item>
+        <item quantity="one">%1$d fișier</item>
+        <item quantity="few">%1$d fișiere</item>
+    </plurals>
+</resources>

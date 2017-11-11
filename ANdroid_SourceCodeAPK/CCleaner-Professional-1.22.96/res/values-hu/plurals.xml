@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="analysis_group_short_summary">
+        <item quantity="other">Összesen: %1$d elem, %2$s törölhető</item>
+        <item quantity="one">Összesen: %1$d elem, %2$s törölhető</item>
+    </plurals>
+    <plurals name="analysis_group_short_summary_no_mb">
+        <item quantity="other">Összesen: %1$d elem törölhető</item>
+        <item quantity="one">Összesen: %1$d elem törölhető</item>
+    </plurals>
+    <plurals name="apk_files_analysis_progress_info">
+        <item quantity="other">APK-fájlok: %1$d fájl, %2$s</item>
+        <item quantity="one">APK-fájlok: %1$d fájl, %2$s</item>
+    </plurals>
+    <plurals name="bluetooth_folder_analysis_progress_info">
+        <item quantity="other">Bluetooth mappa: %1$d fájl, %2$s</item>
+        <item quantity="one">Bluetooth mappa: %1$d fájl, %2$s</item>
+    </plurals>
+    <plurals name="cache_analysis_short_summary">
+        <item quantity="other">Összesen: %1$d alkalmazás, %2$s törölhető</item>
+        <item quantity="one">Összesen: %1$d alkalmazás, %2$s törölhető</item>
+    </plurals>
+    <plurals name="calls">
+        <item quantity="other">%1$d hívás</item>
+        <item quantity="one">%1$d hívás</item>
+    </plurals>
+    <plurals name="calls_found">
+        <item quantity="other">%1$d hívás találat</item>
+        <item quantity="one">%1$d hívás találat</item>
+    </plurals>
+    <plurals name="calls_have_been_deleted">
+        <item quantity="other">%1$d hívás</item>
+        <item quantity="one">%1$d hívás</item>
+    </plurals>
+    <plurals name="calls_to_delete">
+        <item quantity="other">%1$d törlendő hívás</item>
+        <item quantity="one">%1$d törlendő hívás</item>
+    </plurals>
+    <plurals name="clean_processes">
+        <item quantity="other">Folyamatok leállítása</item>
+        <item quantity="one">Folyamat leállítása</item>
+    </plurals>
+    <plurals name="custom_folders_analysis_progress_info">
+        <item quantity="other">Egyéni fájlok és mappák: %1$d fájl, %2$s</item>
+        <item quantity="one">Egyéni fájlok és mappák: %1$d fájl, %2$s</item>
+    </plurals>
+    <plurals name="download_analysis_progress_info">
+        <item quantity="other">Letöltés: %1$d fájl, %2$s</item>
+        <item quantity="one">Letöltés: %1$d fájl, %2$s</item>
+    </plurals>
+    <plurals name="empty_folders_analysis_progress_info">
+        <item quantity="other">Üres mappák: %1$d mappa</item>
+        <item quantity="one">Üres mappák: %1$d mappa</item>
+    </plurals>
+    <plurals name="empty_folders_analysis_short_summary">
+        <item quantity="other">%1$d mappa</item>
+        <item quantity="one">%1$d mappa</item>
+    </plurals>
+    <plurals name="folder_analysis_short_summary">
+        <item quantity="other">Összesen: %1$d fájl, %2$s törölhető</item>
+        <item quantity="one">Összesen: %1$d fájl, %2$s törölhető</item>
+    </plurals>
+    <plurals name="folder_contains_locked_items">
+        <item quantity="other">Ez a mappa nem távolítható el, mivel %d zárolt elemet tartalmaz.</item>
+        <item quantity="one">Ez a mappa nem távolítható el, mivel %d zárolt elemet tartalmaz.</item>
+    </plurals>
+    <plurals name="google_play_number_of_items_in_search_history">
+        <item quantity="other">%1$d elem</item>
+        <item quantity="one">%1$d elem</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="other">%1$d üzenet</item>
+        <item quantity="one">%1$d üzenet</item>
+    </plurals>
+    <plurals name="messages_found">
+        <item quantity="other">%1$d üzenet találat</item>
+        <item quantity="one">%1$d üzenet találat</item>
+    </plurals>
+    <plurals name="messages_have_been_deleted">
+        <item quantity="other">%1$d üzenet</item>
+        <item quantity="one">%1$d üzenet</item>
+    </plurals>
+    <plurals name="messages_to_delete">
+        <item quantity="other">%1$d törlendő üzenet</item>
+        <item quantity="one">%1$d törlendő üzenet</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d kiválasztva</item>
+        <item quantity="one">%1$d kiválasztva</item>
+    </plurals>
+    <plurals name="processes_quantity">
+        <item quantity="other">%1$d folyamat</item>
+        <item quantity="one">%1$d folyamat</item>
+    </plurals>
+    <plurals name="result_clean_empty_folders">
+        <item quantity="other">%1$d mappa</item>
+        <item quantity="one">%1$d</item>
+    </plurals>
+    <plurals name="result_clean_folder">
+        <item quantity="other">%1$d fájl, %2$s</item>
+        <item quantity="one">%1$d fájl, %2$s</item>
+    </plurals>
+    <plurals name="root_system_app_uninstall_reboot_countdown_text">
+        <item quantity="other">A készülék %d mp múlva újraindul…</item>
+        <item quantity="one">A készülék %d mp múlva újraindul…</item>
+    </plurals>
+    <plurals name="thumbnail_cache_analysis_progress_info">
+        <item quantity="other">Miniatűr gyorsítótár: %1$d fájl, %2$s</item>
+        <item quantity="one">Miniatűr gyorsítótár: %1$d fájl, %2$s</item>
+    </plurals>
+    <plurals name="visited_sites">
+        <item quantity="other">%1$d felkeresett webhely</item>
+        <item quantity="one">%1$d felkeresett webhely</item>
+    </plurals>
+    <plurals name="whatsapp_old_backups_analysis_progress_info">
+        <item quantity="other">WhatsApp régi mentések: %1$d fájl, %2$s</item>
+        <item quantity="one">WhatsApp régi mentések: %1$d fájl, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_audio_analysis_progress_info">
+        <item quantity="other">WhatsApp elküldött audió: %1$d fájl, %2$s</item>
+        <item quantity="one">WhatsApp elküldött audió: %1$d fájl, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_images_analysis_progress_info">
+        <item quantity="other">WhatsApp elküldött képek: %1$d fájl, %2$s</item>
+        <item quantity="one">WhatsApp elküldött képek: %1$d fájl, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_video_analysis_progress_info">
+        <item quantity="other">WhatsApp elküldött videó: %1$d fájl, %2$s</item>
+        <item quantity="one">WhatsApp elküldött videó: %1$d fájl, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_voice_notes_analysis_progress_info">
+        <item quantity="other">WhatsApp hangjegyzet: %1$d fájl, %2$s</item>
+        <item quantity="one">WhatsApp hangjegyzet: %1$d fájl, %2$s</item>
+    </plurals>
+    <plurals name="ad_cache_analysis_progress_info">
+        <item quantity="other">Hirdetési gyorsítótár: %1$d fájl, %2$s</item>
+        <item quantity="one">Hirdetési gyorsítótár: %1$d fájl, %2$s</item>
+    </plurals>
+    <plurals name="analysis_group_short_summary_no_mb_post_cleaning">
+        <item quantity="other">%1$d elem törölve</item>
+        <item quantity="one">%1$d elem törölve</item>
+    </plurals>
+    <plurals name="analysis_group_tiny_summary">
+        <item quantity="other">%1$d elem, %2$s törölhető</item>
+        <item quantity="one">%1$d elem, %2$s törölhető</item>
+    </plurals>
+    <plurals name="analysis_group_tiny_summary_post_cleaning">
+        <item quantity="other">%1$d elem, %2$s törölve</item>
+        <item quantity="one">%1$d elem, %2$s törölve</item>
+    </plurals>
+    <plurals name="apps_lower_case">
+        <item quantity="other">%1$d alkalmazás</item>
+        <item quantity="one">%1$d alkalmazás</item>
+    </plurals>
+    <plurals name="cache_analysis_short_summary_count">
+        <item quantity="other">%1$d alkalmazás</item>
+        <item quantity="one">%1$d alkalmazás</item>
+    </plurals>
+    <plurals name="empty_folders_to_delete">
+        <item quantity="other">%1$d üres mappa lett kijelölve törlésre</item>
+        <item quantity="one">%1$d üres mappa lett kijelölve törlésre</item>
+    </plurals>
+    <plurals name="files_to_delete">
+        <item quantity="other">%1$d fájl lett kijelölve törlésre</item>
+        <item quantity="one">%1$d fájl lett kijelölve törlésre</item>
+    </plurals>
+    <plurals name="folder_analysis_tiny_summary">
+        <item quantity="other">%1$d fájl, %2$s törölhető</item>
+        <item quantity="one">%1$d fájl, %2$s törölhető</item>
+    </plurals>
+    <plurals name="google_play_items_to_delete">
+        <item quantity="other">%1$d elem kiválasztva törlésre</item>
+        <item quantity="one">%1$d elem kiválasztva törlésre</item>
+    </plurals>
+    <plurals name="processes_to_end">
+        <item quantity="other">%1$d folyamat lett kijelölve leállításra</item>
+        <item quantity="one">%1$d folyamat lett kijelölve leállításra</item>
+    </plurals>
+    <plurals name="processes_using_x">
+        <item quantity="other">%1$d folyamat %2$s használat</item>
+        <item quantity="one">%1$d folyamat %2$s használat</item>
+    </plurals>
+    <plurals name="files">
+        <item quantity="other">%1$d fájl</item>
+        <item quantity="one">%1$d fájl</item>
+    </plurals>
+</resources>

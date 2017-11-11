@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="analysis_group_short_summary">
+        <item quantity="other">Total : %1$d éléments, %2$s à nettoyer</item>
+        <item quantity="one">Total : %1$d élément, %2$s à nettoyer</item>
+    </plurals>
+    <plurals name="analysis_group_short_summary_no_mb">
+        <item quantity="other">Total : %1$d éléments à nettoyer</item>
+        <item quantity="one">Total : %1$d élément à nettoyer</item>
+    </plurals>
+    <plurals name="apk_files_analysis_progress_info">
+        <item quantity="other">Fichiers APK : %1$d fichiers, %2$s</item>
+        <item quantity="one">Fichiers APK : %1$d fichier, %2$s</item>
+    </plurals>
+    <plurals name="bluetooth_folder_analysis_progress_info">
+        <item quantity="other">Dossier Bluetooth : %1$d fichiers, %2$s</item>
+        <item quantity="one">Dossier Bluetooth : %1$d fichier, %2$s</item>
+    </plurals>
+    <plurals name="cache_analysis_short_summary">
+        <item quantity="other">Total : %1$d applications, %2$s à nettoyer</item>
+        <item quantity="one">Total : %1$d application, %2$s à nettoyer</item>
+    </plurals>
+    <plurals name="calls">
+        <item quantity="other">%1$d appels</item>
+        <item quantity="one">%1$d appel</item>
+    </plurals>
+    <plurals name="calls_found">
+        <item quantity="other">%1$d appels trouvés</item>
+        <item quantity="one">%1$d appel trouvé</item>
+    </plurals>
+    <plurals name="calls_have_been_deleted">
+        <item quantity="other">%1$d appels</item>
+        <item quantity="one">%1$d appel</item>
+    </plurals>
+    <plurals name="calls_to_delete">
+        <item quantity="other">%1$d appels à supprimer</item>
+        <item quantity="one">%1$d appel à supprimer</item>
+    </plurals>
+    <plurals name="clean_processes">
+        <item quantity="other">Arrêter les processus</item>
+        <item quantity="one">Arrêter le processus</item>
+    </plurals>
+    <plurals name="custom_folders_analysis_progress_info">
+        <item quantity="other">Fichiers et dossiers personnalisés : %1$d fichiers, %2$s</item>
+        <item quantity="one">Fichiers et dossiers personnalisés : %1$d fichier, %2$s</item>
+    </plurals>
+    <plurals name="download_analysis_progress_info">
+        <item quantity="other">Téléchargement : %1$d fichiers, %2$s</item>
+        <item quantity="one">Téléchargement : %1$d fichier, %2$s</item>
+    </plurals>
+    <plurals name="empty_folders_analysis_progress_info">
+        <item quantity="other">Dossiers vides : %1$d dossiers</item>
+        <item quantity="one">Dossiers vides : %1$d dossier</item>
+    </plurals>
+    <plurals name="empty_folders_analysis_short_summary">
+        <item quantity="other">%1$d dossiers</item>
+        <item quantity="one">%1$d dossier</item>
+    </plurals>
+    <plurals name="folder_analysis_short_summary">
+        <item quantity="other">Total : %1$d fichiers, %2$s à nettoyer</item>
+        <item quantity="one">Total : %1$d fichier, %2$s à nettoyer</item>
+    </plurals>
+    <plurals name="folder_contains_locked_items">
+        <item quantity="other">Ce dossier ne sera pas supprimé car il contient %d éléments verrouillés</item>
+        <item quantity="one">Ce dossier ne sera pas supprimé car il contient %d élément verrouillé.</item>
+    </plurals>
+    <plurals name="google_play_number_of_items_in_search_history">
+        <item quantity="other">%1$d éléments</item>
+        <item quantity="one">%1$d élément</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="other">%1$d messages</item>
+        <item quantity="one">%1$d message</item>
+    </plurals>
+    <plurals name="messages_found">
+        <item quantity="other">%1$d messages trouvés</item>
+        <item quantity="one">%1$d message trouvé</item>
+    </plurals>
+    <plurals name="messages_have_been_deleted">
+        <item quantity="other">%1$d messages</item>
+        <item quantity="one">%1$d message</item>
+    </plurals>
+    <plurals name="messages_to_delete">
+        <item quantity="other">%1$d messages à supprimer</item>
+        <item quantity="one">%1$d message à supprimer</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d sélectionnés</item>
+        <item quantity="one">%1$d sélectionné</item>
+    </plurals>
+    <plurals name="processes_quantity">
+        <item quantity="other">%1$d processus</item>
+        <item quantity="one">%1$d processus</item>
+    </plurals>
+    <plurals name="result_clean_empty_folders">
+        <item quantity="other">%1$d dossiers</item>
+        <item quantity="one">%1$d dossier</item>
+    </plurals>
+    <plurals name="result_clean_folder">
+        <item quantity="other">%1$d fichiers, %2$s</item>
+        <item quantity="one">%1$d fichier, %2$s</item>
+    </plurals>
+    <plurals name="root_system_app_uninstall_reboot_countdown_text">
+        <item quantity="other">Redémarrage de l’appareil dans %d secondes…</item>
+        <item quantity="one">Redémarrage de l’appareil dans %d seconde…</item>
+    </plurals>
+    <plurals name="thumbnail_cache_analysis_progress_info">
+        <item quantity="other">Cache des miniatures : %1$d fichiers, %2$s</item>
+        <item quantity="one">Cache des miniatures : %1$d fichier, %2$s</item>
+    </plurals>
+    <plurals name="visited_sites">
+        <item quantity="other">%1$d sites visités</item>
+        <item quantity="one">%1$d site visité</item>
+    </plurals>
+    <plurals name="whatsapp_old_backups_analysis_progress_info">
+        <item quantity="other">WhatsApp anciennes sauvegardes : %1$d fichiers, %2$s</item>
+        <item quantity="one">WhatsApp anciennes sauvegardes : %1$d fichier, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_audio_analysis_progress_info">
+        <item quantity="other">WhatsApp audio envoyé : %1$d fichiers, %2$s</item>
+        <item quantity="one">WhatsApp audio envoyé : %1$d fichier, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_images_analysis_progress_info">
+        <item quantity="other">WhatsApp images envoyées : %1$d fichiers, %2$s</item>
+        <item quantity="one">WhatsApp images envoyées : %1$d fichier, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_video_analysis_progress_info">
+        <item quantity="other">WhatsApp vidéo envoyée : %1$d fichiers, %2$s</item>
+        <item quantity="one">WhatsApp vidéo envoyée : %1$d fichier, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_voice_notes_analysis_progress_info">
+        <item quantity="other">WhatsApp notes vocales : %1$d fichiers, %2$s</item>
+        <item quantity="one">WhatsApp notes vocales : %1$d fichier, %2$s</item>
+    </plurals>
+    <plurals name="ad_cache_analysis_progress_info">
+        <item quantity="other">Cache de publicité : %1$d fichiers, %2$s</item>
+        <item quantity="one">Cache de publicité : %1$d fichier, %2$s</item>
+    </plurals>
+    <plurals name="analysis_group_short_summary_no_mb_post_cleaning">
+        <item quantity="other">%1$d éléments nettoyés</item>
+        <item quantity="one">%1$d élément nettoyé</item>
+    </plurals>
+    <plurals name="analysis_group_tiny_summary">
+        <item quantity="other">%1$d éléments, %2$s à nettoyer</item>
+        <item quantity="one">%1$d élément, %2$s à nettoyer</item>
+    </plurals>
+    <plurals name="analysis_group_tiny_summary_post_cleaning">
+        <item quantity="other">%1$d éléments, %2$s nettoyés</item>
+        <item quantity="one">%1$d élément, %2$s nettoyés</item>
+    </plurals>
+    <plurals name="apps_lower_case">
+        <item quantity="other">%1$d applications</item>
+        <item quantity="one">%1$d application</item>
+    </plurals>
+    <plurals name="cache_analysis_short_summary_count">
+        <item quantity="other">%1$d applications</item>
+        <item quantity="one">%1$d application</item>
+    </plurals>
+    <plurals name="empty_folders_to_delete">
+        <item quantity="other">%1$d dossiers vides sélectionnés pour nettoyage</item>
+        <item quantity="one">%1$d dossier vide sélectionné pour nettoyage</item>
+    </plurals>
+    <plurals name="files_to_delete">
+        <item quantity="other">%1$d fichiers sélectionnés pour nettoyage</item>
+        <item quantity="one">%1$d fichier sélectionné pour nettoyage</item>
+    </plurals>
+    <plurals name="folder_analysis_tiny_summary">
+        <item quantity="other">%1$d fichiers, %2$s à nettoyer</item>
+        <item quantity="one">%1$d fichier, %2$s à nettoyer</item>
+    </plurals>
+    <plurals name="google_play_items_to_delete">
+        <item quantity="other">%1$d éléments sélectionnés pour nettoyage</item>
+        <item quantity="one">%1$d élément sélectionné pour nettoyage</item>
+    </plurals>
+    <plurals name="processes_to_end">
+        <item quantity="other">%1$d processus sélectionnés à arrêter</item>
+        <item quantity="one">%1$d processus sélectionné à arrêter</item>
+    </plurals>
+    <plurals name="processes_using_x">
+        <item quantity="other">%1$d processus utilisant %2$s</item>
+        <item quantity="one">%1$d processus utilisant %2$s</item>
+    </plurals>
+</resources>

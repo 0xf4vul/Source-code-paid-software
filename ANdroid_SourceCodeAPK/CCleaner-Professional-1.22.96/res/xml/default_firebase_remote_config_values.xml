@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>upgrade_to_pro_button_link</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>show_main_analysis_analyze_advert</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>show_main_analysis_clean_advert</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>enable_advanced_cleaning</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>enable_advanced_cleaning_reporting</key>
+        <value>false</value>
+    </entry>
+</defaultsMap>

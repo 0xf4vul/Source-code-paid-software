@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/back" android:background="@color/lock_process_blue" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center|right" android:id="@id/lock_in_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_lock" android:contentDescription="@null" />
+    </FrameLayout>
+    <com.piriform.ccleaner.ui.view.ListViewItem android:id="@id/front" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="center|right" android:id="@id/lock_on_top" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_lock_circle" android:contentDescription="@null" android:translationX="@dimen/top_lock_offset_from_right" />
+</merge>

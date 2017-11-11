@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:item="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/icon" android:layout_width="@dimen/icon_size_small" android:layout_height="@dimen/icon_size_small" android:layout_marginLeft="@dimen/padding_big" android:layout_marginRight="@dimen/view_header_icon_padding" android:contentDescription="@null" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/padding_big">
+        <LinearLayout android:orientation="horizontal" android:paddingBottom="@dimen/padding_small" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/leftText" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/AnalysisHeaderLabel" />
+            <TextView android:gravity="right" android:id="@id/rightText" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/AnalysisHeaderLabel" />
+        </LinearLayout>
+        <com.piriform.ccleaner.ui.view.SectionedBarView android:id="@id/sectioned_bar" android:background="@color/analysis_used_space_progress_background" android:layout_width="fill_parent" android:layout_height="@dimen/header_usage_bar_height" item:cornerRadius="@dimen/rounded_corner_radius" />
+    </LinearLayout>
+</LinearLayout>

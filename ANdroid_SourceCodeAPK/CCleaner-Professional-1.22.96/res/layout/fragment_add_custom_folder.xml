@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/configure_custom_folder_button_bar" android:layout_alignParentBottom="true" style="@style/BottomButtonBar">
+        <Button android:id="@id/button_cancel" android:text="@android:string/cancel" style="@style/BottomButtonInBar" />
+        <Button android:id="@id/button_save" android:text="@string/button_label_save" style="@style/BottomButtonInBar" />
+    </LinearLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/configure_custom_folder_button_bar">
+        <LinearLayout android:orientation="vertical" android:padding="@dimen/padding_medium" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/padding_small" android:text="@string/custom_folder_folder_section_title" style="?android:attr/listSeparatorTextViewStyle" />
+            <TextView android:textColor="@color/secondary_text" android:id="@id/path" android:padding="@dimen/padding_medium" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_big" android:layout_marginBottom="@dimen/padding_small" android:text="@string/custom_folder_file_types_section_title" style="?android:attr/listSeparatorTextViewStyle" />
+            <RadioGroup android:id="@id/radio_group_file_types" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RadioButton android:id="@id/radio_button_all_files" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/all_files" />
+                <RadioButton android:id="@id/radio_button_file_types" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:text="@string/file_types" />
+            </RadioGroup>
+            <EditText android:id="@id/file_types_input" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/custom_folder_file_types_hint" />
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_big" android:layout_marginBottom="@dimen/padding_small" android:text="@string/custom_folder_options_section_title" style="?android:attr/listSeparatorTextViewStyle" />
+            <RadioGroup android:id="@id/radio_group_include_files" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RadioButton android:id="@id/radio_button_include_files_only" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/include_files_only" />
+                <RadioButton android:id="@id/radio_button_include_files_and_subfolders" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:text="@string/include_files_and_subfolders" />
+                <RadioButton android:id="@id/radio_button_include_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:text="@string/include_files_subfolders_and_folder_itself" />
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+    <ImageView android:background="@drawable/bottom_buttons_shadow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/configure_custom_folder_button_bar" android:contentDescription="@null" />
+</RelativeLayout>

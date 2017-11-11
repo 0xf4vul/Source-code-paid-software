@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="analysis_group_short_summary">
+        <item quantity="other">전체: %1$d 항목 / %2$s</item>
+    </plurals>
+    <plurals name="analysis_group_short_summary_no_mb">
+        <item quantity="other">%1$d 항목</item>
+    </plurals>
+    <plurals name="apk_files_analysis_progress_info">
+        <item quantity="other">APK 파일: %1$d개 / %2$s</item>
+    </plurals>
+    <plurals name="bluetooth_folder_analysis_progress_info">
+        <item quantity="other">블루투스 폴더: %1$d 파일 / %2$s</item>
+    </plurals>
+    <plurals name="cache_analysis_short_summary">
+        <item quantity="other">전체: %1$d 앱 / %2$s</item>
+    </plurals>
+    <plurals name="calls">
+        <item quantity="other">%1$d 통화</item>
+    </plurals>
+    <plurals name="calls_found">
+        <item quantity="other">%1$d 통화 검색됨</item>
+    </plurals>
+    <plurals name="calls_have_been_deleted">
+        <item quantity="other">%1$d 통화</item>
+    </plurals>
+    <plurals name="calls_to_delete">
+        <item quantity="other">%1$d 통화 삭제</item>
+    </plurals>
+    <plurals name="clean_processes">
+        <item quantity="other">프로세스 종료</item>
+    </plurals>
+    <plurals name="custom_folders_analysis_progress_info">
+        <item quantity="other">특정 파일/폴더: %1$d 파일 / %2$s</item>
+    </plurals>
+    <plurals name="download_analysis_progress_info">
+        <item quantity="other">다운로드: %1$d 파일 / %2$s</item>
+    </plurals>
+    <plurals name="empty_folders_analysis_progress_info">
+        <item quantity="other">빈 폴더: %1$d 항목</item>
+    </plurals>
+    <plurals name="empty_folders_analysis_short_summary">
+        <item quantity="other">%1$d 항목</item>
+    </plurals>
+    <plurals name="folder_analysis_short_summary">
+        <item quantity="other">전체: %1$d 파일 / %2$s</item>
+    </plurals>
+    <plurals name="folder_contains_locked_items">
+        <item quantity="other">이 폴더는 %d개의 잠긴 항목을 포함하고 있으므로 제거되지 않습니다.</item>
+    </plurals>
+    <plurals name="google_play_number_of_items_in_search_history">
+        <item quantity="other">%1$d 항목</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="other">%1$d 메시지</item>
+    </plurals>
+    <plurals name="messages_found">
+        <item quantity="other">%1$d 메시지 검색됨</item>
+    </plurals>
+    <plurals name="messages_have_been_deleted">
+        <item quantity="other">%1$d 메시지</item>
+    </plurals>
+    <plurals name="messages_to_delete">
+        <item quantity="other">%1$d 메시지 삭제</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d개 선택됨</item>
+    </plurals>
+    <plurals name="processes_quantity">
+        <item quantity="other">%1$d개</item>
+    </plurals>
+    <plurals name="result_clean_empty_folders">
+        <item quantity="other">%1$d 폴더</item>
+    </plurals>
+    <plurals name="result_clean_folder">
+        <item quantity="other">%1$d 파일 / %2$s</item>
+    </plurals>
+    <plurals name="root_system_app_uninstall_reboot_countdown_text">
+        <item quantity="other">%d초 후 디바이스를 재부팅합니다.</item>
+    </plurals>
+    <plurals name="thumbnail_cache_analysis_progress_info">
+        <item quantity="other">썸네일 캐시: %1$d 파일 / %2$s</item>
+    </plurals>
+    <plurals name="visited_sites">
+        <item quantity="other">%1$d 방문기록</item>
+    </plurals>
+    <plurals name="whatsapp_old_backups_analysis_progress_info">
+        <item quantity="other">WhatsApp 오래된 백업: %1$d 파일 / %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_audio_analysis_progress_info">
+        <item quantity="other">WhatsApp 송신 음악: %1$d 파일 / %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_images_analysis_progress_info">
+        <item quantity="other">WhatsApp 송신 사진: %1$d 파일 / %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_video_analysis_progress_info">
+        <item quantity="other">WhatsApp 송신 동영상: %1$d 파일 / %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_voice_notes_analysis_progress_info">
+        <item quantity="other">WhatsApp 음성 노트: %1$d 파일 / %2$s</item>
+    </plurals>
+    <plurals name="ad_cache_analysis_progress_info">
+        <item quantity="other">광고 캐시: %1$d 파일 / %2$s</item>
+    </plurals>
+    <plurals name="analysis_group_short_summary_no_mb_post_cleaning">
+        <item quantity="other">%1$d 항목 정리됨</item>
+    </plurals>
+    <plurals name="analysis_group_tiny_summary">
+        <item quantity="other">%1$d 항목 / %2$s</item>
+    </plurals>
+    <plurals name="analysis_group_tiny_summary_post_cleaning">
+        <item quantity="other">%1$d 항목 / %2$s 정리됨</item>
+    </plurals>
+    <plurals name="apps_lower_case">
+        <item quantity="other">%1$d 앱</item>
+    </plurals>
+    <plurals name="cache_analysis_short_summary_count">
+        <item quantity="other">%1$d 앱</item>
+    </plurals>
+    <plurals name="empty_folders_to_delete">
+        <item quantity="other">%1$d개의 빈 폴더 선택됨</item>
+    </plurals>
+    <plurals name="files_to_delete">
+        <item quantity="other">%1$d 파일 선택됨</item>
+    </plurals>
+    <plurals name="folder_analysis_tiny_summary">
+        <item quantity="other">%1$d 파일 / %2$s</item>
+    </plurals>
+    <plurals name="google_play_items_to_delete">
+        <item quantity="other">%1$d 항목 선택됨</item>
+    </plurals>
+    <plurals name="processes_to_end">
+        <item quantity="other">%1$d개의 프로세스 선택됨</item>
+    </plurals>
+    <plurals name="processes_using_x">
+        <item quantity="other">%1$d개의 프로세스가 %2$s 사용 중</item>
+    </plurals>
+    <plurals name="files">
+        <item quantity="other">%1$d 파일</item>
+    </plurals>
+</resources>

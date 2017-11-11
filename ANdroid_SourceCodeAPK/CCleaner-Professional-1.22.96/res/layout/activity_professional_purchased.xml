@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/drawer_layout_content" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/include_toolbar" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:gravity="center|top" android:id="@id/pro_purchased_title" android:paddingTop="@dimen/pro_purchased_title_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/pro_purchased_title_text" style="@style/UpgradeToProfessional.Title" />
+        <ImageView android:layout_gravity="center" android:id="@id/pro_purchased_badge_background" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/star" android:contentDescription="@null" />
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pro_big_badge" android:contentDescription="@null" />
+        <TextView android:gravity="center" android:layout_gravity="bottom|center" android:paddingTop="@dimen/pro_purchased_feedback_padding" android:paddingBottom="@dimen/pro_purchased_feedback_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/pro_purchased_sub_text" style="@style/UpgradeToProfessional.SubTitle" />
+    </FrameLayout>
+    <Button android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/pro_purchased_continue_to_pro" android:background="@color/content_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pro_purchased_feedback_padding" android:layout_marginBottom="@dimen/pro_purchased_feedback_padding" android:text="@string/pro_purchased_button_text" style="@style/UpgradeToProfessional.Button" />
+    <TextView android:gravity="center" android:id="@id/pro_purchased_feedback_link" android:paddingTop="@dimen/pro_purchased_feedback_padding" android:paddingBottom="@dimen/pro_purchased_link_text_bottom_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/pro_purchased_feedback_link_text" style="@style/UpgradeToProfessional.LinkText" />
+</LinearLayout>

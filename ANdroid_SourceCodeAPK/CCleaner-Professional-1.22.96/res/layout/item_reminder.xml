@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardElevation="2.0dip" app:cardUseCompatPadding="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/content_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small" android:textColor="@color/secondary_text" android:id="@id/text" android:padding="@dimen/padding_big" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/reminder_card_text" />
+        <View android:id="@id/divider" android:background="?android:dividerHorizontal" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/padding_big" android:layout_marginRight="@dimen/padding_big" />
+        <LinearLayout android:id="@id/remind_button" android:clickable="true" android:layout_width="fill_parent" style="@style/CardActionLink">
+            <TextView android:text="@string/reminder_set" android:drawableLeft="@drawable/ic_reminder" style="@style/CardActionText" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

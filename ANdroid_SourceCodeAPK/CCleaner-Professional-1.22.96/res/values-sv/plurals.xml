@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="calls">
+        <item quantity="other">%1$d samtal</item>
+        <item quantity="one">%1$d samtal</item>
+    </plurals>
+    <plurals name="calls_found">
+        <item quantity="other">%1$d samtal hittades</item>
+        <item quantity="one">%1$d samtal hittade</item>
+    </plurals>
+    <plurals name="calls_have_been_deleted">
+        <item quantity="other">%1$d samtal</item>
+        <item quantity="one">%1$d samtal</item>
+    </plurals>
+    <plurals name="calls_to_delete">
+        <item quantity="other">%1$d samtal att ta bort</item>
+        <item quantity="one">%1$d samtal att ta bort</item>
+    </plurals>
+    <plurals name="clean_processes">
+        <item quantity="other">Avslut processer</item>
+        <item quantity="one">Avslut process</item>
+    </plurals>
+    <plurals name="messages_found">
+        <item quantity="other">%1$d meddelanden hittades</item>
+        <item quantity="one">%1$d meddelande hittade</item>
+    </plurals>
+    <plurals name="messages_have_been_deleted">
+        <item quantity="other">%1$d meddelanden</item>
+        <item quantity="one">%1$d meddelande</item>
+    </plurals>
+    <plurals name="messages_to_delete">
+        <item quantity="other">%1$d meddelanden att radera</item>
+        <item quantity="one">%1$d meddelande att radera</item>
+    </plurals>
+    <plurals name="visited_sites">
+        <item quantity="other">%1$d besökta webbplatser</item>
+        <item quantity="one">%1$d besökt webbplats</item>
+    </plurals>
+</resources>

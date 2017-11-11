@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.piriform.ccleaner.professional.ui.ProPurchasedCardView android:id="@id/pro_purchased_card" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ProPurchasedCard"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/pro_purchased_card_highlight" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_big" android:layout_marginRight="@dimen/padding_medium" android:layout_marginBottom="@dimen/padding_small">
+        <ImageView android:layout_gravity="center" android:layout_width="@dimen/pro_purchased_card_width" android:layout_height="@dimen/pro_purchased_card_height" android:src="@drawable/ic_pro_upgrade" />
+        <TextView android:gravity="center" android:id="@id/pro_purchased_card_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_big" android:text="@string/pro_purchased_title_text" style="@style/ListItemText.Title" />
+        <TextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_small" android:layout_marginBottom="@dimen/padding_big" android:text="@string/pro_purchased_sub_text" style="@style/ListItemText.Subtitle" />
+    </LinearLayout>
+</com.piriform.ccleaner.professional.ui.ProPurchasedCardView>

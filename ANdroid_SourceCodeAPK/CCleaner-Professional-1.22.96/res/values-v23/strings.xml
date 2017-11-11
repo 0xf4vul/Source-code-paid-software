@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_service_description">@string/tap_the_button_above_to_switch</string>
+    <string name="advanced_cleaning_cta">@string/enable</string>
+    <string name="advanced_cleaning_description">@string/accessibility_service_description</string>
+    <string name="advanced_cleaning_failure_message">@string/oops_not_all_parts_of_cache_were_cleaned</string>
+    <string name="advanced_cleaning_got_it">@string/got_it</string>
+    <string name="advanced_cleaning_later">@string/later</string>
+    <string name="advanced_cleaning_long_description">@string/due_to_increased_device_security</string>
+    <string name="advanced_cleaning_more_info">@string/more_info</string>
+    <string name="advanced_cleaning_report_sent">@string/report_sent</string>
+    <string name="advanced_cleaning_report_this">@string/report_this</string>
+    <string name="advanced_cleaning_short_description">@string/due_to_restrictions_with</string>
+    <string name="advanced_cleaning_short_description_enable_cta">@string/due_to_restrictions_with_enable_cta</string>
+</resources>

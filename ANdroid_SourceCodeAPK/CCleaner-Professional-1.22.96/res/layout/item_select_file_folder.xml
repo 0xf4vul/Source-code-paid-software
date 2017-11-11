@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/ListViewItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:padding="@dimen/padding_medium" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/file_type_image" android:src="@drawable/ic_file" android:contentDescription="@null" style="@style/AnalysisListItemImage" />
+        <TextView android:id="@id/display_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ListItemText.Title" />
+    </LinearLayout>
+    <ImageView android:id="@id/select_button" android:background="?selectableItemBackground" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="@dimen/min_card_height" android:layout_height="fill_parent" android:src="@drawable/ic_add" android:scaleType="center" android:contentDescription="@string/action_select" />
+</LinearLayout>

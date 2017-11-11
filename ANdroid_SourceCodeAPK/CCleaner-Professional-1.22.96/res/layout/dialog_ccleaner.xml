@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ccleaner_dialog" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_big" android:layout_marginRight="@dimen/padding_medium" android:layout_marginBottom="@dimen/padding_small"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/detail_text" android:padding="@dimen/padding_big" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center|right" android:orientation="horizontal" android:paddingRight="@dimen/padding_small" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small">
+        <Button android:id="@id/negative_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/padding_small" style="@style/CCleanerDialog.SecondaryAction" />
+        <Button android:layout_gravity="center" android:id="@id/positive_button" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/CCleanerDialog.PrimaryAction" />
+    </LinearLayout>
+</LinearLayout>

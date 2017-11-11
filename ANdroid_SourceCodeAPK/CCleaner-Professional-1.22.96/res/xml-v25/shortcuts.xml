@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:icon="@drawable/ic_analyze" android:enabled="true" android:shortcutId="analyze" android:shortcutShortLabel="@string/analyze_shortcut_label" android:shortcutLongLabel="@string/analyze_shortcut_description" android:shortcutDisabledMessage="@string/analyze_disabled_shortcut">
+        <intent android:targetPackage="com.piriform.ccleaner.debug" android:action="android.intent.action.VIEW" android:targetClass="com.piriform.ccleaner.ui.activity.MainActivity">
+            <extra android:name="analyzeShortcut" android:value="true" />
+        </intent>
+    </shortcut>
+    <shortcut android:icon="@drawable/ic_brush" android:enabled="true" android:shortcutId="clean" android:shortcutShortLabel="@string/clean_shortcut_label" android:shortcutLongLabel="@string/clean_shortcut_description" android:shortcutDisabledMessage="@string/clean_disabled_shortcut">
+        <intent android:targetPackage="com.piriform.ccleaner.debug" android:action="android.intent.action.VIEW" android:targetClass="com.piriform.ccleaner.ui.activity.MainActivity">
+            <extra android:name="cleanShortcut" android:value="true" />
+        </intent>
+    </shortcut>
+</shortcuts>

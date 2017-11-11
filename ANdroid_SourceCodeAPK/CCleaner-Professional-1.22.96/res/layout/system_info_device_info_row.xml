@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/divider" android:layout_marginLeft="@dimen/sys_info_row_icon_space" style="@style/CardViewDivider" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/sys_info_card_padding" android:minHeight="@dimen/sys_info_row_height">
+        <ImageView android:id="@id/icon" android:contentDescription="@null" style="@style/SystemInfoRowIcon" />
+        <TextView android:id="@id/label" style="@style/SystemInfoLabel" />
+        <TextView android:id="@id/value" style="@style/SystemInfoValue" />
+    </LinearLayout>
+</LinearLayout>

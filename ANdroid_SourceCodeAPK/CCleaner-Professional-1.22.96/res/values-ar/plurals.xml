@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="analysis_group_short_summary">
+        <item quantity="other">العدد الكلي %1$dعنصر/عناصر,%2$s جاهزة للتنظيف</item>
+        <item quantity="zero">العدد الكلي %1$dعنصر,%2$s جاهز للتنظيف</item>
+        <item quantity="one">العدد الكلي %1$dعنصر,%2$s جاهز للتنظيف</item>
+        <item quantity="two">العدد الكلي %1$dعنصر,%2$s جاهز للتنظيف</item>
+        <item quantity="few">العدد الكلي %1$dعناصر,%2$s جاهزة للتنظيف</item>
+        <item quantity="many">العدد الكلي %1$dعنصر,%2$s جاهز للتنظيف</item>
+    </plurals>
+    <plurals name="analysis_group_short_summary_no_mb">
+        <item quantity="other">العدد الكلي %1$d عنصر/ عناصر جاهزة للتنظيف</item>
+        <item quantity="zero">العدد الكلي %1$dعنصر جاهز للتنظيف</item>
+        <item quantity="one">العدد الكلي %1$dعنصر جاهز للتنظيف</item>
+        <item quantity="two">العدد الكلي %1$dعنصر جاهز للتنظيف</item>
+        <item quantity="few">العدد الكلي %1$dعناصر جاهزة للتنظيف</item>
+        <item quantity="many">العدد الكلي %1$dعنصر جاهز للتنظيف</item>
+    </plurals>
+    <plurals name="apk_files_analysis_progress_info">
+        <item quantity="other">ملفات APK: %1$d ملف, %2$s</item>
+        <item quantity="zero">ملفات APK: %1$d ملف, %2$s</item>
+        <item quantity="one">ملفات APK: %1$d ملف, %2$s</item>
+        <item quantity="two">ملفات APK: %1$d ملف, %2$s</item>
+        <item quantity="few">ملفات APK: %1$d ملفات, %2$s</item>
+        <item quantity="many">ملفات APK: %1$d ملف, %2$s</item>
+    </plurals>
+    <plurals name="bluetooth_folder_analysis_progress_info">
+        <item quantity="other">مجلد البلوتوث: %1$d ملف, %2$s</item>
+        <item quantity="zero">مجلد البلوتوث: %1$d ملف, %2$s</item>
+        <item quantity="one">مجلد البلوتوث: %1$d ملف, %2$s</item>
+        <item quantity="two">مجلد البلوتوث: %1$d ملف, %2$s</item>
+        <item quantity="few">مجلد البلوتوث: %1$d ملفات, %2$s</item>
+        <item quantity="many">مجلد البلوتوث: %1$d ملف, %2$s</item>
+    </plurals>
+    <plurals name="cache_analysis_short_summary">
+        <item quantity="other">العدد الكلى: %1$d تطبيق, %2$s جاهز للتنظيف</item>
+        <item quantity="zero">العدد الكلى: %1$d تطبيق, %2$s جاهز للتنظيف</item>
+        <item quantity="one">العدد الكلى: %1$d تطبيق, %2$s جاهز للتنظيف</item>
+        <item quantity="two">العدد الكلى: %1$d تطبيق, %2$s جاهز للتنظيف</item>
+        <item quantity="few">العدد الكلى: %1$d تطبيقات, %2$s جاهزة للتنظيف</item>
+        <item quantity="many">العدد الكلى: %1$d تطبيق, %2$s جاهز للتنظيف</item>
+    </plurals>
+    <plurals name="calls">
+        <item quantity="other">%1$d مكالمة</item>
+        <item quantity="zero">%1$d مكالمة</item>
+        <item quantity="one">%1$d مكالمة</item>
+        <item quantity="two">%1$d مكالمة</item>
+        <item quantity="few">%1$d مكالمات</item>
+        <item quantity="many">%1$d مكالمة</item>
+    </plurals>
+    <plurals name="calls_found">
+        <item quantity="other">تم ايجاد %1$d مكالمات</item>
+        <item quantity="zero">تم ايجاد %1$d مكالمة</item>
+        <item quantity="one">تم ايجاد %1$d مكالمة</item>
+        <item quantity="two">تم ايجاد %1$d مكالمة</item>
+        <item quantity="few">تم ايجاد %1$d مكالمات</item>
+        <item quantity="many">تم ايجاد %1$d مكالمة</item>
+    </plurals>
+    <plurals name="calls_have_been_deleted">
+        <item quantity="other">%1$d مكالمات/مكالمة</item>
+        <item quantity="zero">%1$d مكالمة</item>
+        <item quantity="one">%1$d مكالمة</item>
+        <item quantity="two">%1$d مكالمة</item>
+        <item quantity="few">%1$d مكالمات</item>
+        <item quantity="many">%1$d مكالمة</item>
+    </plurals>
+    <plurals name="calls_to_delete">
+        <item quantity="other">%1$d مكالمة جاهزة للحذف</item>
+        <item quantity="zero">%1$d مكالمة جاهزة للحذف</item>
+        <item quantity="one">%1$d مكالمة جاهزة للحذف</item>
+        <item quantity="two">%1$d مكالمة جاهزة للحذف</item>
+        <item quantity="few">%1$d مكالمة جاهزة للحذف</item>
+        <item quantity="many">%1$d مكالمات جاهزة للحذف</item>
+    </plurals>
+    <plurals name="clean_processes">
+        <item quantity="other">أخرى</item>
+        <item quantity="zero">انهاء العمليات</item>
+        <item quantity="one">انهاء العمليات</item>
+        <item quantity="two">انهاء العمليات</item>
+        <item quantity="few">انهاء العمليات</item>
+        <item quantity="many">انهاء العمليات</item>
+    </plurals>
+    <plurals name="custom_folders_analysis_progress_info">
+        <item quantity="other">الملفات والمجلدات المخصصة: %1$d ملف, %2$s</item>
+        <item quantity="zero">الملفات والمجلدات المخصصة: %1$d ملف, %2$s</item>
+        <item quantity="one">الملفات والمجلدات المخصصة: %1$d ملف, %2$s</item>
+        <item quantity="two">الملفات والمجلدات المخصصة: %1$d ملف, %2$s</item>
+        <item quantity="few">الملفات والمجلدات المخصصة: %1$d ملفات, %2$s</item>
+        <item quantity="many">الملفات والمجلدات المخصصة: %1$d ملف, %2$s</item>
+    </plurals>
+    <plurals name="download_analysis_progress_info">
+        <item quantity="other">تم تنزيل: %1$d ملف, %2$s</item>
+        <item quantity="zero">تم تنزيل: %1$d ملف, %2$s</item>
+        <item quantity="one">تم تنزيل: %1$d ملف, %2$s</item>
+        <item quantity="two">تم تنزيل: %1$d ملف, %2$s</item>
+        <item quantity="few">تم تنزيل: %1$d ملفات, %2$s</item>
+        <item quantity="many">تم تنزيل: %1$d ملف, %2$s</item>
+    </plurals>
+    <plurals name="empty_folders_analysis_progress_info">
+        <item quantity="other">المجلدات الفارغة: %1$d مجلد</item>
+        <item quantity="zero">المجلدات الفارغة: %1$d مجلد</item>
+        <item quantity="one">المجلدات الفارغة: %1$d مجلد</item>
+        <item quantity="two">المجلدات الفارغة: %1$d مجلد</item>
+        <item quantity="few">المجلدات الفارغة: %1$d مجلدات</item>
+        <item quantity="many">المجلدات الفارغة: %1$d مجلد</item>
+    </plurals>
+    <plurals name="empty_folders_analysis_short_summary">
+        <item quantity="other">%1$d مجلد</item>
+        <item quantity="zero">%1$d مجلد</item>
+        <item quantity="one">%1$d مجلد</item>
+        <item quantity="two">%1$d مجلد</item>
+        <item quantity="few">%1$d مجلدات</item>
+        <item quantity="many">%1$d مجلد</item>
+    </plurals>
+    <plurals name="folder_analysis_short_summary">
+        <item quantity="other">العدد الكلي %1$d ملف/ملفات ,%2$s جاهزة للتنظيف</item>
+        <item quantity="zero">العدد الكلي %1$d ملف,%2$sجاهز للتنظيف</item>
+        <item quantity="one">العدد الكلي %1$d ملف,%2$sجاهز للتنظيف</item>
+        <item quantity="two">العدد الكلي %1$d ملف,%2$sجاهز للتنظيف</item>
+        <item quantity="few">العدد الكلي %1$d ملفات,%2$s جاهزة للتنظيف</item>
+        <item quantity="many">العدد الكلي %1$d ملف,%2$sجاهز للتنظيف</item>
+    </plurals>
+    <plurals name="folder_contains_locked_items">
+        <item quantity="other">المجلد لايمكن حذفه لأنه يحتوى على %d عنصر مقفل</item>
+        <item quantity="zero">المجلد لايمكن حذفه لأنه يحتوى على %d عنصر مقفل</item>
+        <item quantity="one">المجلد لايمكن حذفه لأنه يحتوى على %d عنصر مقفل</item>
+        <item quantity="two">المجلد لايمكن حذفه لأنه يحتوى على %d عنصر مقفل</item>
+        <item quantity="few">المجلد لايمكن حذفه لأنه يحتوى على %d عناصر مقفلة</item>
+        <item quantity="many">المجلد لايمكن حذفه لأنه يحتوى على %d عنصر مقفل</item>
+    </plurals>
+    <plurals name="google_play_number_of_items_in_search_history">
+        <item quantity="other">%1$d عنصر/عناصر</item>
+        <item quantity="zero">%1$d عنصر</item>
+        <item quantity="one">%1$d عنصر</item>
+        <item quantity="two">%1$d عنصر</item>
+        <item quantity="few">%1$d عناصر</item>
+        <item quantity="many">%1$d عنصر</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="other">%1$d رسائل</item>
+        <item quantity="zero">%1$d رسالة</item>
+        <item quantity="one">%1$d رسالة</item>
+        <item quantity="two">%1$d رسالة</item>
+        <item quantity="few">%1$d رسائل</item>
+        <item quantity="many">%1$d رسالة</item>
+    </plurals>
+    <plurals name="messages_found">
+        <item quantity="other">تم ايجاد %1$d رسائل</item>
+        <item quantity="zero">تم ايجاد %1$d رسائل</item>
+        <item quantity="one">تم ايجاد %1$d رسائل</item>
+        <item quantity="two">تم ايجاد %1$d رسالة</item>
+        <item quantity="few">تم ايجاد %1$d رسائل</item>
+        <item quantity="many">تم ايجاد %1$d رسالة</item>
+    </plurals>
+    <plurals name="messages_have_been_deleted">
+        <item quantity="other">%1$d رسائل/رسالة</item>
+        <item quantity="zero">%1$d رسالة</item>
+        <item quantity="one">%1$d رسالة</item>
+        <item quantity="two">%1$d رسالة</item>
+        <item quantity="few">%1$d رسائل</item>
+        <item quantity="many">%1$d رسالة</item>
+    </plurals>
+    <plurals name="messages_to_delete">
+        <item quantity="other">%1$d رسائل جاهزة للحذف</item>
+        <item quantity="zero">%1$d رسالة جاهزة للحذف</item>
+        <item quantity="one">%1$d رسالة جاهزة للحذف</item>
+        <item quantity="two">%1$d رسالة جاهزة للحذف</item>
+        <item quantity="few">%1$d رسائل جاهزة للحذف</item>
+        <item quantity="many">%1$d رسالة جاهزة للحذف</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">تم تحديد %1$d</item>
+        <item quantity="zero">تم تحديد %1$d</item>
+        <item quantity="one">تم تحديد %1$d</item>
+        <item quantity="two">تم تحديد %1$d</item>
+        <item quantity="few">تم تحديد %1$d</item>
+        <item quantity="many">تم تحديد %1$d</item>
+    </plurals>
+    <plurals name="processes_quantity">
+        <item quantity="other">%1$d عملية</item>
+        <item quantity="zero">%1$d عملية</item>
+        <item quantity="one">%1$d عملية</item>
+        <item quantity="two">%1$d عملية</item>
+        <item quantity="few">%1$d عمليات</item>
+        <item quantity="many">%1$d عملية</item>
+    </plurals>
+    <plurals name="result_clean_empty_folders">
+        <item quantity="other">%1$d مجلد</item>
+        <item quantity="zero">%1$d مجلد</item>
+        <item quantity="one">%1$d مجلد</item>
+        <item quantity="two">%1$d مجلد</item>
+        <item quantity="few">%1$d مجلدات</item>
+        <item quantity="many">%1$d مجلد</item>
+    </plurals>
+    <plurals name="result_clean_folder">
+        <item quantity="other">%1$d ملف, %2$s</item>
+        <item quantity="zero">%1$d ملف, %2$s</item>
+        <item quantity="one">%1$d ملف, %2$s</item>
+        <item quantity="two">%1$d ملف, %2$s</item>
+        <item quantity="few">%1$d ملفات, %2$s</item>
+        <item quantity="many">%1$d ملف, %2$s</item>
+    </plurals>
+    <plurals name="root_system_app_uninstall_reboot_countdown_text">
+        <item quantity="other">اعادة تشغيل الجهاز فى خلال %d ثوانى/ثانية</item>
+        <item quantity="zero">اعادة تشغيل الجهاز فى خلال %d ثانية</item>
+        <item quantity="one">اعادة تشغيل الجهاز فى خلال %d ثانية</item>
+        <item quantity="two">اعادة تشغيل الجهاز فى خلال %d ثانية</item>
+        <item quantity="few">اعادة تشغيل الجهاز فى خلال %d ثوانى</item>
+        <item quantity="many">اعادة تشغيل الجهاز فى خلال %d ثانية</item>
+    </plurals>
+    <plurals name="thumbnail_cache_analysis_progress_info">
+        <item quantity="other">مصغرات الذاكرة المخبأة: %1$d ملف, %2$s</item>
+        <item quantity="zero">مصغرات الذاكرة المخبأة: %1$d ملف, %2$s</item>
+        <item quantity="one">مصغرات الذاكرة المخبأة: %1$d ملف, %2$s</item>
+        <item quantity="two">مصغرات الذاكرة المخبأة: %1$d ملف, %2$s</item>
+        <item quantity="few">مصغرات الذاكرة المخبأة: %1$d ملفات, %2$s</item>
+        <item quantity="many">مصغرات الذاكرة المخبأة: %1$d ملف, %2$s</item>
+    </plurals>
+    <plurals name="visited_sites">
+        <item quantity="other">%1$d مواقع/موقع تمت زيارتها/زيارته</item>
+        <item quantity="zero">%1$d موقع تمت زيارته</item>
+        <item quantity="one">%1$d موقع تمت زيارته</item>
+        <item quantity="two">%1$d موقع تمت زيارته</item>
+        <item quantity="few">%1$d مواقع تمت زيارتها</item>
+        <item quantity="many">%1$d موقع تمت زيارته</item>
+    </plurals>
+    <plurals name="whatsapp_old_backups_analysis_progress_info">
+        <item quantity="other">النسخ الاحتياطية القديمة لتطبيق WhatsApp: %1$d ملف, %2$s</item>
+        <item quantity="zero">النسخ الاحتياطية القديمة لتطبيق WhatsApp: %1$d ملف, %2$s</item>
+        <item quantity="one">النسخ الاحتياطية القديمة لتطبيق WhatsApp: %1$d ملف, %2$s</item>
+        <item quantity="two">النسخ الاحتياطية القديمة لتطبيق WhatsApp: %1$d ملف, %2$s</item>
+        <item quantity="few">النسخ الاحتياطية القديمة لتطبيق WhatsApp: %1$d ملفات, %2$s</item>
+        <item quantity="many">النسخ الاحتياطية القديمة لتطبيق WhatsApp: %1$d ملف, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_audio_analysis_progress_info">
+        <item quantity="other">ملفات الصوت المرسلة من تطبيق WhatsApp : %1$d ملف, %2$s</item>
+        <item quantity="zero">ملفات الصوت المرسلة من تطبيق WhatsApp : %1$d ملف, %2$s</item>
+        <item quantity="one">ملفات الصوت المرسلة من تطبيق WhatsApp : %1$d ملف, %2$s</item>
+        <item quantity="two">ملفات الصوت المرسلة من تطبيق WhatsApp : %1$d ملف, %2$s</item>
+        <item quantity="few">ملفات الصوت المرسلة من تطبيق WhatsApp : %1$d ملفات, %2$s</item>
+        <item quantity="many">ملفات الصوت المرسلة من تطبيق WhatsApp : %1$d ملف, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_images_analysis_progress_info">
+        <item quantity="other">الصور المرسلة من تطبيق WhatsApp %1$d صورة, %2$s</item>
+        <item quantity="zero">الصور المرسلة من تطبيق WhatsApp %1$d صورة, %2$s</item>
+        <item quantity="one">الصور المرسلة من تطبيق WhatsApp %1$d صورة, %2$s</item>
+        <item quantity="two">الصور المرسلة من تطبيق WhatsApp %1$d صورة, %2$s</item>
+        <item quantity="few">الصور المرسلة من تطبيق WhatsApp %1$d صور, %2$s</item>
+        <item quantity="many">الصور المرسلة من تطبيق WhatsApp %1$d صورة, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_video_analysis_progress_info">
+        <item quantity="other">ملفات الفيديو المرسلة من تطبيق WhatsApp %1$d ملفات, %2$s</item>
+        <item quantity="zero">ملفات الفيديو المرسلة من تطبيق WhatsApp %1$d ملف, %2$s</item>
+        <item quantity="one">ملفات الفيديو المرسلة من تطبيق WhatsApp %1$d ملف, %2$s</item>
+        <item quantity="two">ملفات الفيديو المرسلة من تطبيق WhatsApp %1$d ملف, %2$s</item>
+        <item quantity="few">ملفات الفيديو المرسلة من تطبيق WhatsApp %1$d ملفات, %2$s</item>
+        <item quantity="many">ملفات الفيديو المرسلة من تطبيق WhatsApp %1$d ملف, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_voice_notes_analysis_progress_info">
+        <item quantity="other">الملاحظات الصوتية لتطبيق WhatsApp: %1$d ملف, %2$s</item>
+        <item quantity="zero">الملاحظات الصوتية لتطبيق WhatsApp: %1$d ملف, %2$s</item>
+        <item quantity="one">الملاحظات الصوتية لتطبيق WhatsApp: %1$d ملف, %2$s</item>
+        <item quantity="two">الملاحظات الصوتية لتطبيق WhatsApp: %1$d ملف, %2$s</item>
+        <item quantity="few">الملاحظات الصوتية لتطبيق WhatsApp: %1$d ملفات, %2$s</item>
+        <item quantity="many">الملاحظات الصوتية لتطبيق WhatsApp: %1$d ملف, %2$s</item>
+    </plurals>
+</resources>

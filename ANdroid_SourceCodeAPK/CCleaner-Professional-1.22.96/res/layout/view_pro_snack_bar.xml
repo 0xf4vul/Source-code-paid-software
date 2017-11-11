@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="52.0dip" style="@style/ProSnackBar"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center|left" android:id="@id/pro_snack_bar_message_text" android:paddingLeft="@dimen/padding_big" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/ProSnackBarMessage" />
+    <FrameLayout android:paddingLeft="@dimen/padding_medium" android:paddingTop="@dimen/padding_medium" android:paddingRight="@dimen/padding_medium" android:paddingBottom="@dimen/padding_medium" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ProgressBar android:gravity="center" android:id="@id/pro_snack_bar_progress_bar" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <TextView android:gravity="center" android:id="@id/pro_snack_bar_action_text" android:paddingLeft="@dimen/padding_medium" android:paddingRight="@dimen/padding_medium" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/ProSnackBarAction" />
+    </FrameLayout>
+</LinearLayout>

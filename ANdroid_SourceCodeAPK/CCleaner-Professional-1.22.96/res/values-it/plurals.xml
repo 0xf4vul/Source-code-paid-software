@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="apk_files_analysis_progress_info">
+        <item quantity="other">File APK: %1$d file, %2$s</item>
+        <item quantity="one">File APK: %1$d fila, %2$s</item>
+    </plurals>
+    <plurals name="bluetooth_folder_analysis_progress_info">
+        <item quantity="other">Cartella Bluetooth: %1$d file, %2$s</item>
+        <item quantity="one">Cartella Bluetooth: %1$d file, %2$s</item>
+    </plurals>
+    <plurals name="cache_analysis_short_summary">
+        <item quantity="other">Totale: %1$d apps, %2$s da pulire</item>
+        <item quantity="one">Totale: %1$d app, %2$s da pulire</item>
+    </plurals>
+    <plurals name="calls">
+        <item quantity="other">%1$d chiamate</item>
+        <item quantity="one">%1$d chiamata</item>
+    </plurals>
+    <plurals name="calls_found">
+        <item quantity="other">%1$d chiamate trovate</item>
+        <item quantity="one">%1$d chiamata trovata</item>
+    </plurals>
+    <plurals name="calls_have_been_deleted">
+        <item quantity="other">%1$d chiamate</item>
+        <item quantity="one">%1$d chiamata</item>
+    </plurals>
+    <plurals name="calls_to_delete">
+        <item quantity="other">%1$d chiamate da eliminare</item>
+        <item quantity="one">%1$d chiamate da eliminare</item>
+    </plurals>
+    <plurals name="clean_processes">
+        <item quantity="other">Ferma processi</item>
+        <item quantity="one">Ferma processo</item>
+    </plurals>
+    <plurals name="download_analysis_progress_info">
+        <item quantity="other">File scaricati: %1$d file, %2$s</item>
+        <item quantity="one">File scaricati: %1$d file, %2$s</item>
+    </plurals>
+    <plurals name="empty_folders_analysis_progress_info">
+        <item quantity="other">Cartelle voute: %1$d cartelle</item>
+        <item quantity="one">Cartelle voute: %1$d cartella</item>
+    </plurals>
+    <plurals name="empty_folders_analysis_short_summary">
+        <item quantity="other">%1$d cartelle</item>
+        <item quantity="one">%1$d cartella</item>
+    </plurals>
+    <plurals name="folder_analysis_short_summary">
+        <item quantity="other">Totale: %1$d file, %2$s da pulire</item>
+        <item quantity="one">Totale: %1$d file, %2$s da pulire</item>
+    </plurals>
+    <plurals name="folder_contains_locked_items">
+        <item quantity="other">Questa cartella non verrà eliminata perché contiene %d elementi bloccati.</item>
+        <item quantity="one">Questa cartella non verrà eliminata perché contiene %d elemento bloccato.</item>
+    </plurals>
+    <plurals name="google_play_number_of_items_in_search_history">
+        <item quantity="other">%1$d elementi</item>
+        <item quantity="one">%1$d elemento</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="other">%1$d messaggi</item>
+        <item quantity="one">%1$d messaggio</item>
+    </plurals>
+    <plurals name="messages_found">
+        <item quantity="other">%1$d messaggi trovati</item>
+        <item quantity="one">%1$d messaggio trovato</item>
+    </plurals>
+    <plurals name="messages_have_been_deleted">
+        <item quantity="other">%1$d messaggi</item>
+        <item quantity="one">%1$d messaggio</item>
+    </plurals>
+    <plurals name="messages_to_delete">
+        <item quantity="other">%1$d messaggi da eliminare</item>
+        <item quantity="one">%1$d messaggio da eliminare</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d elementi</item>
+        <item quantity="one">%1$d elemento</item>
+    </plurals>
+    <plurals name="processes_quantity">
+        <item quantity="other">%1$d processi</item>
+        <item quantity="one">%1$d processo</item>
+    </plurals>
+    <plurals name="result_clean_empty_folders">
+        <item quantity="other">%1$d cartelle</item>
+        <item quantity="one">%1$d cartella</item>
+    </plurals>
+    <plurals name="result_clean_folder">
+        <item quantity="other">%1$d file, %2$s</item>
+        <item quantity="one">%1$d file, %2$s</item>
+    </plurals>
+    <plurals name="thumbnail_cache_analysis_progress_info">
+        <item quantity="other">Cache delle miniature: %1$d file, %2$s</item>
+        <item quantity="one">Cache delle miniature: %1$d file, %2$s</item>
+    </plurals>
+    <plurals name="visited_sites">
+        <item quantity="other">%1$d siti visitati</item>
+        <item quantity="one">Sito %1$d visitato</item>
+    </plurals>
+</resources>

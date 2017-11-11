@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:id="@id/main_analysis_advert_root" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardElevation="2.0dip" app:cardUseCompatPadding="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:adverts="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.piriform.ccleaner.ui.activity.CustomSizedNativeExpressAdView android:id="@id/main_analysis_advert" android:layout_width="fill_parent" android:layout_height="wrap_content" app:customAdUnitId="@string/ad_unit_id" />
+</android.support.v7.widget.CardView>

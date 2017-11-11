@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="age_options">
+        <item>@string/age_older_than_3_months</item>
+        <item>@string/age_older_than_1_month</item>
+        <item>@string/age_older_than_2_weeks</item>
+        <item>@string/age_all</item>
+        <item>@string/age_nothing</item>
+    </string-array>
+    <string-array name="deselect_by">
+        <item>@string/deselect_all</item>
+        <item>@string/select_by_contact</item>
+    </string-array>
+    <string-array name="scheduling_entries">
+        <item>@string/settings_scheduling_when_never</item>
+        <item>@string/settings_scheduling_when_every_day</item>
+        <item>@string/settings_scheduling_when_twice_per_week</item>
+        <item>@string/settings_scheduling_when_once_per_week</item>
+    </string-array>
+    <string-array name="scheduling_values">
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="select_by">
+        <item>@string/select_all</item>
+        <item>@string/select_by_contact</item>
+    </string-array>
+</resources>

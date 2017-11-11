@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="analysis_group_short_summary">
+        <item quantity="other">Totalt: %1$d elementer, %2$s å rense</item>
+        <item quantity="one">Totalt: %1$d element, %2$s å rense</item>
+    </plurals>
+    <plurals name="analysis_group_short_summary_no_mb">
+        <item quantity="other">Totalt: %1$d elementer å rense</item>
+        <item quantity="one">Totalt: %1$d element å rense</item>
+    </plurals>
+    <plurals name="apk_files_analysis_progress_info">
+        <item quantity="other">APK-filer: %1$d filer, %2$s</item>
+        <item quantity="one">APK-filer: %1$d fil, %2$s</item>
+    </plurals>
+    <plurals name="bluetooth_folder_analysis_progress_info">
+        <item quantity="other">Bluetoothmappe: %1$d filer, %2$s</item>
+        <item quantity="one">Bluetoothmappe: %1$d fil, %2$s</item>
+    </plurals>
+    <plurals name="cache_analysis_short_summary">
+        <item quantity="other">Total: %1$d apper, %2$s å rense</item>
+        <item quantity="one">Totalt: %1$d app, %2$s å rense</item>
+    </plurals>
+    <plurals name="calls">
+        <item quantity="other">%1$d samtaler</item>
+        <item quantity="one">%1$d samtale</item>
+    </plurals>
+    <plurals name="calls_found">
+        <item quantity="other">%1$d samtaler funnet</item>
+        <item quantity="one">%1$d samtale funnet</item>
+    </plurals>
+    <plurals name="calls_have_been_deleted">
+        <item quantity="other">%1$d samtaler</item>
+        <item quantity="one">%1$d samtale</item>
+    </plurals>
+    <plurals name="calls_to_delete">
+        <item quantity="other">%1$d samtaler å slette</item>
+        <item quantity="one">%1$d samtale å slette</item>
+    </plurals>
+    <plurals name="clean_processes">
+        <item quantity="other">Avslutt prosesser</item>
+        <item quantity="one">Avslutt prosess</item>
+    </plurals>
+    <plurals name="custom_folders_analysis_progress_info">
+        <item quantity="other">Tilpassede filer og mapper: %1$d filer, %2$s</item>
+        <item quantity="one">Tilpassede filer og mapper: %1$d fil, %2$s</item>
+    </plurals>
+    <plurals name="download_analysis_progress_info">
+        <item quantity="other">Nedlastinger: %1$d filer, %2$s</item>
+        <item quantity="one">Nedlastinger: %1$d fil, %2$s</item>
+    </plurals>
+    <plurals name="empty_folders_analysis_progress_info">
+        <item quantity="other">Tomme mapper: %1$d mapper</item>
+        <item quantity="one">Tomme mapper: %1$d mappe</item>
+    </plurals>
+    <plurals name="empty_folders_analysis_short_summary">
+        <item quantity="other">%1$d mapper</item>
+        <item quantity="one">%1$d mappe</item>
+    </plurals>
+    <plurals name="folder_analysis_short_summary">
+        <item quantity="other">Totalt: %1$d filer, %2$s å rense</item>
+        <item quantity="one">Totalt: %1$d fil, %2$s å rense</item>
+    </plurals>
+    <plurals name="folder_contains_locked_items">
+        <item quantity="other">Denne mappen vil ikke bli fjernet fordi den inneholder %d låste elementer.</item>
+        <item quantity="one">Denne mappen vil ikke bli fjernet fordi den inneholder %d låst element.</item>
+    </plurals>
+    <plurals name="google_play_number_of_items_in_search_history">
+        <item quantity="other">%1$d elementer</item>
+        <item quantity="one">%1$d element</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="other">%1$d meldinger</item>
+        <item quantity="one">%1$d melding</item>
+    </plurals>
+    <plurals name="messages_found">
+        <item quantity="other">%1$d meldinger funnet</item>
+        <item quantity="one">%1$d melding funnet</item>
+    </plurals>
+    <plurals name="messages_have_been_deleted">
+        <item quantity="other">%1$d meldinger</item>
+        <item quantity="one">%1$d melding</item>
+    </plurals>
+    <plurals name="messages_to_delete">
+        <item quantity="other">%1$d meldinger å slette</item>
+        <item quantity="one">%1$d melding å slette</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d valgt</item>
+        <item quantity="one">%1$d valgt</item>
+    </plurals>
+    <plurals name="processes_quantity">
+        <item quantity="other">%1$d prosesser</item>
+        <item quantity="one">%1$d prosess</item>
+    </plurals>
+    <plurals name="result_clean_empty_folders">
+        <item quantity="other">%1$d filer mapper</item>
+        <item quantity="one">%1$d mappe</item>
+    </plurals>
+    <plurals name="result_clean_folder">
+        <item quantity="other">%1$d filer, %2$s</item>
+        <item quantity="one">%1$d fil, %2$s</item>
+    </plurals>
+    <plurals name="root_system_app_uninstall_reboot_countdown_text">
+        <item quantity="other">Enheten starter på nytt om %d sekunder…</item>
+        <item quantity="one">Enheten starter på nytt om %d sekund…</item>
+    </plurals>
+    <plurals name="thumbnail_cache_analysis_progress_info">
+        <item quantity="other">Thumbnail-cache: %1$d filer, %2$s</item>
+        <item quantity="one">Thumbnail-cache: %1$d fil, %2$s</item>
+    </plurals>
+    <plurals name="visited_sites">
+        <item quantity="other">%1$d besøkte sider</item>
+        <item quantity="one">%1$d besøkt side</item>
+    </plurals>
+    <plurals name="whatsapp_old_backups_analysis_progress_info">
+        <item quantity="other">WhatsApp Gamle sikkerhetskopier: %1$d filer, %2$s</item>
+        <item quantity="one">WhatsApp Gamle sikkerhetskopier: %1$d fil, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_audio_analysis_progress_info">
+        <item quantity="other">WhatsApp sendt audio: %1$d filer, %2$s</item>
+        <item quantity="one">WhatsApp sendt audio: %1$d fil, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_images_analysis_progress_info">
+        <item quantity="other">WhatsApp sendte bilder: %1$d filer, %2$s</item>
+        <item quantity="one">WhatsApp sendte bilder: %1$d fil, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_video_analysis_progress_info">
+        <item quantity="other">WhatsApp sendte videoer: %1$d filer, %2$s</item>
+        <item quantity="one">WhatsApp sendte videoer: %1$d fil, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_voice_notes_analysis_progress_info">
+        <item quantity="other">WhatsApp sendte stemmebeskjeder: %1$d filer, %2$s</item>
+        <item quantity="one">WhatsApp sendte stemmebeskjeder: %1$d fil, %2$s</item>
+    </plurals>
+    <plurals name="ad_cache_analysis_progress_info">
+        <item quantity="other">Reklame-cache: %1$d filer, %2$s</item>
+        <item quantity="one">Reklame-cache: %1$d file, %2$s</item>
+    </plurals>
+    <plurals name="analysis_group_short_summary_no_mb_post_cleaning">
+        <item quantity="other">%1$d elementer renset</item>
+        <item quantity="one">%1$d element renset</item>
+    </plurals>
+    <plurals name="analysis_group_tiny_summary">
+        <item quantity="other">%1$d elementer, %2$s å rense</item>
+        <item quantity="one">%1$d element, %2$s å rense</item>
+    </plurals>
+    <plurals name="analysis_group_tiny_summary_post_cleaning">
+        <item quantity="other">%1$d elementer, %2$s renset</item>
+        <item quantity="one">%1$d element, %2$s renset</item>
+    </plurals>
+    <plurals name="apps_lower_case">
+        <item quantity="other">%1$d applikasjoner</item>
+        <item quantity="one">%1$d applikasjon</item>
+    </plurals>
+    <plurals name="cache_analysis_short_summary_count">
+        <item quantity="other">%1$d applikasjoner</item>
+        <item quantity="one">%1$d applikasjon</item>
+    </plurals>
+    <plurals name="empty_folders_to_delete">
+        <item quantity="other">%1$d tomme mapper valgt for rensing</item>
+        <item quantity="one">%1$d tom mappe valgt for rensing</item>
+    </plurals>
+    <plurals name="files_to_delete">
+        <item quantity="other">%1$d filer valgt for rensing</item>
+        <item quantity="one">%1$d fil valgt for rensing</item>
+    </plurals>
+    <plurals name="folder_analysis_tiny_summary">
+        <item quantity="other">%1$d filer, %2$s å rense</item>
+        <item quantity="one">%1$d fil, %2$s å rense</item>
+    </plurals>
+    <plurals name="google_play_items_to_delete">
+        <item quantity="other">%1$d elementer valgt for rensing</item>
+        <item quantity="one">%1$d element valgt for rensing</item>
+    </plurals>
+    <plurals name="processes_to_end">
+        <item quantity="other">%1$d prosesser valgt for å avsluttes</item>
+        <item quantity="one">%1$d prosess valgt for å avsluttes</item>
+    </plurals>
+    <plurals name="processes_using_x">
+        <item quantity="other">%1$d prosesser bruker %2$s</item>
+        <item quantity="one">%1$d prosess bruker %2$s</item>
+    </plurals>
+    <plurals name="files">
+        <item quantity="other">%1$d filer</item>
+        <item quantity="one">%1$d fil</item>
+    </plurals>
+</resources>

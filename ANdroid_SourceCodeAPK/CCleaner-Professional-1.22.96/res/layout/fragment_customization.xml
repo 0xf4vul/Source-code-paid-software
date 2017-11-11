@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:id="@id/help_text" android:text="@string/customization_hint" style="@style/FullWidthTextHint" />
+        <com.piriform.ccleaner.ui.view.HeaderGridView android:layout_gravity="center_horizontal" android:id="@id/analyses_grid_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/SettingsGridView" />
+    </LinearLayout>
+    <com.piriform.ccleaner.ui.view.WarningDialogView android:id="@id/item_confirmation_warning_dialog" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

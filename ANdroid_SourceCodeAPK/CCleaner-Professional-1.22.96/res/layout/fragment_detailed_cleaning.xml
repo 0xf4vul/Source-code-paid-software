@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.piriform.ccleaner.ui.view.SafeViewFlipper android:id="@id/viewflipper" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true">
+        <RelativeLayout android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.piriform.ccleaner.ui.view.InfoBarView android:id="@id/info_bar" android:layout_width="fill_parent" android:layout_height="@dimen/info_bar_height" android:layout_alignParentTop="true" />
+            <Button android:enabled="false" android:id="@id/clean_button" android:text="@string/clean" android:layout_alignParentBottom="true" style="@style/BottomButton" />
+            <com.piriform.ccleaner.ui.view.LockableExpandableListView android:id="@id/listview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:groupIndicator="@null" android:layout_above="@id/clean_button" android:layout_below="@id/info_bar" style="@style/ListView" />
+            <ImageView android:background="@drawable/bottom_buttons_shadow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/clean_button" android:contentDescription="@null" />
+            <View android:layout_alignParentTop="true" style="@style/InfoBarShadow" />
+            <View android:layout_below="@id/info_bar" style="@style/InfoBarShadow" />
+        </RelativeLayout>
+        <include android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/progress" />
+    </com.piriform.ccleaner.ui.view.SafeViewFlipper>
+</RelativeLayout>

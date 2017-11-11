@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/toolbar" layout="@layout/include_toolbar" />
+    <com.piriform.ccleaner.ui.view.InfoBarView android:id="@id/info_bar" android:layout_width="fill_parent" android:layout_height="@dimen/info_bar_height" android:layout_below="@id/toolbar" />
+    <View android:background="@drawable/infobar_shadow" android:layout_width="fill_parent" android:layout_height="@dimen/info_bar_shadow_height" android:layout_below="@id/toolbar" />
+    <ListView android:id="@id/clean_cache_listView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/info_bar" style="@style/ListView" />
+    <View android:background="@drawable/infobar_shadow" android:layout_width="fill_parent" android:layout_height="@dimen/info_bar_shadow_height" android:layout_below="@id/info_bar" />
+</RelativeLayout>

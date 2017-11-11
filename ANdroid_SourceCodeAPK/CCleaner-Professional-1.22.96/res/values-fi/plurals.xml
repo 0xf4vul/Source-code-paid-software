@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="analysis_group_short_summary">
+        <item quantity="other">Yhteensä: %1$d kohdetta, %2$s siivottavaksi</item>
+        <item quantity="one">Yhteensä: %1$d kohde, %2$s siivottavaksi</item>
+    </plurals>
+    <plurals name="analysis_group_short_summary_no_mb">
+        <item quantity="other">Yhteensä: %1$d kohdetta siivottavaksi</item>
+        <item quantity="one">Yhteensä: %1$d kohde siivottavaksi</item>
+    </plurals>
+    <plurals name="apk_files_analysis_progress_info">
+        <item quantity="other">APK-tiedostot: %1$d tiedostoa, %2$s</item>
+        <item quantity="one">APK-tiedostot: %1$d tiedosto, %2$s</item>
+    </plurals>
+    <plurals name="bluetooth_folder_analysis_progress_info">
+        <item quantity="other">Bluetooth-kansio: %1$d tiedostoa, %2$s</item>
+        <item quantity="one">Bluetooth-kansio: %1$d tiedosto, %2$s</item>
+    </plurals>
+    <plurals name="cache_analysis_short_summary">
+        <item quantity="other">Yhteensä: %1$d sovellusta, %2$s siivottavaksi</item>
+        <item quantity="one">Yhteensä: %1$d sovellus, %2$s siivottavaksi</item>
+    </plurals>
+    <plurals name="calls">
+        <item quantity="other">%1$d puhelua</item>
+        <item quantity="one">%1$d puhelu</item>
+    </plurals>
+    <plurals name="calls_found">
+        <item quantity="other">%1$d puhelua löydetty</item>
+        <item quantity="one">%1$d puhelu löydetty</item>
+    </plurals>
+    <plurals name="calls_have_been_deleted">
+        <item quantity="other">%1$d puhelua</item>
+        <item quantity="one">%1$d puhelu</item>
+    </plurals>
+    <plurals name="calls_to_delete">
+        <item quantity="other">%1$d puhelua poistettavaksi</item>
+        <item quantity="one">%1$d puhelu poistettavaksi</item>
+    </plurals>
+    <plurals name="clean_processes">
+        <item quantity="other">Lopeta prosessit</item>
+        <item quantity="one">Lopeta prosessi</item>
+    </plurals>
+    <plurals name="custom_folders_analysis_progress_info">
+        <item quantity="other">Omat tiedostot ja kansiot: %1$d tiedostoa, %2$s</item>
+        <item quantity="one">Omat tiedostot ja kansiot: %1$d tiedosto, %2$s</item>
+    </plurals>
+    <plurals name="download_analysis_progress_info">
+        <item quantity="other">Lataukset: %1$d tiedostoa, %2$s</item>
+        <item quantity="one">Lataukset: %1$d tiedosto, %2$s</item>
+    </plurals>
+    <plurals name="empty_folders_analysis_progress_info">
+        <item quantity="other">Tyhjät kansiot: %1$d kansiota</item>
+        <item quantity="one">Tyhjät kansiot: %1$d kansio</item>
+    </plurals>
+    <plurals name="empty_folders_analysis_short_summary">
+        <item quantity="other">%1$d kansiota</item>
+        <item quantity="one">%1$d kansio</item>
+    </plurals>
+    <plurals name="folder_analysis_short_summary">
+        <item quantity="other">Yhteensä: %1$d tiedostoa, %2$s siivottavaksi</item>
+        <item quantity="one">Yhteensä: %1$d tiedosto, %2$s siivottavaksi</item>
+    </plurals>
+    <plurals name="folder_contains_locked_items">
+        <item quantity="other">Tätä kansiota ei voi poistaa, koska se sisältää %d lukittua kohtetta.</item>
+        <item quantity="one">Tätä kansiota ei voi poistaa, koska se sisältää %d lukitun kohteen.</item>
+    </plurals>
+    <plurals name="google_play_number_of_items_in_search_history">
+        <item quantity="other">%1$d kohdetta</item>
+        <item quantity="one">%1$d kohde</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="other">%1$d viestiä</item>
+        <item quantity="one">%1$d viesti</item>
+    </plurals>
+    <plurals name="messages_found">
+        <item quantity="other">%1$d viestiä löydetty</item>
+        <item quantity="one">%1$d viesti löydetty</item>
+    </plurals>
+    <plurals name="messages_have_been_deleted">
+        <item quantity="other">%1$d viestiä</item>
+        <item quantity="one">%1$d viesti</item>
+    </plurals>
+    <plurals name="messages_to_delete">
+        <item quantity="other">%1$d viestiä poistettavaksi</item>
+        <item quantity="one">%1$d viesti poistettavaksi</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d valittu</item>
+        <item quantity="one">%1$d valittu</item>
+    </plurals>
+    <plurals name="processes_quantity">
+        <item quantity="other">%1$d prosessia</item>
+        <item quantity="one">%1$d prosessi</item>
+    </plurals>
+    <plurals name="result_clean_empty_folders">
+        <item quantity="other">%1$d kansiota</item>
+        <item quantity="one">%1$d kansio</item>
+    </plurals>
+    <plurals name="result_clean_folder">
+        <item quantity="other">%1$d tiedostoa, %2$s</item>
+        <item quantity="one">%1$d tiedosto, %2$s</item>
+    </plurals>
+    <plurals name="root_system_app_uninstall_reboot_countdown_text">
+        <item quantity="other">Laite uudelleenkäynnistetään %d sekunnin kuluttua…</item>
+        <item quantity="one">Laite uudelleenkäynnistetään %d sekunnin kuluttua…</item>
+    </plurals>
+    <plurals name="thumbnail_cache_analysis_progress_info">
+        <item quantity="other">Esikatselukuvien välimuisti: %1$d tiedostoa, %2$s</item>
+        <item quantity="one">Esikatselukuvien välimuisti: %1$d tiedosto, %2$s</item>
+    </plurals>
+    <plurals name="visited_sites">
+        <item quantity="other">%1$d vierailtua sivua</item>
+        <item quantity="one">%1$d vierailtu sivu</item>
+    </plurals>
+    <plurals name="whatsapp_old_backups_analysis_progress_info">
+        <item quantity="other">WhatsAppin vanhat varmuuskopiot: %1$d tiedostoa, %2$s</item>
+        <item quantity="one">WhatsAppin vanhat varmuuskopiot: %1$d tiedosto, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_audio_analysis_progress_info">
+        <item quantity="other">WhatsAppin lähetetyt äänet: %1$d tiedostoa, %2$s</item>
+        <item quantity="one">WhatsAppin lähetetyt äänet: %1$d tiedosto, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_images_analysis_progress_info">
+        <item quantity="other">WhatsAppin lähetetyt kuvat: %1$d tiedostoa, %2$s</item>
+        <item quantity="one">WhatsAppin lähetetyt kuvat: %1$d tiedosto, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_video_analysis_progress_info">
+        <item quantity="other">WhatsAppin lähetetyt videot: %1$d tiedostoa, %2$s</item>
+        <item quantity="one">WhatsAppin lähetetyt videot: %1$d tiedosto, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_voice_notes_analysis_progress_info">
+        <item quantity="other">WhatsAppin ääniviestit: %1$d tiedostoa, %2$s</item>
+        <item quantity="one">WhatsAppin ääniviestit: %1$d tiedosto, %2$s</item>
+    </plurals>
+    <plurals name="ad_cache_analysis_progress_info">
+        <item quantity="other">Mainosten välimuisti: %1$d tiedostoa, %2$s</item>
+        <item quantity="one">Mainosten välimuisti: %1$d tiedosto, %2$s</item>
+    </plurals>
+    <plurals name="analysis_group_short_summary_no_mb_post_cleaning">
+        <item quantity="other">%1$d kohdetta siivottu</item>
+        <item quantity="one">%1$d kohde siivottu</item>
+    </plurals>
+    <plurals name="analysis_group_tiny_summary">
+        <item quantity="other">%1$d kohdetta, %2$s siivottavaksi</item>
+        <item quantity="one">%1$d kohde, %2$s siivottavaksi</item>
+    </plurals>
+    <plurals name="analysis_group_tiny_summary_post_cleaning">
+        <item quantity="other">%1$d kohdetta, %2$s siivottavaksi</item>
+        <item quantity="one">%1$d kohde, %2$s siivottavaksi</item>
+    </plurals>
+    <plurals name="apps_lower_case">
+        <item quantity="other">%1$d sovellusta</item>
+        <item quantity="one">%1$d sovellus</item>
+    </plurals>
+    <plurals name="cache_analysis_short_summary_count">
+        <item quantity="other">%1$d sovellusta</item>
+        <item quantity="one">%1$d sovellus</item>
+    </plurals>
+    <plurals name="empty_folders_to_delete">
+        <item quantity="other">%1$d tyhjää kansiota valittu siivottavaksi</item>
+        <item quantity="one">%1$d tyhjä kansio valittu siivottavaksi</item>
+    </plurals>
+    <plurals name="files_to_delete">
+        <item quantity="other">%1$d tiedostoa valittu siivottavaksi</item>
+        <item quantity="one">%1$d tiedosto valittu siivottavaksi</item>
+    </plurals>
+    <plurals name="folder_analysis_tiny_summary">
+        <item quantity="other">%1$d tiedostoa, %2$s siivottavaksi</item>
+        <item quantity="one">%1$d tiedosto, %2$s siivottavaksi</item>
+    </plurals>
+    <plurals name="google_play_items_to_delete">
+        <item quantity="other">%1$d kohdetta valittu siivottavaksi</item>
+        <item quantity="one">%1$d kohde valittu siivottavaksi</item>
+    </plurals>
+    <plurals name="processes_to_end">
+        <item quantity="other">%1$d prosessia valittu pysäytettäväksi</item>
+        <item quantity="one">%1$d prosessi valittu pysäytettäväksi</item>
+    </plurals>
+    <plurals name="processes_using_x">
+        <item quantity="other">%1$d prosessia käyttää %2$s</item>
+        <item quantity="one">%1$d prosessi käyttää %2$s</item>
+    </plurals>
+    <plurals name="files">
+        <item quantity="other">%1$d tiedostoa</item>
+        <item quantity="one">%1$d tiedosto</item>
+    </plurals>
+</resources>

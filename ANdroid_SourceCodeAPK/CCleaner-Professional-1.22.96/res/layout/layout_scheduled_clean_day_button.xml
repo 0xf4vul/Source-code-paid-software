@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:layout_gravity="center" android:duplicateParentState="true" android:layout_width="0.0dip" android:layout_height="@dimen/scheduler_day_selection_row_height" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:textSize="@dimen/scheduler_day_button_text_size" android:textColor="@color/day_toggle_fg_color" android:gravity="center" android:layout_gravity="center" android:id="@id/checkbox" android:background="@drawable/scheduled_clean_day_toggle_circle" android:duplicateParentState="true" android:layout_width="@dimen/scheduler_day_button_size" android:layout_height="@dimen/scheduler_day_button_size" android:button="@null" />
+</FrameLayout>

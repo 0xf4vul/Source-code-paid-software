@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout android:id="@id/drawer_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/drawer_layout_content" android:background="@color/no_content_bg" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/include_toolbar" />
+            <android.support.v7.widget.RecyclerView android:id="@id/scheduler_list_of_schedules" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <android.support.design.widget.FloatingActionButton android:layout_gravity="bottom|center|right" android:id="@id/scheduler_list_fab" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_fab_add" style="@style/FloatingActionButton" />
+        <com.piriform.ccleaner.professional.ui.ProSnackBarView android:layout_gravity="bottom|center" android:id="@id/scheduler_list_pro_snack_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <include layout="@layout/include_nav_drawer" />
+</android.support.v4.widget.DrawerLayout>

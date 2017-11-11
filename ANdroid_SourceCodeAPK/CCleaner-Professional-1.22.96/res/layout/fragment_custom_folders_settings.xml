@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/button_add_custom_folder" android:text="@string/custom_folder_add_button" android:layout_alignParentBottom="true" style="@style/BottomButton" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/button_add_custom_folder" android:layout_alignParentTop="true">
+        <ListView android:id="@id/custom_folders_list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/ListView" />
+        <ViewSwitcher android:id="@id/empty_view_switcher" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textColor="@color/secondary_text" android:gravity="center" android:layout_gravity="center" android:padding="@dimen/padding_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/custom_folders_empty_list" />
+            <ProgressBar android:layout_gravity="center" android:id="@id/loading_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+        </ViewSwitcher>
+    </FrameLayout>
+    <ImageView android:background="@drawable/bottom_buttons_shadow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/button_add_custom_folder" android:contentDescription="@null" />
+</RelativeLayout>

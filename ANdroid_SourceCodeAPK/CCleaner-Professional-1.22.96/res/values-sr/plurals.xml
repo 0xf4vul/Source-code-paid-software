@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="analysis_group_short_summary">
+        <item quantity="other">%1$d ставки (%2$s)</item>
+        <item quantity="one">%1$d ставка (%2$s)</item>
+        <item quantity="few">%1$d ставке (%2$s)</item>
+    </plurals>
+    <plurals name="analysis_group_short_summary_no_mb">
+        <item quantity="other">%1$d ставки за чишћење</item>
+        <item quantity="one">%1$d ставка за чишћење</item>
+        <item quantity="few">%1$d ставке за чишћење</item>
+    </plurals>
+    <plurals name="apk_files_analysis_progress_info">
+        <item quantity="other">APK датотеке – %1$d датотека (%2$s)</item>
+        <item quantity="one">APK датотеке – %1$d датотека (%2$s)</item>
+        <item quantity="few">APK датотеке – %1$d датотеке (%2$s)</item>
+    </plurals>
+    <plurals name="bluetooth_folder_analysis_progress_info">
+        <item quantity="other">Фасцикла „Bluetooth“ – %1$d датотека (%2$s)</item>
+        <item quantity="one">Фасцикла „Bluetooth“ – %1$d датотека (%2$s)</item>
+        <item quantity="few">Фасцикла „Bluetooth“ – %1$d датотеке (%2$s)</item>
+    </plurals>
+    <plurals name="cache_analysis_short_summary">
+        <item quantity="other">%1$d апликација; за чишћење: %2$s</item>
+        <item quantity="one">%1$d апликација; за чишћење: %2$s</item>
+        <item quantity="few">%1$d апликације; за чишћење: %2$s</item>
+    </plurals>
+    <plurals name="calls">
+        <item quantity="other">%1$d позива</item>
+        <item quantity="one">%1$d позив</item>
+        <item quantity="few">%1$d позива</item>
+    </plurals>
+    <plurals name="calls_found">
+        <item quantity="other">Пронађено %1$d позива</item>
+        <item quantity="one">Пронађен %1$d позив</item>
+        <item quantity="few">Пронађена %1$d позива</item>
+    </plurals>
+    <plurals name="calls_have_been_deleted">
+        <item quantity="other">%1$d позива</item>
+        <item quantity="one">%1$d позив</item>
+        <item quantity="few">%1$d позива</item>
+    </plurals>
+    <plurals name="calls_to_delete">
+        <item quantity="other">%1$d позива за брисање</item>
+        <item quantity="one">%1$d позив за брисање</item>
+        <item quantity="few">%1$d позива за брисање</item>
+    </plurals>
+    <plurals name="clean_processes">
+        <item quantity="other">Окончај процесе</item>
+        <item quantity="one">Окончај процес</item>
+        <item quantity="few">Окончај процесе</item>
+    </plurals>
+    <plurals name="custom_folders_analysis_progress_info">
+        <item quantity="other">Прилагођене датотеке и фасцикле – %1$d ставки (%2$s)</item>
+        <item quantity="one">Прилагођене датотеке и фасцикле – %1$d ставка (%2$s)</item>
+        <item quantity="few">Прилагођене датотеке и фасцикле – %1$d ставке (%2$s)</item>
+    </plurals>
+    <plurals name="download_analysis_progress_info">
+        <item quantity="other">Преузимање – %1$d датотека (%2$s)</item>
+        <item quantity="one">Преузимање – %1$d датотека (%2$s)</item>
+        <item quantity="few">Преузимање – %1$d датотеке (%2$s)</item>
+    </plurals>
+    <plurals name="empty_folders_analysis_progress_info">
+        <item quantity="other">Празне фасцикле – %1$d фасцикли</item>
+        <item quantity="one">Празне фасцикле – %1$d фасцикла</item>
+        <item quantity="few">Празне фасцикле – %1$d фасцикле</item>
+    </plurals>
+    <plurals name="empty_folders_analysis_short_summary">
+        <item quantity="other">%1$d фасцикли</item>
+        <item quantity="one">%1$d фасцикла</item>
+        <item quantity="few">%1$d фасцикле</item>
+    </plurals>
+    <plurals name="folder_analysis_short_summary">
+        <item quantity="other">%1$d датотека (%2$s)</item>
+        <item quantity="one">%1$d датотека (%2$s)</item>
+        <item quantity="few">%1$d датотеке (%2$s)</item>
+    </plurals>
+    <plurals name="folder_contains_locked_items">
+        <item quantity="other">Ова фасцикла неће бити уклоњена јер садржи %d закључаних ставки.</item>
+        <item quantity="one">Ова фасцикла неће бити уклоњена јер садржи %d закључану ставку.</item>
+        <item quantity="few">Ова фасцикла неће бити уклоњена јер садржи %d закључане ставке.</item>
+    </plurals>
+    <plurals name="google_play_number_of_items_in_search_history">
+        <item quantity="other">%1$d ставки</item>
+        <item quantity="one">%1$d ставка</item>
+        <item quantity="few">%1$d ставке</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="other">%1$d порука</item>
+        <item quantity="one">%1$d порука</item>
+        <item quantity="few">%1$d поруке</item>
+    </plurals>
+    <plurals name="messages_found">
+        <item quantity="other">Пронађено %1$d порука</item>
+        <item quantity="one">Пронађена %1$d порука</item>
+        <item quantity="few">Пронађене %1$d поруке</item>
+    </plurals>
+    <plurals name="messages_have_been_deleted">
+        <item quantity="other">%1$d порука</item>
+        <item quantity="one">%1$d порука</item>
+        <item quantity="few">%1$d поруке</item>
+    </plurals>
+    <plurals name="messages_to_delete">
+        <item quantity="other">%1$d порука за брисање</item>
+        <item quantity="one">%1$d порука за брисање</item>
+        <item quantity="few">%1$d поруке за брисање</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">Изабрано %1$d апликација</item>
+        <item quantity="one">Изабрана %1$d апликација</item>
+        <item quantity="few">Изабране %1$d апликације</item>
+    </plurals>
+    <plurals name="processes_quantity">
+        <item quantity="other">%1$d процеса</item>
+        <item quantity="one">%1$d процес</item>
+        <item quantity="few">%1$d процеса</item>
+    </plurals>
+    <plurals name="result_clean_empty_folders">
+        <item quantity="other">%1$d фасцикли</item>
+        <item quantity="one">%1$d фасцикла</item>
+        <item quantity="few">%1$d фасцикле</item>
+    </plurals>
+    <plurals name="result_clean_folder">
+        <item quantity="other">%1$d датотека (%2$s)</item>
+        <item quantity="one">%1$d датотека (%2$s)</item>
+        <item quantity="few">%1$d датотеке (%2$s)</item>
+    </plurals>
+    <plurals name="root_system_app_uninstall_reboot_countdown_text">
+        <item quantity="other">Поново покрећем уређај за %d секунди…</item>
+        <item quantity="one">Поново покрећем уређај за %d секунд…</item>
+        <item quantity="few">Поново покрећем уређај за %d секунде…</item>
+    </plurals>
+    <plurals name="thumbnail_cache_analysis_progress_info">
+        <item quantity="other">Кеш сличица – %1$d датотека (%2$s)</item>
+        <item quantity="one">Кеш сличица – %1$d датотека (%2$s)</item>
+        <item quantity="few">Кеш сличица – %1$d датотеке (%2$s)</item>
+    </plurals>
+    <plurals name="visited_sites">
+        <item quantity="other">%1$d посећених сајтова</item>
+        <item quantity="one">%1$d посећени сајт</item>
+        <item quantity="few">%1$d посећена сајта</item>
+    </plurals>
+    <plurals name="whatsapp_old_backups_analysis_progress_info">
+        <item quantity="other">Старе резервне копије WhatsApp-а – %1$d датотека (%2$s)</item>
+        <item quantity="one">Старе резервне копије WhatsApp-а – %1$d датотека (%2$s)</item>
+        <item quantity="few">Старе резервне копије WhatsApp-а – %1$d датотеке (%2$s)</item>
+    </plurals>
+    <plurals name="whatsapp_sent_audio_analysis_progress_info">
+        <item quantity="other">Послати аудио-снимци на WhatsApp-у – %1$d датотека (%2$s)</item>
+        <item quantity="one">Послати аудио-снимци на WhatsApp-у – %1$d датотека (%2$s)</item>
+        <item quantity="few">Послати аудио-снимци на WhatsApp-у – %1$d датотеке (%2$s)</item>
+    </plurals>
+    <plurals name="whatsapp_sent_images_analysis_progress_info">
+        <item quantity="other">Послате слике на WhatsApp-у – %1$d датотека (%2$s)</item>
+        <item quantity="one">Послате слике на WhatsApp-у – %1$d датотека (%2$s)</item>
+        <item quantity="few">Послате слике на WhatsApp-у – %1$d датотеке (%2$s)</item>
+    </plurals>
+    <plurals name="whatsapp_sent_video_analysis_progress_info">
+        <item quantity="other">Послати видео-снимци на WhatsApp-у – %1$d датотека (%2$s)</item>
+        <item quantity="one">Послати видео-снимци на WhatsApp-у – %1$d датотека (%2$s)</item>
+        <item quantity="few">Послати видео-снимци на WhatsApp-у – %1$d датотеке (%2$s)</item>
+    </plurals>
+    <plurals name="whatsapp_voice_notes_analysis_progress_info">
+        <item quantity="other">Гласовне белешке на WhatsApp-у – %1$d датотека (%2$s)</item>
+        <item quantity="one">Гласовне белешке на WhatsApp-у – %1$d датотека (%2$s)</item>
+        <item quantity="few">Гласовне белешке на WhatsApp-у – %1$d датотеке (%2$s)</item>
+    </plurals>
+    <plurals name="ad_cache_analysis_progress_info">
+        <item quantity="other">Кеш огласа – %1$d датотека (%2$s)</item>
+        <item quantity="one">Кеш огласа – %1$d датотека (%2$s)</item>
+        <item quantity="few">Кеш огласа – %1$d датотеке (%2$s)</item>
+    </plurals>
+    <plurals name="analysis_group_short_summary_no_mb_post_cleaning">
+        <item quantity="other">%1$d ставки је очишћено.</item>
+        <item quantity="one">%1$d ставка је очишћена.</item>
+        <item quantity="few">%1$d ставке су очишћене.</item>
+    </plurals>
+    <plurals name="analysis_group_tiny_summary">
+        <item quantity="other">%1$d ставки (%2$s)</item>
+        <item quantity="one">%1$d ставка (%2$s)</item>
+        <item quantity="few">%1$d ставке (%2$s)</item>
+    </plurals>
+    <plurals name="analysis_group_tiny_summary_post_cleaning">
+        <item quantity="other">%1$d ставки (очишћено: %2$s)</item>
+        <item quantity="one">%1$d ставка (очишћено: %2$s)</item>
+        <item quantity="few">%1$d ставке (очишћено: %2$s)</item>
+    </plurals>
+    <plurals name="apps_lower_case">
+        <item quantity="other">%1$d апликација</item>
+        <item quantity="one">%1$d апликација</item>
+        <item quantity="few">%1$d апликације</item>
+    </plurals>
+    <plurals name="cache_analysis_short_summary_count">
+        <item quantity="other">%1$d апликација</item>
+        <item quantity="one">%1$d апликација</item>
+        <item quantity="few">%1$d апликације</item>
+    </plurals>
+    <plurals name="empty_folders_to_delete">
+        <item quantity="other">%1$d празних фасцикли за чишћење</item>
+        <item quantity="one">%1$d празна фасцикла за чишћење</item>
+        <item quantity="few">%1$d празне фасцикле за чишћење</item>
+    </plurals>
+    <plurals name="files_to_delete">
+        <item quantity="other">%1$d датотека за чишћење</item>
+        <item quantity="one">%1$d датотека за чишћење</item>
+        <item quantity="few">%1$d датотеке за чишћење</item>
+    </plurals>
+    <plurals name="folder_analysis_tiny_summary">
+        <item quantity="other">%1$d датотека (%2$s)</item>
+        <item quantity="one">%1$d датотека (%2$s)</item>
+        <item quantity="few">%1$d датотеке (%2$s)</item>
+    </plurals>
+    <plurals name="google_play_items_to_delete">
+        <item quantity="other">%1$d ставки за чишћење</item>
+        <item quantity="one">%1$d ставка за чишћење</item>
+        <item quantity="few">%1$d ставке за чишћење</item>
+    </plurals>
+    <plurals name="processes_to_end">
+        <item quantity="other">%1$d процеса за окончање</item>
+        <item quantity="one">%1$d процес за окончање</item>
+        <item quantity="few">%1$d процеса за окончање</item>
+    </plurals>
+    <plurals name="processes_using_x">
+        <item quantity="other">%1$d процеса користи %2$s</item>
+        <item quantity="one">%1$d процес користи %2$s</item>
+        <item quantity="few">%1$d процеса користе %2$s</item>
+    </plurals>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout android:id="@id/drawer_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/drawer_layout_content" android:background="@color/colorAccent" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/include_toolbar" />
+        <TextView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/upgrade_to_pro_layout_title" style="@style/UpgradeToProfessional.Title" />
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="0.0dip" android:src="@drawable/pro_big_badge" android:layout_weight="1.0" android:contentDescription="@null" />
+        <TextView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/upgrade_to_pro_benefit_title" style="@style/UpgradeToProfessional.SubTitle" />
+        <android.support.v4.view.ViewPager android:layout_gravity="center" android:id="@id/pro_feature_pager" android:paddingLeft="@dimen/padding_big" android:paddingRight="@dimen/padding_big" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/upgrade_to_pro_view_pager_height" android:layout_marginTop="@dimen/padding_big" android:layout_marginBottom="@dimen/padding_big" />
+        <Button android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/upgrade_buy_button" android:background="@color/content_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/padding_big" android:text="@string/upgrade_to_pro_buy" style="@style/UpgradeToProfessional.Button" />
+    </LinearLayout>
+    <include layout="@layout/include_nav_drawer" />
+</android.support.v4.widget.DrawerLayout>

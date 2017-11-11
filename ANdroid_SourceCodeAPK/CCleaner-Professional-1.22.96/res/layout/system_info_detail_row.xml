@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingBottom="@dimen/sys_info_sub_row_spacing" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/sys_info_row_icon_space" android:layout_marginRight="@dimen/sys_info_card_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/label" style="@style/SystemInfoSubLabel" />
+    <TextView android:id="@id/value" style="@style/SystemInfoSubValue" />
+</LinearLayout>

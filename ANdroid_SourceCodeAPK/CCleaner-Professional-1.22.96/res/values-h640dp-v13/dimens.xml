@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="pro_purchased_feedback_padding">16.0dip</dimen>
+    <dimen name="pro_purchased_link_text_bottom_margin">32.0dip</dimen>
+    <dimen name="pro_purchased_title_padding_top">16.0dip</dimen>
+    <dimen name="upgrade_to_pro_view_pager_height">106.0dip</dimen>
+    <dimen name="upgrade_to_professional_title_text_size">24.0sp</dimen>
+</resources>

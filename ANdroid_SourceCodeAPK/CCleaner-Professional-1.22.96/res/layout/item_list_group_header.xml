@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/group_header" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ListViewHeaderItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_gravity="center_vertical" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/AnalysisGroupTitle" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center|right" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="@dimen/padding_big" android:layout_weight="1.0">
+        <TextView android:ellipsize="end" android:layout_gravity="center|right" android:id="@id/analysis_result" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" style="@style/ListItemText.Subtitle" />
+        <TextView android:layout_gravity="center|right" android:id="@id/group_selection_count" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/list_item_checkbox_area_width" style="@style/ListItemText.SubSubtitle" />
+    </LinearLayout>
+    <com.piriform.ccleaner.ui.view.CollapseIndicatorView android:layout_gravity="center|right" android:id="@id/collapse_indicator" android:visibility="gone" android:layout_width="@dimen/list_item_checkbox_area_width" android:layout_height="@dimen/list_item_collapse_indicator_height" />
+</LinearLayout>

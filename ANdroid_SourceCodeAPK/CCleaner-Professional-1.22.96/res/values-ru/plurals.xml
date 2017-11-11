@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="analysis_group_short_summary">
+        <item quantity="other">%1$d элементов, %2$s</item>
+        <item quantity="one">%1$d элемент, %2$s</item>
+        <item quantity="few">%1$d элемента, %2$s</item>
+        <item quantity="many">%1$d элементов, %2$s</item>
+    </plurals>
+    <plurals name="analysis_group_short_summary_no_mb">
+        <item quantity="other">%1$d элементов</item>
+        <item quantity="one">%1$d элемент</item>
+        <item quantity="few">%1$d элемента</item>
+        <item quantity="many">%1$d элементов</item>
+    </plurals>
+    <plurals name="apk_files_analysis_progress_info">
+        <item quantity="other">APK файлы: %1$d файлов, %2$s</item>
+        <item quantity="one">APK файлы: %1$d файл, %2$s</item>
+        <item quantity="few">APK файлы: %1$d файла, %2$s</item>
+        <item quantity="many">APK файлы: %1$d файлов, %2$s</item>
+    </plurals>
+    <plurals name="bluetooth_folder_analysis_progress_info">
+        <item quantity="other">Папка Bluetooth: %1$d файлов, %2$s</item>
+        <item quantity="one">Папка Bluetooth: %1$d файл, %2$s</item>
+        <item quantity="few">Папка Bluetooth: %1$d файла, %2$s</item>
+        <item quantity="many">Папка Bluetooth: %1$d файлов, %2$s</item>
+    </plurals>
+    <plurals name="cache_analysis_short_summary">
+        <item quantity="other">%1$d приложений, %2$s</item>
+        <item quantity="one">%1$d приложение, %2$s</item>
+        <item quantity="few">%1$d приложения, %2$s</item>
+        <item quantity="many">%1$d приложений, %2$s</item>
+    </plurals>
+    <plurals name="calls">
+        <item quantity="other">%1$d вызовов</item>
+        <item quantity="one">%1$d вызов</item>
+        <item quantity="few">%1$d вызова</item>
+        <item quantity="many">%1$d вызовов</item>
+    </plurals>
+    <plurals name="calls_found">
+        <item quantity="other">%1$d вызовов</item>
+        <item quantity="one">%1$d вызов</item>
+        <item quantity="few">%1$d вызова</item>
+        <item quantity="many">%1$d вызовов</item>
+    </plurals>
+    <plurals name="calls_have_been_deleted">
+        <item quantity="other">%1$d вызовов</item>
+        <item quantity="one">%1$d вызов</item>
+        <item quantity="few">%1$d вызова</item>
+        <item quantity="many">%1$d вызовов</item>
+    </plurals>
+    <plurals name="calls_to_delete">
+        <item quantity="other">%1$d вызовов выбрано для очистки</item>
+        <item quantity="one">%1$d вызов выбран для очистки</item>
+        <item quantity="few">%1$d вызова выбрано для очистки</item>
+        <item quantity="many">%1$d вызовов выбрано для очистки</item>
+    </plurals>
+    <plurals name="clean_processes">
+        <item quantity="other">Завершить</item>
+        <item quantity="one">Завершить</item>
+        <item quantity="few">Завершить</item>
+        <item quantity="many">Завершить</item>
+    </plurals>
+    <plurals name="custom_folders_analysis_progress_info">
+        <item quantity="other">Мои файлы и папки: %1$d файлов, %2$s</item>
+        <item quantity="one">Мои файлы и папки: %1$d файл, %2$s</item>
+        <item quantity="few">Мои файлы и папки: %1$d файла, %2$s</item>
+        <item quantity="many">Мои файлы и папки: %1$d файлов, %2$s</item>
+    </plurals>
+    <plurals name="download_analysis_progress_info">
+        <item quantity="other">Загрузки: %1$d файлов, %2$s</item>
+        <item quantity="one">Загрузки: %1$d файл, %2$s</item>
+        <item quantity="few">Загрузки: %1$d файла, %2$s</item>
+        <item quantity="many">Загрузки: %1$d файлов, %2$s</item>
+    </plurals>
+    <plurals name="empty_folders_analysis_progress_info">
+        <item quantity="other">Пустые папки: %1$d папок</item>
+        <item quantity="one">Пустые папки: %1$d папка</item>
+        <item quantity="few">Пустые папки: %1$d папки</item>
+        <item quantity="many">Пустые папки: %1$d папок</item>
+    </plurals>
+    <plurals name="empty_folders_analysis_short_summary">
+        <item quantity="other">%1$d папок</item>
+        <item quantity="one">%1$d папка</item>
+        <item quantity="few">%1$d папки</item>
+        <item quantity="many">%1$d папок</item>
+    </plurals>
+    <plurals name="folder_analysis_short_summary">
+        <item quantity="other">%1$d файлов, %2$s</item>
+        <item quantity="one">%1$d файл, %2$s</item>
+        <item quantity="few">%1$d файла, %2$s</item>
+        <item quantity="many">%1$d файлов, %2$s</item>
+    </plurals>
+    <plurals name="folder_contains_locked_items">
+        <item quantity="other">Эта папка не будет удалена, поскольку она содержит %d заблокированных элементов</item>
+        <item quantity="one">Эта папка не будет удалена, поскольку она содержит %d заблокированный элемент</item>
+        <item quantity="few">Эта папка не будет удалена, поскольку она содержит %d заблокированных элемента</item>
+        <item quantity="many">Эта папка не будет удалена, поскольку она содержит %d заблокированных элементов</item>
+    </plurals>
+    <plurals name="google_play_number_of_items_in_search_history">
+        <item quantity="other">%1$d элементов</item>
+        <item quantity="one">%1$d элемент</item>
+        <item quantity="few">%1$d элемента</item>
+        <item quantity="many">%1$d элементов</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="other">%1$d сообщений</item>
+        <item quantity="one">%1$d сообщение</item>
+        <item quantity="few">%1$d сообщения</item>
+        <item quantity="many">%1$d сообщений</item>
+    </plurals>
+    <plurals name="messages_found">
+        <item quantity="other">%1$d сообщений</item>
+        <item quantity="one">%1$d сообщение</item>
+        <item quantity="few">%1$d сообщения</item>
+        <item quantity="many">%1$d сообщений</item>
+    </plurals>
+    <plurals name="messages_have_been_deleted">
+        <item quantity="other">%1$d сообщений</item>
+        <item quantity="one">%1$d сообщение</item>
+        <item quantity="few">%1$d сообщения</item>
+        <item quantity="many">%1$d сообщений</item>
+    </plurals>
+    <plurals name="messages_to_delete">
+        <item quantity="other">%1$d сообщений выбрано для очистки</item>
+        <item quantity="one">%1$d сообщение выбрано для очистки</item>
+        <item quantity="few">%1$d сообщения выбрано для очистки</item>
+        <item quantity="many">%1$d сообщений выбрано для очистки</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d выбрано</item>
+        <item quantity="one">%1$d выбрано</item>
+        <item quantity="few">%1$d выбрано</item>
+        <item quantity="many">%1$d выбрано</item>
+    </plurals>
+    <plurals name="processes_quantity">
+        <item quantity="other">%1$d процессов</item>
+        <item quantity="one">%1$d процесс</item>
+        <item quantity="few">%1$d процесса</item>
+        <item quantity="many">%1$d процессов</item>
+    </plurals>
+    <plurals name="result_clean_empty_folders">
+        <item quantity="other">%1$d папок</item>
+        <item quantity="one">%1$d папка</item>
+        <item quantity="few">%1$d папки</item>
+        <item quantity="many">%1$d папок</item>
+    </plurals>
+    <plurals name="result_clean_folder">
+        <item quantity="other">%1$d файлов, %2$s</item>
+        <item quantity="one">%1$d файл, %2$s</item>
+        <item quantity="few">%1$d файла, %2$s</item>
+        <item quantity="many">%1$d файлов, %2$s</item>
+    </plurals>
+    <plurals name="root_system_app_uninstall_reboot_countdown_text">
+        <item quantity="other">Перезагрузка устройства через %d секунд…</item>
+        <item quantity="one">Перезагрузка устройства через %d секунду…</item>
+        <item quantity="few">Перезагрузка устройства через %d секунды…</item>
+        <item quantity="many">Перезагрузка устройства через %d секунд…</item>
+    </plurals>
+    <plurals name="thumbnail_cache_analysis_progress_info">
+        <item quantity="other">Кэш миниатюр: %1$d файлов, %2$s</item>
+        <item quantity="one">Кэш миниатюр: %1$d файл, %2$s</item>
+        <item quantity="few">Кэш миниатюр: %1$d файла, %2$s</item>
+        <item quantity="many">Кэш миниатюр: %1$d файлов, %2$s</item>
+    </plurals>
+    <plurals name="visited_sites">
+        <item quantity="other">%1$d посещённых сайтов</item>
+        <item quantity="one">%1$d посещённый сайт</item>
+        <item quantity="few">%1$d посещённых сайта</item>
+        <item quantity="many">%1$d посещённых сайтов</item>
+    </plurals>
+    <plurals name="whatsapp_old_backups_analysis_progress_info">
+        <item quantity="other">Уст. архивы WhatsApp: %1$d файлов, %2$s</item>
+        <item quantity="one">Уст. архивы WhatsApp: %1$d файл, %2$s</item>
+        <item quantity="few">Уст. архивы WhatsApp: %1$d файла, %2$s</item>
+        <item quantity="many">Уст. архивы WhatsApp: %1$d файлов, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_audio_analysis_progress_info">
+        <item quantity="other">Отпр. аудио WhatsApp: %1$d файлов, %2$s</item>
+        <item quantity="one">Отпр. аудио WhatsApp: %1$d файл, %2$s</item>
+        <item quantity="few">Отпр. аудио WhatsApp: %1$d файла, %2$s</item>
+        <item quantity="many">Отпр. аудио WhatsApp: %1$d файлов, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_images_analysis_progress_info">
+        <item quantity="other">Отпр. изобр. WhatsApp: %1$d файлов, %2$s</item>
+        <item quantity="one">Отпр. изобр. WhatsApp: %1$d файл, %2$s</item>
+        <item quantity="few">Отпр. изобр. WhatsApp: %1$d файла, %2$s</item>
+        <item quantity="many">Отпр. изобр. WhatsApp: %1$d файлов, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_video_analysis_progress_info">
+        <item quantity="other">Отпр. видео WhatsApp: %1$d файлов, %2$s</item>
+        <item quantity="one">Отпр. видео WhatsApp: %1$d файл, %2$s</item>
+        <item quantity="few">Отпр. видео WhatsApp: %1$d файла, %2$s</item>
+        <item quantity="many">Отпр. видео WhatsApp: %1$d файлов, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_voice_notes_analysis_progress_info">
+        <item quantity="other">Гол. сообщ. WhatsApp: %1$d файлов, %2$s</item>
+        <item quantity="one">Гол. сообщ. WhatsApp: %1$d файл, %2$s</item>
+        <item quantity="few">Гол. сообщ. WhatsApp: %1$d файла, %2$s</item>
+        <item quantity="many">Гол. сообщ. WhatsApp: %1$d файлов, %2$s</item>
+    </plurals>
+    <plurals name="ad_cache_analysis_progress_info">
+        <item quantity="other">Кэш рекламы: %1$d файлов, %2$s</item>
+        <item quantity="one">Кэш рекламы: %1$d файл, %2$s</item>
+        <item quantity="few">Кэш рекламы: %1$d файла, %2$s</item>
+        <item quantity="many">Кэш рекламы: %1$d файлов, %2$s</item>
+    </plurals>
+    <plurals name="analysis_group_short_summary_no_mb_post_cleaning">
+        <item quantity="other">%1$d элементов очищено</item>
+        <item quantity="one">%1$d элемент очищен</item>
+        <item quantity="few">%1$d элемента очищено</item>
+        <item quantity="many">%1$d элементов очищено</item>
+    </plurals>
+    <plurals name="analysis_group_tiny_summary">
+        <item quantity="other">%1$d элементов, %2$s</item>
+        <item quantity="one">%1$d элемент, %2$s</item>
+        <item quantity="few">%1$d элемента, %2$s</item>
+        <item quantity="many">%1$d элементов, %2$s</item>
+    </plurals>
+    <plurals name="analysis_group_tiny_summary_post_cleaning">
+        <item quantity="other">%1$d элементов, %2$s очищено</item>
+        <item quantity="one">%1$d элемент, %2$s очищено</item>
+        <item quantity="few">%1$d элемента, %2$s очищено</item>
+        <item quantity="many">%1$d элементов, %2$s очищено</item>
+    </plurals>
+    <plurals name="apps_lower_case">
+        <item quantity="other">%1$d приложений</item>
+        <item quantity="one">%1$d приложение</item>
+        <item quantity="few">%1$d приложения</item>
+        <item quantity="many">%1$d приложений</item>
+    </plurals>
+    <plurals name="cache_analysis_short_summary_count">
+        <item quantity="other">%1$d приложений</item>
+        <item quantity="one">%1$d приложение</item>
+        <item quantity="few">%1$d приложения</item>
+        <item quantity="many">%1$d приложений</item>
+    </plurals>
+    <plurals name="empty_folders_to_delete">
+        <item quantity="other">%1$d папок выбрано для очистки</item>
+        <item quantity="one">%1$d папка выбрана для очистки</item>
+        <item quantity="few">%1$d папки выбрано для очистки</item>
+        <item quantity="many">%1$d папок выбрано для очистки</item>
+    </plurals>
+    <plurals name="files_to_delete">
+        <item quantity="other">%1$d файлов выбрано для очистки</item>
+        <item quantity="one">%1$d файл выбран для очистки</item>
+        <item quantity="few">%1$d файла выбрано для очистки</item>
+        <item quantity="many">%1$d файлов выбрано для очистки</item>
+    </plurals>
+    <plurals name="folder_analysis_tiny_summary">
+        <item quantity="other">%1$d файлов, %2$s</item>
+        <item quantity="one">%1$d файл, %2$s</item>
+        <item quantity="few">%1$d файла, %2$s</item>
+        <item quantity="many">%1$d файлов, %2$s</item>
+    </plurals>
+    <plurals name="google_play_items_to_delete">
+        <item quantity="other">%1$d элементов выбрано для очистки</item>
+        <item quantity="one">%1$d элемент выбран для очистки</item>
+        <item quantity="few">%1$d элемента выбрано для очистки</item>
+        <item quantity="many">%1$d элементов выбрано для очистки</item>
+    </plurals>
+    <plurals name="processes_to_end">
+        <item quantity="other">%1$d процессов выбрано для завершения</item>
+        <item quantity="one">%1$d процесс выбран для завершения</item>
+        <item quantity="few">%1$d процесса выбрано для завершения</item>
+        <item quantity="many">%1$d процессов выбрано для завершения</item>
+    </plurals>
+    <plurals name="processes_using_x">
+        <item quantity="other">%1$d процессов, использующих %2$s</item>
+        <item quantity="one">%1$d процесс, использующий %2$s</item>
+        <item quantity="few">%1$d процесса, использующих %2$s</item>
+        <item quantity="many">%1$d процессов, использующих %2$s</item>
+    </plurals>
+    <plurals name="files">
+        <item quantity="other">%1$d файлов</item>
+        <item quantity="one">%1$d файл</item>
+        <item quantity="few">%1$d файла</item>
+        <item quantity="many">%1$d файлов</item>
+    </plurals>
+</resources>

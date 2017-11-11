@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="analysis_group_short_summary">
+        <item quantity="other">Toplam: %1$d öğe, %2$s temizlenecek</item>
+        <item quantity="one">Toplam: %1$d öğe, %2$s temizlenecek</item>
+    </plurals>
+    <plurals name="analysis_group_short_summary_no_mb">
+        <item quantity="other">Toplam: %1$d öğe temizlenecek</item>
+        <item quantity="one">Toplam: %1$d öğe temizlenecek</item>
+    </plurals>
+    <plurals name="apk_files_analysis_progress_info">
+        <item quantity="other">APK dosyaları: %1$d dosya, %2$s</item>
+        <item quantity="one">APK dosyaları: %1$d dosya, %2$s</item>
+    </plurals>
+    <plurals name="bluetooth_folder_analysis_progress_info">
+        <item quantity="other">Bluetooth Klasörü: %1$d dosya, %2$s</item>
+        <item quantity="one">Bluetooth Klasörü: %1$d dosya, %2$s</item>
+    </plurals>
+    <plurals name="cache_analysis_short_summary">
+        <item quantity="other">Toplam: %1$d uygulama, %2$s temizlenecek</item>
+        <item quantity="one">Toplam: %1$d uygulama, %2$s temizlenecek</item>
+    </plurals>
+    <plurals name="calls">
+        <item quantity="other">%1$d arama</item>
+        <item quantity="one">%1$d arama</item>
+    </plurals>
+    <plurals name="calls_found">
+        <item quantity="other">%1$d arama bulundu</item>
+        <item quantity="one">%1$d arama bulundu</item>
+    </plurals>
+    <plurals name="calls_have_been_deleted">
+        <item quantity="other">%1$d arama</item>
+        <item quantity="one">%1$d arama</item>
+    </plurals>
+    <plurals name="calls_to_delete">
+        <item quantity="other">%1$d silinecek arama</item>
+        <item quantity="one">%1$d silinecek arama</item>
+    </plurals>
+    <plurals name="clean_processes">
+        <item quantity="other">İşlemleri sonlandır</item>
+        <item quantity="one">İşlemi sonlandır</item>
+    </plurals>
+    <plurals name="custom_folders_analysis_progress_info">
+        <item quantity="other">Özel dosyalar ve klasörler: %1$d dosya, %2$s</item>
+        <item quantity="one">Özel dosyalar ve klasörler: %1$d dosya, %2$s</item>
+    </plurals>
+    <plurals name="download_analysis_progress_info">
+        <item quantity="other">İndirme: %1$d dosya, %2$s</item>
+        <item quantity="one">İndirme: %1$d dosya, %2$s</item>
+    </plurals>
+    <plurals name="empty_folders_analysis_progress_info">
+        <item quantity="other">Boş klasörler: %1$d klasör</item>
+        <item quantity="one">Boş klasörler: %1$d klasör</item>
+    </plurals>
+    <plurals name="empty_folders_analysis_short_summary">
+        <item quantity="other">%1$d klasör</item>
+        <item quantity="one">%1$d klasör</item>
+    </plurals>
+    <plurals name="folder_analysis_short_summary">
+        <item quantity="other">Toplam: %1$d dosya, %2$s temizlenecek</item>
+        <item quantity="one">Toplam: %1$d dosya, %2$s temizlenecek</item>
+    </plurals>
+    <plurals name="folder_contains_locked_items">
+        <item quantity="other">Bu klasör kaldırılmayacak çünkü %d kilitli öğe içeriyor.</item>
+        <item quantity="one">Bu klasör kaldırılmayacak çünkü %d kilitli öğe ihtivâ ediyor.</item>
+    </plurals>
+    <plurals name="google_play_number_of_items_in_search_history">
+        <item quantity="other">%1$d öğe</item>
+        <item quantity="one">%1$d öğe</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="other">%1$d ileti</item>
+        <item quantity="one">%1$d ileti</item>
+    </plurals>
+    <plurals name="messages_found">
+        <item quantity="other">%1$d ileti bulundu</item>
+        <item quantity="one">%1$d ileti bulundu</item>
+    </plurals>
+    <plurals name="messages_have_been_deleted">
+        <item quantity="other">%1$d ileti</item>
+        <item quantity="one">%1$d ileti</item>
+    </plurals>
+    <plurals name="messages_to_delete">
+        <item quantity="other">%1$d silinecek ileti</item>
+        <item quantity="one">%1$d silinecek ileti</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">seçilen %1$d</item>
+        <item quantity="one">%1$d seçildi</item>
+    </plurals>
+    <plurals name="processes_quantity">
+        <item quantity="other">%1$d işlem</item>
+        <item quantity="one">%1$d işlem</item>
+    </plurals>
+    <plurals name="result_clean_empty_folders">
+        <item quantity="other">%1$d klasör</item>
+        <item quantity="one">%1$d klasör</item>
+    </plurals>
+    <plurals name="result_clean_folder">
+        <item quantity="other">%1$d dosya, %2$s</item>
+        <item quantity="one">%1$d dosya, %2$s</item>
+    </plurals>
+    <plurals name="root_system_app_uninstall_reboot_countdown_text">
+        <item quantity="other">Cihaz %d saniye sonra tekrar başlatılacak…</item>
+        <item quantity="one">Cihaz %d saniye sonra tekrar başlatılacak…</item>
+    </plurals>
+    <plurals name="thumbnail_cache_analysis_progress_info">
+        <item quantity="other">Küçük Resim Önbelleği: %1$d dosya, %2$s</item>
+        <item quantity="one">Küçük Resim Önbelleği: %1$d dosya, %2$s</item>
+    </plurals>
+    <plurals name="visited_sites">
+        <item quantity="other">%1$d ziyaret edilen site</item>
+        <item quantity="one">%1$d ziyaret edilen site</item>
+    </plurals>
+    <plurals name="whatsapp_old_backups_analysis_progress_info">
+        <item quantity="other">Evvelki WhatsApp yedeklemeleri: %1$d dosya, %2$s</item>
+        <item quantity="one">Evvelki WhatsApp yedeklemeleri: %1$d dosya, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_audio_analysis_progress_info">
+        <item quantity="other">Gönderilen WhatsApp sesleri: %1$d dosya, %2$s</item>
+        <item quantity="one">Gönderilen WhatsApp sesleri: %1$d dosya, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_images_analysis_progress_info">
+        <item quantity="other">Gönderilen WhatsApp resimleri: %1$d dosya, %2$s</item>
+        <item quantity="one">Gönderilen WhatsApp resimleri: %1$d dosya, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_video_analysis_progress_info">
+        <item quantity="other">Gönderilen WhatsApp videoları: %1$d dosya, %2$s</item>
+        <item quantity="one">Gönderilen WhatsApp videoları: %1$d dosya, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_voice_notes_analysis_progress_info">
+        <item quantity="other">WhatsApp sesli notlar: %1$d dosya, %2$s</item>
+        <item quantity="one">WhatsApp sesli notlar: %1$d dosya, %2$s</item>
+    </plurals>
+    <plurals name="ad_cache_analysis_progress_info">
+        <item quantity="other">Reklam önbelleği: %1$d dosya, %2$s</item>
+        <item quantity="one">Reklam önbelleği: %1$d dosya, %2$s</item>
+    </plurals>
+    <plurals name="analysis_group_short_summary_no_mb_post_cleaning">
+        <item quantity="other">%1$d öğe temizlendi</item>
+        <item quantity="one">%1$d öğe temizlendi</item>
+    </plurals>
+    <plurals name="analysis_group_tiny_summary">
+        <item quantity="other">%1$d öğe, %2$s temizlenecek</item>
+        <item quantity="one">%1$d öğe, %2$s temizlenecek</item>
+    </plurals>
+    <plurals name="analysis_group_tiny_summary_post_cleaning">
+        <item quantity="other">%1$d öğe, %2$s temizlendi</item>
+        <item quantity="one">%1$d öğe, %2$s temizlendi</item>
+    </plurals>
+    <plurals name="apps_lower_case">
+        <item quantity="other">Uygulamaların %1$d</item>
+        <item quantity="one">%1$d uygulama</item>
+    </plurals>
+    <plurals name="cache_analysis_short_summary_count">
+        <item quantity="other">%1$d uygulama</item>
+        <item quantity="one">%1$d uygulama</item>
+    </plurals>
+    <plurals name="empty_folders_to_delete">
+        <item quantity="other">%1$d boş klasör temizlik için seçildi</item>
+        <item quantity="one">%1$d boş klasör temizlik için seçildi</item>
+    </plurals>
+    <plurals name="files_to_delete">
+        <item quantity="other">%1$d dosya temizlik için seçildi</item>
+        <item quantity="one">%1$d dosya temizlik için seçildi</item>
+    </plurals>
+    <plurals name="folder_analysis_tiny_summary">
+        <item quantity="other">%1$d dosya, %2$s temizlenecek</item>
+        <item quantity="one">%1$d dosya, %2$s temizlenecek</item>
+    </plurals>
+    <plurals name="google_play_items_to_delete">
+        <item quantity="other">%1$d öğe temizlik için seçildi</item>
+        <item quantity="one">%1$d öğe temizlik için seçildi</item>
+    </plurals>
+    <plurals name="processes_to_end">
+        <item quantity="other">%1$d işlem sonlandırılmak için seçildi</item>
+        <item quantity="one">%1$d işlem sonlandırılmak için seçildi</item>
+    </plurals>
+    <plurals name="processes_using_x">
+        <item quantity="other">%1$d işlem %2$s kullanıyor</item>
+        <item quantity="one">%1$d işlem %2$s kullanıyor</item>
+    </plurals>
+    <plurals name="files">
+        <item quantity="other">Dosyaların %1$d</item>
+        <item quantity="one">Dosyaların %1$d</item>
+    </plurals>
+</resources>

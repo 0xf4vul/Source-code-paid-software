@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="apk_files_analysis_progress_info">
+        <item quantity="other">APK datoteke: %1$d datoteka, %2$s</item>
+        <item quantity="one">APK datoteke: %1$d datoteka, %2$s</item>
+        <item quantity="few">APK datoteke: %1$d datoteke, %2$s</item>
+    </plurals>
+    <plurals name="bluetooth_folder_analysis_progress_info">
+        <item quantity="other">Bluetooth direktorij: %1$d datoteka, %2$s</item>
+        <item quantity="one">Bluetooth direktorij: %1$d datoteka, %2$s</item>
+        <item quantity="few">Bluetooth direktorij: %1$d datoteke, %2$s</item>
+    </plurals>
+    <plurals name="cache_analysis_short_summary">
+        <item quantity="other">Ukupno: %1$d aplikacija, %2$s za očistiti</item>
+        <item quantity="one">Ukupno: %1$d aplikacija, %2$s za očistiti</item>
+        <item quantity="few">Ukupno: %1$d aplikacije, %2$s za očistiti</item>
+    </plurals>
+    <plurals name="calls">
+        <item quantity="other">%1$d poziva</item>
+        <item quantity="one">%1$d poziv</item>
+        <item quantity="few">%1$d poziva</item>
+    </plurals>
+    <plurals name="calls_found">
+        <item quantity="other">%1$d poziva pronađeno</item>
+        <item quantity="one">%1$d poziv pronađen</item>
+        <item quantity="few">%1$d poziva pronađeno</item>
+    </plurals>
+    <plurals name="calls_have_been_deleted">
+        <item quantity="other">%1$d poziva</item>
+        <item quantity="one">%1$d poziv</item>
+        <item quantity="few">%1$d poziva</item>
+    </plurals>
+    <plurals name="calls_to_delete">
+        <item quantity="other">%1$d poziva za obrisati</item>
+        <item quantity="one">%1$d poziv za obrisati</item>
+        <item quantity="few">%1$d poziva za obrisati</item>
+    </plurals>
+    <plurals name="clean_processes">
+        <item quantity="other">Zaustavi procese</item>
+        <item quantity="one">Zaustavi proces</item>
+        <item quantity="few">Zaustavi procese</item>
+    </plurals>
+    <plurals name="custom_folders_analysis_progress_info">
+        <item quantity="other">Korisnikovi direktoriji i datoteke: %1$d datoteka, %2$s</item>
+        <item quantity="one">Korisnikovi direktoriji i datoteke: %1$d datoteka, %2$s</item>
+        <item quantity="few">Korisnikovi direktoriji i datoteke: %1$d datoteke, %2$s</item>
+    </plurals>
+    <plurals name="download_analysis_progress_info">
+        <item quantity="other">Preuzete datoteke: %1$d datoteka, %2$s</item>
+        <item quantity="one">Preuzete datoteke: %1$d datoteka, %2$s</item>
+        <item quantity="few">Preuzete datoteke: %1$d datoteke, %2$s</item>
+    </plurals>
+    <plurals name="empty_folders_analysis_progress_info">
+        <item quantity="other">Prazni direktoriji: %1$d direktorija</item>
+        <item quantity="one">Prazni direktoriji: %1$d direktorij</item>
+        <item quantity="few">Prazni direktoriji: %1$d direktorija</item>
+    </plurals>
+    <plurals name="empty_folders_analysis_short_summary">
+        <item quantity="other">%1$d direktorija</item>
+        <item quantity="one">%1$d direktorij</item>
+        <item quantity="few">%1$d direktorija</item>
+    </plurals>
+    <plurals name="folder_analysis_short_summary">
+        <item quantity="other">Ukupno: %1$d datoteka, %2$s za čišćenje</item>
+        <item quantity="one">Ukupno: %1$d datoteka, %2$s za čišćenje</item>
+        <item quantity="few">Ukupno: %1$d datoteke, %2$s za čišćenje</item>
+    </plurals>
+    <plurals name="folder_contains_locked_items">
+        <item quantity="other">Ovaj direktorij neće biti obrisan jer sadrži %d zaključanih datoteka.</item>
+        <item quantity="one">Ovaj direktorij neće biti obrisan jer sadrži %d zaključanu datoteku.</item>
+        <item quantity="few">Ovaj direktorij neće biti obrisan jer sadrži %d zaključane datoteke.</item>
+    </plurals>
+    <plurals name="google_play_number_of_items_in_search_history">
+        <item quantity="other">%1$d stavaka</item>
+        <item quantity="one">%1$d stavak</item>
+        <item quantity="few">%1$d stavka</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="other">%1$d poruka</item>
+        <item quantity="one">%1$d poruka</item>
+        <item quantity="few">%1$d poruke</item>
+    </plurals>
+    <plurals name="messages_found">
+        <item quantity="other">%1$d poruka pronađeno</item>
+        <item quantity="one">%1$d poruka pronađena</item>
+        <item quantity="few">%1$d poruke pronađeno</item>
+    </plurals>
+    <plurals name="messages_have_been_deleted">
+        <item quantity="other">%1$d poruka</item>
+        <item quantity="one">%1$d poruka</item>
+        <item quantity="few">%1$d poruke</item>
+    </plurals>
+    <plurals name="messages_to_delete">
+        <item quantity="other">%1$d poruka za obrisati</item>
+        <item quantity="one">%1$d poruka za obrisati</item>
+        <item quantity="few">%1$d poruke za obrisati</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d odabrano</item>
+        <item quantity="one">%1$d odabran</item>
+        <item quantity="few">%1$d odabrana</item>
+    </plurals>
+    <plurals name="processes_quantity">
+        <item quantity="other">%1$d procesa</item>
+        <item quantity="one">%1$d proces</item>
+        <item quantity="few">%1$d procesa</item>
+    </plurals>
+    <plurals name="result_clean_empty_folders">
+        <item quantity="other">%1$d direktorija</item>
+        <item quantity="one">%1$d direktorij</item>
+        <item quantity="few">%1$d direktorija</item>
+    </plurals>
+    <plurals name="result_clean_folder">
+        <item quantity="other">%1$d datoteka, %2$s</item>
+        <item quantity="one">%1$d datoteka, %2$s</item>
+        <item quantity="few">%1$d datoteke, %2$s</item>
+    </plurals>
+    <plurals name="thumbnail_cache_analysis_progress_info">
+        <item quantity="other">Umanjene sličice: %1$d datoteka, %2$s</item>
+        <item quantity="one">Umanjene sličice: %1$d datoteka, %2$s</item>
+        <item quantity="few">Umanjene sličice: %1$d datoteke, %2$s</item>
+    </plurals>
+    <plurals name="visited_sites">
+        <item quantity="other">%1$d posjećenih stranica</item>
+        <item quantity="one">%1$d posjećena stranica</item>
+        <item quantity="few">%1$d posjećenih stranica</item>
+    </plurals>
+</resources>

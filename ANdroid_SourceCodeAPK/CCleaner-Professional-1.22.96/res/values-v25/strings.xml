@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="analyze_disabled_shortcut">@string/sorry_this_action_is_no</string>
+    <string name="analyze_shortcut_description">@string/analyze</string>
+    <string name="analyze_shortcut_label">@string/analyze</string>
+    <string name="clean_disabled_shortcut">@string/sorry_this_action_is_no</string>
+    <string name="clean_shortcut_description">@string/clean</string>
+    <string name="clean_shortcut_label">@string/clean</string>
+</resources>

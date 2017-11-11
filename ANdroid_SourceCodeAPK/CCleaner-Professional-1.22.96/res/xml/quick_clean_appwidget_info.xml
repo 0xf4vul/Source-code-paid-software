@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider android:minWidth="@dimen/quick_clean_widget_min_width" android:minHeight="@dimen/quick_clean_widget_min_height" android:initialLayout="@layout/quick_clean_widget" android:configure="com.piriform.ccleaner.ui.activity.QuickCleanWidgetConfigurationActivity" android:resizeMode="none"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

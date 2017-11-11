@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="apk_files_analysis_progress_info">
+        <item quantity="other">APK文件：%1$d個文件，%2$s</item>
+    </plurals>
+    <plurals name="bluetooth_folder_analysis_progress_info">
+        <item quantity="other">藍牙文件夾：%1$d個文件，%2$s</item>
+    </plurals>
+    <plurals name="cache_analysis_short_summary">
+        <item quantity="other">全部：%1$d個應用程序，可清理%2$s</item>
+    </plurals>
+    <plurals name="calls">
+        <item quantity="other">%1$d個通話記錄</item>
+    </plurals>
+    <plurals name="calls_found">
+        <item quantity="other">已找到%1$d個通話記錄</item>
+    </plurals>
+    <plurals name="calls_have_been_deleted">
+        <item quantity="other">%1$d個通話記錄</item>
+    </plurals>
+    <plurals name="calls_to_delete">
+        <item quantity="other">可刪除%1$d個通話記錄</item>
+    </plurals>
+    <plurals name="clean_processes">
+        <item quantity="other">結束進程</item>
+    </plurals>
+    <plurals name="download_analysis_progress_info">
+        <item quantity="other">已下載：%1$d個文件，%2$s</item>
+    </plurals>
+    <plurals name="empty_folders_analysis_progress_info">
+        <item quantity="other">空文件夾：%1$d文件夾</item>
+    </plurals>
+    <plurals name="empty_folders_analysis_short_summary">
+        <item quantity="other">%1$d文件夾</item>
+    </plurals>
+    <plurals name="folder_analysis_short_summary">
+        <item quantity="other">全部：%1$d個文件，可清理%2$s</item>
+    </plurals>
+    <plurals name="folder_contains_locked_items">
+        <item quantity="other">此文件夾不能被移除，因為含有%d個已鎖定項目</item>
+    </plurals>
+    <plurals name="google_play_number_of_items_in_search_history">
+        <item quantity="other">%1$d個項目</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="other">%1$d條短訊</item>
+    </plurals>
+    <plurals name="messages_found">
+        <item quantity="other">已找到%1$d條短訊</item>
+    </plurals>
+    <plurals name="messages_have_been_deleted">
+        <item quantity="other">%1$d條短訊</item>
+    </plurals>
+    <plurals name="messages_to_delete">
+        <item quantity="other">可刪除%1$d條短訊</item>
+    </plurals>
+    <plurals name="processes_quantity">
+        <item quantity="other">%1$d個進程</item>
+    </plurals>
+    <plurals name="result_clean_empty_folders">
+        <item quantity="other">%1$d文件夾</item>
+    </plurals>
+    <plurals name="result_clean_folder">
+        <item quantity="other">%1$d個文件，%2$s</item>
+    </plurals>
+    <plurals name="thumbnail_cache_analysis_progress_info">
+        <item quantity="other">縮略圖緩存：%1$d個文件，%2$s</item>
+    </plurals>
+    <plurals name="visited_sites">
+        <item quantity="other">%1$d個已訪問的網頁</item>
+    </plurals>
+</resources>

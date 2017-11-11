@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ListViewItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/padding_big" android:layout_marginTop="@dimen/padding_big" android:layout_marginBottom="@dimen/padding_big" style="@style/ListViewProcessHeaderText" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/process_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/padding_big" android:layout_marginTop="@dimen/padding_big" android:layout_marginBottom="@dimen/padding_big" style="@style/ListViewProcessHeaderCountText" />
+</LinearLayout>

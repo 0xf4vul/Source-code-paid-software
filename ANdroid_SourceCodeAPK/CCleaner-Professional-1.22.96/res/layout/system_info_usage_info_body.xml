@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:item="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/sys_info_row_height" android:layout_marginRight="@dimen/sys_info_card_padding">
+        <ImageView android:id="@id/icon" android:contentDescription="@null" style="@style/SystemInfoRowIcon" />
+        <com.piriform.ccleaner.ui.view.SectionedBarView android:id="@id/chart" android:background="@color/light_grey" android:layout_width="0.0dip" android:layout_height="@dimen/sys_info_usage_info_bar_height" android:layout_marginTop="@dimen/sys_info_usage_info_bar_padding" android:layout_marginBottom="@dimen/sys_info_usage_info_bar_padding" android:layout_weight="1.0" item:cornerRadius="@dimen/rounded_corner_radius" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/legend" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.piriform.ccleaner.ui.view.TouchDelegateLayout android:layout_gravity="right" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Button android:id="@id/view_more_button" android:padding="@dimen/sys_info_button_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/sys_info_button_padding" android:layout_marginTop="@dimen/sys_info_button_vertical_margin" android:layout_marginRight="@dimen/sys_info_button_padding" android:layout_marginBottom="@dimen/sys_info_button_vertical_margin" android:text="@string/view_more" style="@style/FlatButton" />
+    </com.piriform.ccleaner.ui.view.TouchDelegateLayout>
+</merge>

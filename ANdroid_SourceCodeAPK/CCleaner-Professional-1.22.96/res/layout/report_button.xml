@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:layout_gravity="center" android:id="@id/cta_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/advanced_cleaning_cta" style="@style/AdvancedCleaning.PrimaryAction" />
+    <ProgressBar android:id="@id/progress_bar" android:paddingLeft="@dimen/padding_big" android:paddingTop="@dimen/padding_medium" android:paddingBottom="@dimen/padding_medium" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/successful_reported_icon" android:padding="@dimen/padding_medium" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_report_sent" />
+    <View android:id="@id/successful_reported_icon_mask" android:background="@color/cardview_light_background" android:visibility="gone" android:layout_width="@dimen/list_item_icon_size" android:layout_height="@dimen/list_item_icon_size" />
+</RelativeLayout>

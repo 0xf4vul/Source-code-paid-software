@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="analysis_group_short_summary">
+        <item quantity="other">Tổng: %1$d mục, có thể dọn dẹp %2$s</item>
+    </plurals>
+    <plurals name="analysis_group_short_summary_no_mb">
+        <item quantity="other">Tổng: có thể dọn dẹp %1$d mục</item>
+    </plurals>
+    <plurals name="apk_files_analysis_progress_info">
+        <item quantity="other">Tập tin APK: %1$d tập tin, %2$s</item>
+    </plurals>
+    <plurals name="bluetooth_folder_analysis_progress_info">
+        <item quantity="other">Thư mục Bluetooth: %1$d tập tin, %2$s</item>
+    </plurals>
+    <plurals name="cache_analysis_short_summary">
+        <item quantity="other">Tổng: %1$d ứ.dụng, có thể dọn %2$s</item>
+    </plurals>
+    <plurals name="calls">
+        <item quantity="other">%1$d cuộc gọi</item>
+    </plurals>
+    <plurals name="calls_found">
+        <item quantity="other">Tìm thấy %1$d cuộc gọi</item>
+    </plurals>
+    <plurals name="calls_have_been_deleted">
+        <item quantity="other">%1$d cuộc gọi</item>
+    </plurals>
+    <plurals name="calls_to_delete">
+        <item quantity="other">%1$d cuộc gọi có thể xoá</item>
+    </plurals>
+    <plurals name="clean_processes">
+        <item quantity="other">Dừng tiến trình</item>
+    </plurals>
+    <plurals name="custom_folders_analysis_progress_info">
+        <item quantity="other">Thư mục và tập tin tuỳ chỉnh: %1$d tập tin, %2$s</item>
+    </plurals>
+    <plurals name="download_analysis_progress_info">
+        <item quantity="other">Tải xuống: %1$d tập tin, %2$s</item>
+    </plurals>
+    <plurals name="empty_folders_analysis_progress_info">
+        <item quantity="other">Thư mục rỗng: %1$d thư mục</item>
+    </plurals>
+    <plurals name="empty_folders_analysis_short_summary">
+        <item quantity="other">%1$d thư mục</item>
+    </plurals>
+    <plurals name="folder_analysis_short_summary">
+        <item quantity="other">Tổng: %1$d tập tin, có thể dọn dẹp %2$s</item>
+    </plurals>
+    <plurals name="folder_contains_locked_items">
+        <item quantity="other">Thư mục này sẽ không bị xoá vì nó chứa %d mục bị khoá.</item>
+    </plurals>
+    <plurals name="google_play_number_of_items_in_search_history">
+        <item quantity="other">%1$d mục</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="other">%1$d tin nhắn</item>
+    </plurals>
+    <plurals name="messages_found">
+        <item quantity="other">Tìm thấy %1$d tin nhắn</item>
+    </plurals>
+    <plurals name="messages_have_been_deleted">
+        <item quantity="other">%1$d tin nhắn</item>
+    </plurals>
+    <plurals name="messages_to_delete">
+        <item quantity="other">%1$d tin nhắn có thể xoá</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">Đã chọn %1$d</item>
+    </plurals>
+    <plurals name="processes_quantity">
+        <item quantity="other">%1$d tiến trình</item>
+    </plurals>
+    <plurals name="result_clean_empty_folders">
+        <item quantity="other">%1$d thư mục</item>
+    </plurals>
+    <plurals name="result_clean_folder">
+        <item quantity="other">%1$d tập tin, %2$s</item>
+    </plurals>
+    <plurals name="root_system_app_uninstall_reboot_countdown_text">
+        <item quantity="other">Khởi động lại thiết bị trong %d giây…</item>
+    </plurals>
+    <plurals name="thumbnail_cache_analysis_progress_info">
+        <item quantity="other">Bộ đệm hình thu nhỏ: %1$d tập tin, %2$s</item>
+    </plurals>
+    <plurals name="visited_sites">
+        <item quantity="other">%1$d trang đã truy cập</item>
+    </plurals>
+    <plurals name="whatsapp_old_backups_analysis_progress_info">
+        <item quantity="other">Bản sao lưu cũ đã gửi của WhatsApp: %1$d tập tin, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_audio_analysis_progress_info">
+        <item quantity="other">Âm thanh đã gửi của WhatsApp: %1$d tập tin, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_images_analysis_progress_info">
+        <item quantity="other">Ảnh đã gửi của WhatsApp: %1$d tập tin, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_video_analysis_progress_info">
+        <item quantity="other">Video đã gửi của WhatsApp: %1$d tập tin, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_voice_notes_analysis_progress_info">
+        <item quantity="other">Ghi chú thoại đã gửi của WhatsApp: %1$d tập tin, %2$s</item>
+    </plurals>
+    <plurals name="ad_cache_analysis_progress_info">
+        <item quantity="other">Bộ đệm quảng cáo: %1$d tập tin, %2$s</item>
+    </plurals>
+    <plurals name="analysis_group_short_summary_no_mb_post_cleaning">
+        <item quantity="other">Đã dọn dẹp %1$d mục</item>
+    </plurals>
+    <plurals name="analysis_group_tiny_summary">
+        <item quantity="other">%1$d mục, có thể dọn dẹp %2$s</item>
+    </plurals>
+    <plurals name="analysis_group_tiny_summary_post_cleaning">
+        <item quantity="other">%1$d mục, %2$s được dọn dẹp</item>
+    </plurals>
+    <plurals name="apps_lower_case">
+        <item quantity="other">%1$d ứng dụng</item>
+    </plurals>
+    <plurals name="cache_analysis_short_summary_count">
+        <item quantity="other">%1$d ứng dụng</item>
+    </plurals>
+    <plurals name="empty_folders_to_delete">
+        <item quantity="other">Đã chọn %1$d thư mục trống để dọn dẹp</item>
+    </plurals>
+    <plurals name="files_to_delete">
+        <item quantity="other">Đã chọn %1$d để dọn dẹp</item>
+    </plurals>
+    <plurals name="folder_analysis_tiny_summary">
+        <item quantity="other">%1$d tập tin, có thể dọn dẹp %2$s</item>
+    </plurals>
+    <plurals name="google_play_items_to_delete">
+        <item quantity="other">Đã chọn %1$d mục để dọn dẹp</item>
+    </plurals>
+    <plurals name="processes_to_end">
+        <item quantity="other">Đã chọn %1$d tiến trình để dừng</item>
+    </plurals>
+    <plurals name="processes_using_x">
+        <item quantity="other">%1$d tiến trình đang sử dụng %2$s</item>
+    </plurals>
+    <plurals name="files">
+        <item quantity="other">%1$d tập tin</item>
+    </plurals>
+</resources>

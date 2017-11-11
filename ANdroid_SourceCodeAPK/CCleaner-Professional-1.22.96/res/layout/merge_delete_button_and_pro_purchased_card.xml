@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.piriform.ccleaner.appmanager.AnimatingShapeView android:id="@id/pro_purchased_card_animating_shape" android:background="@color/pro_purchased_card_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <Button android:id="@id/delete_button" android:text="@string/storage_analyzer_delete" android:layout_alignParentBottom="true" style="@style/BottomButton" />
+    <include android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/view_pro_purchased_card" style="@style/ProPurchasedCard.Layout" />
+</merge>

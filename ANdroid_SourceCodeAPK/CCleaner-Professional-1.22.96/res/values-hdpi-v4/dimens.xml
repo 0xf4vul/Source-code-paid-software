@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="quick_clean_widget_progress_height">72.0dip</dimen>
+    <dimen name="quick_clean_widget_progress_width">72.0dip</dimen>
+</resources>

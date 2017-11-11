@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="analysis_group_short_summary">
+        <item quantity="other">Total: %1$d item, %2$s untuk dibersihkan</item>
+    </plurals>
+    <plurals name="analysis_group_short_summary_no_mb">
+        <item quantity="other">%1$d item untuk dibersihkan</item>
+    </plurals>
+    <plurals name="apk_files_analysis_progress_info">
+        <item quantity="other">APK file: %1$d file, %2$s</item>
+    </plurals>
+    <plurals name="bluetooth_folder_analysis_progress_info">
+        <item quantity="other">Folder Bluetooth: %1$d file, %2$s</item>
+    </plurals>
+    <plurals name="cache_analysis_short_summary">
+        <item quantity="other">Total: %1$d aplikasi, %2$s untuk dibersihkan</item>
+    </plurals>
+    <plurals name="calls">
+        <item quantity="other">%1$d Panggilan</item>
+    </plurals>
+    <plurals name="calls_found">
+        <item quantity="other">%1$d Panggilan ditemukan</item>
+    </plurals>
+    <plurals name="calls_have_been_deleted">
+        <item quantity="other">%1$d panggilan</item>
+    </plurals>
+    <plurals name="calls_to_delete">
+        <item quantity="other">%1$d untuk hapus panggilan</item>
+    </plurals>
+    <plurals name="clean_processes">
+        <item quantity="other">Proses akhir</item>
+    </plurals>
+    <plurals name="custom_folders_analysis_progress_info">
+        <item quantity="other">File dan folder khusus: %1$d file, %2$s</item>
+    </plurals>
+    <plurals name="download_analysis_progress_info">
+        <item quantity="other">Unduh: %1$d file, %2$s</item>
+    </plurals>
+    <plurals name="empty_folders_analysis_progress_info">
+        <item quantity="other">Folder kosong: %1$d folder</item>
+    </plurals>
+    <plurals name="empty_folders_analysis_short_summary">
+        <item quantity="other">%1$dfolder</item>
+    </plurals>
+    <plurals name="folder_analysis_short_summary">
+        <item quantity="other">Total: %1$d file, %2$s untuk dibersihkan</item>
+    </plurals>
+    <plurals name="folder_contains_locked_items">
+        <item quantity="other">Folder ini tidak akan dihapus karena berisi %d Item terkunci</item>
+    </plurals>
+    <plurals name="google_play_number_of_items_in_search_history">
+        <item quantity="other">%1$d item</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="other">%1$d pesan</item>
+    </plurals>
+    <plurals name="messages_found">
+        <item quantity="other">%1$d Pesan ditemukan</item>
+    </plurals>
+    <plurals name="messages_have_been_deleted">
+        <item quantity="other">%1$d pesan</item>
+    </plurals>
+    <plurals name="messages_to_delete">
+        <item quantity="other">%1$d untuk hapus pesan</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$dterpilih</item>
+    </plurals>
+    <plurals name="processes_quantity">
+        <item quantity="other">%1$dprocesses</item>
+    </plurals>
+    <plurals name="result_clean_empty_folders">
+        <item quantity="other">%1$dfolder</item>
+    </plurals>
+    <plurals name="result_clean_folder">
+        <item quantity="other">%1$d file, %2$s</item>
+    </plurals>
+    <plurals name="root_system_app_uninstall_reboot_countdown_text">
+        <item quantity="other">Reboot perangkat di %d detik…</item>
+    </plurals>
+    <plurals name="thumbnail_cache_analysis_progress_info">
+        <item quantity="other">Cache Thumbnail: %1$d file, %2$s</item>
+    </plurals>
+    <plurals name="visited_sites">
+        <item quantity="other">%1$dSitus yang dikunjungi</item>
+    </plurals>
+    <plurals name="whatsapp_old_backups_analysis_progress_info">
+        <item quantity="other">Backup lama WhatsApp: %1$d file, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_audio_analysis_progress_info">
+        <item quantity="other">Mengirim audio whatsApp: %1$d file, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_images_analysis_progress_info">
+        <item quantity="other">Mengirim gambar WhatsApp: %1$d file, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_video_analysis_progress_info">
+        <item quantity="other">Mengirim video whatsApp: %1$d file, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_voice_notes_analysis_progress_info">
+        <item quantity="other">Catatan suara WhatsApp: %1$d file, %2$s</item>
+    </plurals>
+    <plurals name="ad_cache_analysis_progress_info">
+        <item quantity="other">Cache iklan: %1$d file, %2$s</item>
+    </plurals>
+    <plurals name="analysis_group_short_summary_no_mb_post_cleaning">
+        <item quantity="other">%1$ditem dibersihkan</item>
+    </plurals>
+    <plurals name="analysis_group_tiny_summary">
+        <item quantity="other">%1$d item, %2$s untuk dibersihkan</item>
+    </plurals>
+    <plurals name="analysis_group_tiny_summary_post_cleaning">
+        <item quantity="other">%1$d item, %2$s dibersihkan</item>
+    </plurals>
+    <plurals name="apps_lower_case">
+        <item quantity="other">%1$d aplikasi</item>
+    </plurals>
+    <plurals name="cache_analysis_short_summary_count">
+        <item quantity="other">%1$d aplikasi</item>
+    </plurals>
+    <plurals name="empty_folders_to_delete">
+        <item quantity="other">%1$dFolder kosong dipilih untuk dibersihkan</item>
+    </plurals>
+    <plurals name="files_to_delete">
+        <item quantity="other">%1$dFile yang dipilih untuk dibersihkan</item>
+    </plurals>
+    <plurals name="folder_analysis_tiny_summary">
+        <item quantity="other">%1$d file, %2$s untuk dibersihkan</item>
+    </plurals>
+    <plurals name="google_play_items_to_delete">
+        <item quantity="other">%1$dItem yang dipilih untuk pembersihan</item>
+    </plurals>
+    <plurals name="processes_to_end">
+        <item quantity="other">%1$dProses yang dipilih sampai akhir</item>
+    </plurals>
+    <plurals name="processes_using_x">
+        <item quantity="other">%1$d processes using %2$s</item>
+    </plurals>
+    <plurals name="files">
+        <item quantity="other">%1$d file</item>
+    </plurals>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout android:id="@id/drawer_layout" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/drawer_layout_content" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <com.piriform.ccleaner.ui.main.CleanableItemsView android:id="@id/analyses_list_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:groupIndicator="@null" style="@style/CardListView" />
+                <com.piriform.ccleaner.ui.view.LastCleanedView android:id="@id/analysis_last_cleaned" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <ImageView android:layout_gravity="bottom" android:background="@drawable/bottom_buttons_shadow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@null" />
+            </FrameLayout>
+            <LinearLayout style="@style/BottomButtonBar">
+                <Button android:id="@id/reanalyze" android:text="@string/analyze" style="@style/BottomButtonInBar" />
+                <Button android:enabled="false" android:id="@id/clean" android:text="@string/clean" style="@style/BottomButtonInBar" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.piriform.ccleaner.ui.main.AnalysisAppBar android:id="@id/app_bar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <include layout="@layout/include_nav_drawer" />
+</android.support.v4.widget.DrawerLayout>

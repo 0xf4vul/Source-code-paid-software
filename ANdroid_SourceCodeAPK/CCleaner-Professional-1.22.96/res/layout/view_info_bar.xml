@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/padding_big" android:paddingRight="@dimen/padding_big" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center_vertical" android:id="@id/info_bar_spinner" android:visibility="gone" android:layout_width="@dimen/info_bar_max_content_height" android:layout_height="@dimen/info_bar_max_content_height" android:layout_marginRight="@dimen/padding_medium" android:indeterminate="true" android:indeterminateDrawable="@drawable/indeterminate_progress" />
+        <TextView android:id="@id/info_bar_left_text" android:layout_width="0.0dip" android:layout_height="@dimen/info_bar_max_content_height" android:layout_weight="1.0" style="@style/InfoBarText" />
+        <TextView android:textColor="@color/secondary_text" android:id="@id/info_bar_right_text" android:paddingLeft="@dimen/padding_medium" android:layout_width="wrap_content" android:layout_height="@dimen/info_bar_max_content_height" style="@style/InfoBarText" />
+    </LinearLayout>
+    <ProgressBar android:layout_gravity="bottom" android:id="@id/progress_bar" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/analysis_progress_bar_height" style="@style/ProgressBarHorizontal" />
+</merge>

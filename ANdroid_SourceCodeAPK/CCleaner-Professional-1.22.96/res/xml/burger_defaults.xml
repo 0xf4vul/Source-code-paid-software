@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>configVersion</key>
+        <value>0</value>
+    </entry>
+    <entry>
+        <key>burgerHeartBeatInterval</key>
+        <value>43200000</value>
+    </entry>
+    <entry>
+        <key>burgerSendingInterval</key>
+        <value>3600000</value>
+    </entry>
+    <entry>
+        <key>burgerQueueCapacity</key>
+        <value>500</value>
+    </entry>
+    <entry>
+        <key>burgerEnvelopeCapacity</key>
+        <value>500</value>
+    </entry>
+    <entry>
+        <key>burgerFilteringRules</key>
+        <value />
+    </entry>
+</defaultsMap>

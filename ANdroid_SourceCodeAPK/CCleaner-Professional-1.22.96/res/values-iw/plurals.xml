@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="analysis_group_short_summary">
+        <item quantity="other">סה״כ: %1$d פריטים, ‎%2$s לניקוי</item>
+        <item quantity="one">סה\"כ: %1$d פריטים, ‎%2$s לניקוי</item>
+    </plurals>
+    <plurals name="analysis_group_short_summary_no_mb">
+        <item quantity="other">%1$d פריטים לניקוי</item>
+        <item quantity="one">%1$d פריטים לניקוי</item>
+    </plurals>
+    <plurals name="apk_files_analysis_progress_info">
+        <item quantity="other">קבצי APK‏: %1$d קבצים, ‎%2$s</item>
+        <item quantity="one">קבצי APK: %1$d קבצים, %2$s</item>
+    </plurals>
+    <plurals name="bluetooth_folder_analysis_progress_info">
+        <item quantity="other">תיקיית Bluetooth‏: %1$d קבצים, ‎%2$s</item>
+        <item quantity="one">תיקיית Bluetooth: %1$d קבצים, %2$s</item>
+    </plurals>
+    <plurals name="cache_analysis_short_summary">
+        <item quantity="other">סה״כ: %1$d יישומים, ‎%2$s לניקוי</item>
+        <item quantity="one">סה\"כ: %1$d יישומים, ‎%2$s לניקוי</item>
+    </plurals>
+    <plurals name="calls">
+        <item quantity="other">%1$d שיחות</item>
+        <item quantity="one">%1$d שיחות</item>
+    </plurals>
+    <plurals name="calls_found">
+        <item quantity="other">אותרו %1$d שיחות</item>
+        <item quantity="one">אותרו %1$d שיחות</item>
+    </plurals>
+    <plurals name="calls_have_been_deleted">
+        <item quantity="other">%1$d שיחות</item>
+        <item quantity="one">%1$d שיחות</item>
+    </plurals>
+    <plurals name="calls_to_delete">
+        <item quantity="other">%1$d שיחות למחיקה</item>
+        <item quantity="one">%1$d שיחות למחיקה</item>
+    </plurals>
+    <plurals name="clean_processes">
+        <item quantity="other">סיים תהליכים</item>
+        <item quantity="one">סיים תהליך</item>
+    </plurals>
+    <plurals name="custom_folders_analysis_progress_info">
+        <item quantity="other">קבצים ותיקיות מותאמים אישית: %1$d קבצים, ‎%2$s</item>
+        <item quantity="one">קבצים ותיקיות ידני: %1$d קבצים, %2$s</item>
+    </plurals>
+    <plurals name="download_analysis_progress_info">
+        <item quantity="other">הורדות: %1$d קבצים, ‎%2$s</item>
+        <item quantity="one">הורדות: %1$d קבצים, %2$s</item>
+    </plurals>
+    <plurals name="empty_folders_analysis_progress_info">
+        <item quantity="other">תיקיות ריקות: %1$d תיקיות</item>
+        <item quantity="one">תיקיות ריקות: %1$d תיקיות</item>
+    </plurals>
+    <plurals name="empty_folders_analysis_short_summary">
+        <item quantity="other">%1$d תיקיות</item>
+        <item quantity="one">%1$d תיקיות</item>
+    </plurals>
+    <plurals name="folder_analysis_short_summary">
+        <item quantity="other">סה״כ: %1$d קבצים, ‎%2$s לניקוי</item>
+        <item quantity="one">סה\"כ: %1$d קבצים, ‎%2$s לניקוי</item>
+    </plurals>
+    <plurals name="folder_contains_locked_items">
+        <item quantity="other">תיקייה זו לא תוסר מכיוון שהיא מכילה %d פריטים נעולים.</item>
+        <item quantity="one">תיקיה זו לא תוסר מכיוון שהיא מכילה %d פריטים נעולים.</item>
+    </plurals>
+    <plurals name="google_play_number_of_items_in_search_history">
+        <item quantity="other">%1$d פריטים</item>
+        <item quantity="one">%1$d פריטים</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="other">%1$d הודעות</item>
+        <item quantity="one">%1$d הודעות</item>
+    </plurals>
+    <plurals name="messages_found">
+        <item quantity="other">אותרו %1$d הודעות</item>
+        <item quantity="one">אותרו %1$d הודעות</item>
+    </plurals>
+    <plurals name="messages_have_been_deleted">
+        <item quantity="other">%1$d הודעות</item>
+        <item quantity="one">%1$d הודעות</item>
+    </plurals>
+    <plurals name="messages_to_delete">
+        <item quantity="other">%1$d הודעות למחיקה</item>
+        <item quantity="one">%1$d הודעות למחיקה</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d נבחרו</item>
+        <item quantity="one">%1$d נבחר</item>
+    </plurals>
+    <plurals name="processes_quantity">
+        <item quantity="other">%1$d תהליכים</item>
+        <item quantity="one">%1$d תהליכים</item>
+    </plurals>
+    <plurals name="result_clean_empty_folders">
+        <item quantity="other">%1$d תיקיות</item>
+        <item quantity="one">%1$d תיקיות</item>
+    </plurals>
+    <plurals name="result_clean_folder">
+        <item quantity="other">%1$d קבצים, ‎%2$s</item>
+        <item quantity="one">%1$d קבצים, %2$s</item>
+    </plurals>
+    <plurals name="root_system_app_uninstall_reboot_countdown_text">
+        <item quantity="other">מפעיל מחדש את ההתקן תוך %d שניות…</item>
+        <item quantity="one">מפעיל מחדש מכשיר זה ב-%d שניות…</item>
+    </plurals>
+    <plurals name="thumbnail_cache_analysis_progress_info">
+        <item quantity="other">מטמון תמונות ממוזערות: %1$d קבצים, ‎%2$s</item>
+        <item quantity="one">מטמון תמונות ממוזערות: %1$d קבצים, %2$s</item>
+    </plurals>
+    <plurals name="visited_sites">
+        <item quantity="other">%1$d אתרים</item>
+        <item quantity="one">%1$d אתרים</item>
+    </plurals>
+    <plurals name="whatsapp_old_backups_analysis_progress_info">
+        <item quantity="other">גיבויי WhatsApp ישנים: %1$d קבצים, ‎%2$s</item>
+        <item quantity="one">גיבויי WhatsApp ישנים: %1$d קבצים, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_audio_analysis_progress_info">
+        <item quantity="other">אודיו שנשלח ב-WhatsApp‏: %1$d קבצים, ‎%2$s</item>
+        <item quantity="one">שמע שנשלח ב-WhatsApp: %1$d קבצים, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_images_analysis_progress_info">
+        <item quantity="other">תמונות שנשלחו ב-WhatsApp‏: %1$d קבצים, ‎%2$s</item>
+        <item quantity="one">תמונות שנשלחו ב-WhatsApp: %1$d קבצים, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_video_analysis_progress_info">
+        <item quantity="other">וידאו שנשלח ב-WhatsApp‏: %1$d קבצים, ‎%2$s</item>
+        <item quantity="one">וידאו שנשלח ב-WhatsApp: %1$d קבצים, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_voice_notes_analysis_progress_info">
+        <item quantity="other">פתקי קול של WhatsApp‏: %1$d קבצים, ‎%2$s</item>
+        <item quantity="one">פתקי קול של WhatsApp: %1$d קבצים, %2$s</item>
+    </plurals>
+    <plurals name="ad_cache_analysis_progress_info">
+        <item quantity="other">מטמון פרסומות: %1$d קבצים, ‎%2$s</item>
+        <item quantity="one">מטמון פרסומות: %1$d קבצים, %2$s</item>
+    </plurals>
+    <plurals name="analysis_group_short_summary_no_mb_post_cleaning">
+        <item quantity="other">%1$d פריטים נוקו</item>
+        <item quantity="one">%1$d פריטים נוקו</item>
+    </plurals>
+    <plurals name="analysis_group_tiny_summary">
+        <item quantity="other">%1$d פריטים, ‎%2$s לניקוי</item>
+        <item quantity="one">%1$d פריטים, ‎%2$s לניקוי</item>
+    </plurals>
+    <plurals name="analysis_group_tiny_summary_post_cleaning">
+        <item quantity="other">%1$d פריטים, ‎%2$s נוקו</item>
+        <item quantity="one">%1$d פריטים, %2$s נוקו</item>
+    </plurals>
+    <plurals name="apps_lower_case">
+        <item quantity="other">%1$d יישומים</item>
+        <item quantity="one">%1$d יישומים</item>
+    </plurals>
+    <plurals name="cache_analysis_short_summary_count">
+        <item quantity="other">%1$d יישומים</item>
+        <item quantity="one">%1$d יישומים</item>
+    </plurals>
+    <plurals name="empty_folders_to_delete">
+        <item quantity="other">%1$d תיקיות ריקות נבחרו לניקוי</item>
+        <item quantity="one">%1$d תיקיות ריקות נבחרו לניקוי</item>
+    </plurals>
+    <plurals name="files_to_delete">
+        <item quantity="other">%1$d קבצים נבחרו לניקוי</item>
+        <item quantity="one">%1$d קבצים נבחרו לניקוי</item>
+    </plurals>
+    <plurals name="folder_analysis_tiny_summary">
+        <item quantity="other">%1$d קבצים, ‎%2$s לניקוי</item>
+        <item quantity="one">%1$d קבצים, ‎%2$s לניקוי</item>
+    </plurals>
+    <plurals name="google_play_items_to_delete">
+        <item quantity="other">%1$d פריטים נבחרו לניקוי</item>
+        <item quantity="one">%1$d פריטים נבחרו לניקוי</item>
+    </plurals>
+    <plurals name="processes_to_end">
+        <item quantity="other">%1$d תהליכים סומנו לסגירה</item>
+        <item quantity="one">%1$d תהליכים סומנו לסגירה</item>
+    </plurals>
+    <plurals name="processes_using_x">
+        <item quantity="other">%1$d תהליכים משתמשים ב-‎%2$s</item>
+        <item quantity="one">%1$d תהליכים משתמשים ב-%2$s</item>
+    </plurals>
+    <plurals name="files">
+        <item quantity="other">%1$d קבצים</item>
+        <item quantity="one">%1$d קבצים</item>
+    </plurals>
+</resources>

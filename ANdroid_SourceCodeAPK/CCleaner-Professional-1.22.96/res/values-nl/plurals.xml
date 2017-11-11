@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="analysis_group_short_summary">
+        <item quantity="other">Totaal: %1$d items, %2$s om te reinigen</item>
+        <item quantity="one">Totaal: %1$d item, %2$s om te reinigen</item>
+    </plurals>
+    <plurals name="analysis_group_short_summary_no_mb">
+        <item quantity="other">Totaal: %1$d items om te reinigen</item>
+        <item quantity="one">Totaal: %1$d item om te reinigen</item>
+    </plurals>
+    <plurals name="apk_files_analysis_progress_info">
+        <item quantity="other">APK bestanden: %1$d bestanden, %2$s</item>
+        <item quantity="one">APK bestanden: %1$d bestand, %2$s</item>
+    </plurals>
+    <plurals name="bluetooth_folder_analysis_progress_info">
+        <item quantity="other">Bluetooth map: %1$d bestanden, %2$s</item>
+        <item quantity="one">Bluetooth map: %1$d bestand, %2$s</item>
+    </plurals>
+    <plurals name="cache_analysis_short_summary">
+        <item quantity="other">Totaal: %1$d apps, %2$s om te reinigen</item>
+        <item quantity="one">Totaal: %1$d app, %2$s om te reinigen</item>
+    </plurals>
+    <plurals name="calls">
+        <item quantity="other">%1$d oproepen</item>
+        <item quantity="one">%1$d oproep</item>
+    </plurals>
+    <plurals name="calls_found">
+        <item quantity="other">%1$d oproepen gevonden</item>
+        <item quantity="one">%1$d oproep gevonden</item>
+    </plurals>
+    <plurals name="calls_have_been_deleted">
+        <item quantity="other">%1$d oproepen</item>
+        <item quantity="one">%1$d oproep</item>
+    </plurals>
+    <plurals name="calls_to_delete">
+        <item quantity="other">%1$d oproepen om te verwijderen</item>
+        <item quantity="one">%1$d oproep om te verwijderen</item>
+    </plurals>
+    <plurals name="clean_processes">
+        <item quantity="other">Processen beëindigen</item>
+        <item quantity="one">Proces beëindigen</item>
+    </plurals>
+    <plurals name="custom_folders_analysis_progress_info">
+        <item quantity="other">Aangepaste bestanden en mappen: %1$d bestanden, %2$s</item>
+        <item quantity="one">Aangepaste bestanden en mappen: %1$d bestand, %2$s</item>
+    </plurals>
+    <plurals name="download_analysis_progress_info">
+        <item quantity="other">Download: %1$d bestanden, %2$s</item>
+        <item quantity="one">Download: %1$d bestand, %2$s</item>
+    </plurals>
+    <plurals name="empty_folders_analysis_progress_info">
+        <item quantity="other">Lege mappen: %1$d mappen</item>
+        <item quantity="one">Lege mappen: %1$d map</item>
+    </plurals>
+    <plurals name="empty_folders_analysis_short_summary">
+        <item quantity="other">%1$d mappen</item>
+        <item quantity="one">%1$d map</item>
+    </plurals>
+    <plurals name="folder_analysis_short_summary">
+        <item quantity="other">Totaal: %1$d bestanden, %2$s om te reinigen</item>
+        <item quantity="one">Totaal: %1$d bestand, %2$s om te reinigen</item>
+    </plurals>
+    <plurals name="folder_contains_locked_items">
+        <item quantity="other">Deze map zal niet worden verwijderd omdat het %d vergrendelde items bevat.</item>
+        <item quantity="one">Deze map zal niet worden verwijderd omdat het %d vergrendelde item bevat.</item>
+    </plurals>
+    <plurals name="google_play_number_of_items_in_search_history">
+        <item quantity="other">%1$d items</item>
+        <item quantity="one">%1$d item</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="other">%1$d berichten</item>
+        <item quantity="one">%1$d bericht</item>
+    </plurals>
+    <plurals name="messages_found">
+        <item quantity="other">%1$d berichten gevonden</item>
+        <item quantity="one">%1$d bericht gevonden</item>
+    </plurals>
+    <plurals name="messages_have_been_deleted">
+        <item quantity="other">%1$d berichten</item>
+        <item quantity="one">%1$d bericht</item>
+    </plurals>
+    <plurals name="messages_to_delete">
+        <item quantity="other">%1$d berichten om te verwijderen</item>
+        <item quantity="one">%1$d bericht om te verwijderen</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d geselecteerd</item>
+        <item quantity="one">%1$d geselecteerd</item>
+    </plurals>
+    <plurals name="processes_quantity">
+        <item quantity="other">%1$d processen</item>
+        <item quantity="one">%1$d proces</item>
+    </plurals>
+    <plurals name="result_clean_empty_folders">
+        <item quantity="other">%1$d mappen</item>
+        <item quantity="one">%1$d map</item>
+    </plurals>
+    <plurals name="result_clean_folder">
+        <item quantity="other">%1$d bestanden, %2$s</item>
+        <item quantity="one">%1$d bestand, %2$s</item>
+    </plurals>
+    <plurals name="root_system_app_uninstall_reboot_countdown_text">
+        <item quantity="other">Herstarten van toestel in %d seconden…</item>
+        <item quantity="one">Herstarten van toestel in %d seconde…</item>
+    </plurals>
+    <plurals name="thumbnail_cache_analysis_progress_info">
+        <item quantity="other">Miniatuurcache: %1$d bestanden, %2$s</item>
+        <item quantity="one">Miniatuurcache: %1$d bestand, %2$s</item>
+    </plurals>
+    <plurals name="visited_sites">
+        <item quantity="other">%1$d bezochte sites</item>
+        <item quantity="one">%1$d bezochte site</item>
+    </plurals>
+    <plurals name="whatsapp_old_backups_analysis_progress_info">
+        <item quantity="other">WhatsApp oude reservekopieën: %1$d bestanden, %2$s</item>
+        <item quantity="one">WhatsApp oude reservekopieën: %1$d bestand, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_audio_analysis_progress_info">
+        <item quantity="other">WhatsApp verzonden audio: %1$d bestanden, %2$s</item>
+        <item quantity="one">WhatsApp verzonden audio: %1$d bestand, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_images_analysis_progress_info">
+        <item quantity="other">WhatsApp verzonden afbeeldingen: %1$d bestanden, %2$s</item>
+        <item quantity="one">WhatsApp verzonden afbeeldingen: %1$d bestand, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_video_analysis_progress_info">
+        <item quantity="other">WhatsApp verzonden video: %1$d bestanden, %2$s</item>
+        <item quantity="one">WhatsApp verzonden video: %1$d bestand, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_voice_notes_analysis_progress_info">
+        <item quantity="other">WhatsApp spraakmemo’s: %1$d bestanden, %2$s</item>
+        <item quantity="one">WhatsApp spraakmemo’s: %1$d bestand, %2$s</item>
+    </plurals>
+    <plurals name="ad_cache_analysis_progress_info">
+        <item quantity="other">Reclamecache: %1$d bestanden, %2$s</item>
+        <item quantity="one">Reclamecache: %1$d bestand, %2$s</item>
+    </plurals>
+    <plurals name="analysis_group_short_summary_no_mb_post_cleaning">
+        <item quantity="other">%1$d items opgeruimd</item>
+        <item quantity="one">%1$d item opgeruimd</item>
+    </plurals>
+    <plurals name="analysis_group_tiny_summary">
+        <item quantity="other">%1$d items, %2$s om te reinigen</item>
+        <item quantity="one">%1$d item, %2$s om te reinigen</item>
+    </plurals>
+    <plurals name="analysis_group_tiny_summary_post_cleaning">
+        <item quantity="other">%1$d items, %2$s opgeruimd</item>
+        <item quantity="one">%1$d item, %2$s opgeruimd</item>
+    </plurals>
+    <plurals name="apps_lower_case">
+        <item quantity="other">%1$d apps</item>
+        <item quantity="one">%1$d app</item>
+    </plurals>
+    <plurals name="cache_analysis_short_summary_count">
+        <item quantity="other">%1$d apps</item>
+        <item quantity="one">%1$d app</item>
+    </plurals>
+    <plurals name="empty_folders_to_delete">
+        <item quantity="other">%1$d lege mappen geselecteerd voor reiniging</item>
+        <item quantity="one">%1$d lege map geselecteerd voor reiniging</item>
+    </plurals>
+    <plurals name="files_to_delete">
+        <item quantity="other">%1$d bestanden geselecteerd voor reiniging</item>
+        <item quantity="one">%1$d bestand geselecteerd voor reiniging</item>
+    </plurals>
+    <plurals name="folder_analysis_tiny_summary">
+        <item quantity="other">%1$d bestanden, %2$s om te reinigen</item>
+        <item quantity="one">%1$d bestand, %2$s om te reinigen</item>
+    </plurals>
+    <plurals name="google_play_items_to_delete">
+        <item quantity="other">%1$d items geselecteerd voor reiniging</item>
+        <item quantity="one">%1$d item geselecteerd voor reiniging</item>
+    </plurals>
+    <plurals name="processes_to_end">
+        <item quantity="other">%1$d processen geselecteerd om te stoppen</item>
+        <item quantity="one">%1$d proces geselecteerd om te stoppen</item>
+    </plurals>
+    <plurals name="processes_using_x">
+        <item quantity="other">%1$d processen gebruiken %2$s</item>
+        <item quantity="one">%1$d proces gebruiken %2$s</item>
+    </plurals>
+</resources>

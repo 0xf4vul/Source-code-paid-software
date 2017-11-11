@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.piriform.ccleaner.appmanager.AnimatingShapeView android:layout_gravity="bottom|center|right" android:id="@id/rounded_corner_fab_shape" android:background="@color/colorAccent" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <android.support.design.widget.FloatingActionButton android:layout_gravity="bottom|center|right" android:id="@id/fab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_delete" style="@style/FloatingActionButton" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/bottom_button_layout" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/bottom_buttons_shadow" android:contentDescription="@null" />
+        <LinearLayout android:id="@id/button_container" style="@style/BottomButtonBar">
+            <Button android:id="@id/enable_button" android:text="@string/app_manager_button_enable" style="@style/BottomButtonInBar" />
+            <Button android:id="@id/disable_button" android:text="@string/app_manager_button_disable" style="@style/BottomButtonInBar" />
+            <Button android:id="@id/uninstall_button" android:text="@string/app_manager_button_uninstall" style="@style/BottomButtonInBar" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.piriform.ccleaner.ui.view.WarningDialogView android:id="@id/system_app_warning_dialog" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

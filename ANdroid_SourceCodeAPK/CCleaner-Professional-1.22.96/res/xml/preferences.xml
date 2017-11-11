@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/settings_customization_section_title">
+        <Preference android:icon="@drawable/ic_settings_custom_analysis" android:title="@string/customization_title">
+            <intent android:targetPackage="com.piriform.ccleaner" android:targetClass="com.piriform.ccleaner.settings.analysis.AnalysisCustomizationActivity">
+                <extra android:name="cleanType" android:value="main_clean" />
+            </intent>
+        </Preference>
+        <Preference android:icon="@drawable/ic_settings_widget" android:title="@string/quick_clean_config_title">
+            <intent android:targetPackage="com.piriform.ccleaner" android:targetClass="com.piriform.ccleaner.settings.analysis.AnalysisCustomizationActivity">
+                <extra android:name="cleanType" android:value="quick_clean" />
+            </intent>
+        </Preference>
+        <Preference android:icon="@drawable/ic_settings_customfilesandfolders" android:title="@string/custom_folders_config_title">
+            <intent android:targetPackage="com.piriform.ccleaner" android:targetClass="com.piriform.ccleaner.ui.activity.CustomFoldersSettingsActivity" />
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_category_title_scheduling" android:key="@string/settings_category_key_scheduling">
+        <ListPreference android:icon="@drawable/ic_settings_notifications" android:entries="@array/scheduling_entries" android:title="@string/settings_title_scheduling_when" android:key="@string/settings_key_scheduling_when" android:defaultValue="0" android:entryValues="@array/scheduling_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_category_title_about" android:key="@string/settings_category_key_about">
+        <Preference android:icon="@drawable/ic_settings_version" android:enabled="false" android:title="@string/settings_title_application_version" android:key="@string/settings_key_application_version" />
+        <Preference android:icon="@drawable/ic_settings_licenses" android:title="@string/settings_title_licenses">
+            <intent android:targetPackage="com.piriform.ccleaner" android:targetClass="com.piriform.ccleaner.ui.activity.LicensesActivity" />
+        </Preference>
+        <Preference android:icon="@drawable/ic_settings_privacy" android:title="@string/settings_title_privacy">
+            <intent android:action="android.intent.action.VIEW" android:data="@string/settings_uri_privacy" />
+        </Preference>
+        <Preference android:enabled="false" android:title="@string/settings_title_translator_acknowledgements" android:key="@string/settings_key_translator_acknowledgements" android:summary="@string/settings_summary_translator_acknowledgements" />
+        <Preference android:icon="@drawable/ic_setting_lock" android:title="Developer" android:key="@string/settings_key_developer_options">
+            <intent android:targetPackage="com.piriform.ccleaner" android:targetClass="com.piriform.ccleaner.debug.DebugActivity" />
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

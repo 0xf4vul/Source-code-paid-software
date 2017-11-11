@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:shudy="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_appbar_sort" android:id="@id/sort" android:title="@string/sort" shudy:showAsAction="always">
+        <menu>
+            <item android:id="@id/menu_sort_by_size" android:title="@string/sort_by_cache_size" />
+            <item android:id="@id/menu_sort_alphabetically" android:title="@string/sort_alphabetically" />
+        </menu>
+    </item>
+</menu>

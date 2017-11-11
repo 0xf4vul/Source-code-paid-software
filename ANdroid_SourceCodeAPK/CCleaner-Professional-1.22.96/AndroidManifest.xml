@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.piriform.ccleaner" platformBuildVersionCode="26" platformBuildVersionName="8.0.0">
+    <uses-feature android:name="android.hardware.telephony" android:required="false"/>
+    <uses-feature android:name="android.hardware.bluetooth" android:required="false"/>
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS"/>
+    <uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.WRITE_SMS"/>
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE"/>
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG"/>
+    <uses-permission android:name="android.permission.READ_CALL_LOG"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.BIND_ACCESSIBILITY_SERVICE"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <permission android:name="com.piriform.ccleaner.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.piriform.ccleaner.permission.C2D_MESSAGE"/>
+    <meta-data android:name="android.support.VERSION" android:value="25.3.1"/>
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:name="com.piriform.ccleaner.CCleanerApplication" android:supportsRtl="false" android:theme="@style/CCleanerTheme">
+        <activity android:label="@string/app_name" android:launchMode="singleTask" android:name="com.piriform.ccleaner.ui.activity.MainActivity" android:screenOrientation="sensorPortrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.MONKEY"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/searchable"/>
+        </activity>
+        <activity android:label="@string/analysis_title_call_logs" android:name="com.piriform.ccleaner.ui.activity.CleanCallLogActivity" android:screenOrientation="sensorPortrait" android:theme="@style/CCleanerSubScreenTheme"/>
+        <activity android:label="@string/system_info" android:name="com.piriform.ccleaner.ui.activity.SystemInfoActivity" android:screenOrientation="sensorPortrait"/>
+        <activity android:label="@string/app_manager" android:name="com.piriform.ccleaner.appmanager.AppManagerActivity" android:screenOrientation="sensorPortrait" android:theme="@style/CCleanerFullBleedContentScreenTheme"/>
+        <activity android:label="@string/scheduler_title" android:name="com.piriform.ccleaner.scheduler.ScheduledCleanEditActivity" android:parentActivityName="com.piriform.ccleaner.scheduler.ScheduledCleanListActivity" android:screenOrientation="sensorPortrait" android:theme="@style/CCleanerFullBleedContentSubScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="@string/content_provider_authority" android:pathPrefix="/scheduled_cleans/" android:scheme="content"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.INSERT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="@string/content_provider_authority" android:pathPrefix="/scheduled_cleans" android:scheme="content"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/storage_analyzer_title" android:name="com.piriform.ccleaner.storageanalyzer.frontend.StorageAnalyzerFileCategoryActivity" android:screenOrientation="sensorPortrait" android:theme="@style/CCleanerFullBleedContentSubScreenTheme"/>
+        <activity android:label="@string/scheduler_title" android:name="com.piriform.ccleaner.scheduler.ScheduledCleanListActivity" android:screenOrientation="sensorPortrait" android:theme="@style/CCleanerFullBleedContentSubScreenTheme"/>
+        <activity android:label="@string/storage_analyzer_title" android:name="com.piriform.ccleaner.storageanalyzer.frontend.StorageAnalyzerActivity" android:screenOrientation="sensorPortrait" android:theme="@style/CCleanerFullBleedContentSubScreenTheme"/>
+        <activity android:label="" android:name="com.piriform.ccleaner.professional.UpgradeToProfessionalActivity" android:screenOrientation="sensorPortrait"/>
+        <activity android:label="" android:name="com.piriform.ccleaner.professional.ProfessionalPurchasedActivity" android:screenOrientation="sensorPortrait" android:theme="@style/CCleanerProPurchasedScreenTheme"/>
+        <activity android:label="@string/clean_sms" android:name="com.piriform.ccleaner.ui.activity.CleanMessagesActivity" android:screenOrientation="sensorPortrait" android:theme="@style/CCleanerSubScreenTheme"/>
+        <activity android:label="@string/analysis_title_cache" android:name="com.piriform.ccleaner.ui.activity.CleanCacheActivity" android:screenOrientation="sensorPortrait" android:theme="@style/CCleanerSubScreenTheme"/>
+        <activity android:label="@string/processes" android:name="com.piriform.ccleaner.ui.activity.CleanProcessesActivity" android:screenOrientation="sensorPortrait" android:theme="@style/CCleanerSubScreenTheme"/>
+        <activity android:label="@string/analysis_title_downloads" android:name="com.piriform.ccleaner.ui.activity.CleanDownloadsActivity" android:screenOrientation="sensorPortrait" android:theme="@style/CCleanerSubScreenTheme"/>
+        <activity android:label="@string/analysis_title_bluetooth" android:name="com.piriform.ccleaner.ui.activity.CleanBluetoothFolderActivity" android:screenOrientation="sensorPortrait" android:theme="@style/CCleanerSubScreenTheme"/>
+        <activity android:label="@string/analysis_title_apk_files" android:name="com.piriform.ccleaner.ui.activity.CleanApkFilesActivity" android:screenOrientation="sensorPortrait" android:theme="@style/CCleanerSubScreenTheme"/>
+        <activity android:label="@string/customization_title" android:name="com.piriform.ccleaner.settings.analysis.AnalysisCustomizationActivity" android:screenOrientation="sensorPortrait" android:theme="@style/CCleanerSubScreenTheme"/>
+        <activity android:label="@string/analysis_title_google_play_search_history" android:name="com.piriform.ccleaner.ui.activity.CleanGooglePlaySearchHistoryActivity" android:screenOrientation="sensorPortrait" android:theme="@style/CCleanerSubScreenTheme"/>
+        <activity android:label="@string/analysis_title_thumbnail_cache" android:name="com.piriform.ccleaner.ui.activity.CleanThumbnailCacheActivity" android:screenOrientation="sensorPortrait" android:theme="@style/CCleanerSubScreenTheme"/>
+        <activity android:label="@string/analysis_title_empty_folders" android:name="com.piriform.ccleaner.ui.activity.CleanEmptyFoldersActivity" android:screenOrientation="sensorPortrait" android:theme="@style/CCleanerSubScreenTheme"/>
+        <activity android:label="@string/analysis_title_custom_folders" android:name="com.piriform.ccleaner.ui.activity.CleanCustomFoldersActivity" android:screenOrientation="sensorPortrait" android:theme="@style/CCleanerSubScreenTheme"/>
+        <activity android:label="@string/analysis_title_whatsapp_sent_audio" android:name="com.piriform.ccleaner.cleaning.detail.CleanWhatsAppSentAudioActivity" android:screenOrientation="sensorPortrait" android:theme="@style/CCleanerSubScreenTheme"/>
+        <activity android:label="@string/analysis_title_whatsapp_sent_images" android:name="com.piriform.ccleaner.cleaning.detail.CleanWhatsAppSentImagesActivity" android:screenOrientation="sensorPortrait" android:theme="@style/CCleanerSubScreenTheme"/>
+        <activity android:label="@string/analysis_title_whatsapp_sent_video" android:name="com.piriform.ccleaner.cleaning.detail.CleanWhatsAppSentVideoActivity" android:screenOrientation="sensorPortrait" android:theme="@style/CCleanerSubScreenTheme"/>
+        <activity android:label="@string/analysis_title_whatsapp_voice_notes" android:name="com.piriform.ccleaner.cleaning.detail.CleanWhatsAppVoiceNotesActivity" android:screenOrientation="sensorPortrait" android:theme="@style/CCleanerSubScreenTheme"/>
+        <activity android:label="@string/analysis_title_whatsapp_voice_notes" android:name="com.piriform.ccleaner.cleaning.detail.CleanWhatsAppOldBackupsActivity" android:screenOrientation="sensorPortrait" android:theme="@style/CCleanerSubScreenTheme"/>
+        <activity android:label="@string/analysis_title_custom_folders" android:name="com.piriform.ccleaner.ui.activity.CustomFoldersCleaningResultsActivity" android:screenOrientation="sensorPortrait" android:theme="@style/CCleanerSubScreenTheme"/>
+        <activity android:label="@string/analysis_title_downloads" android:name="com.piriform.ccleaner.ui.activity.DownloadsCleaningResultsActivity" android:screenOrientation="sensorPortrait" android:theme="@style/CCleanerSubScreenTheme"/>
+        <activity android:label="@string/analysis_title_apk_files" android:name="com.piriform.ccleaner.ui.activity.ApkFilesCleaningResultsActivity" android:screenOrientation="sensorPortrait" android:theme="@style/CCleanerSubScreenTheme"/>
+        <activity android:label="@string/analysis_title_bluetooth" android:name="com.piriform.ccleaner.ui.activity.BluetoothFolderCleaningResultsActivity" android:screenOrientation="sensorPortrait" android:theme="@style/CCleanerSubScreenTheme"/>
+        <activity android:label="@string/analysis_title_thumbnail_cache" android:name="com.piriform.ccleaner.ui.activity.ThumbnailCacheCleaningResultsActivity" android:screenOrientation="sensorPortrait" android:theme="@style/CCleanerSubScreenTheme"/>
+        <activity android:label="@string/analysis_title_google_play_search_history" android:name="com.piriform.ccleaner.ui.activity.GooglePlayCleaningResultsActivity" android:screenOrientation="sensorPortrait" android:theme="@style/CCleanerSubScreenTheme"/>
+        <activity android:label="@string/processes" android:name="com.piriform.ccleaner.ui.activity.ProcessCleaningResultsActivity" android:screenOrientation="sensorPortrait" android:theme="@style/CCleanerSubScreenTheme"/>
+        <activity android:label="@string/analysis_title_call_logs" android:name="com.piriform.ccleaner.ui.activity.CallLogCleaningResultsActivity" android:screenOrientation="sensorPortrait" android:theme="@style/CCleanerSubScreenTheme"/>
+        <activity android:label="@string/analysis_title_sms" android:name="com.piriform.ccleaner.ui.activity.MessagesCleaningResultsActivity" android:screenOrientation="sensorPortrait" android:theme="@style/CCleanerSubScreenTheme"/>
+        <activity android:label="@string/analysis_title_cache" android:name="com.piriform.ccleaner.ui.activity.CacheCleaningResultsActivity" android:screenOrientation="sensorPortrait" android:theme="@style/CCleanerSubScreenTheme"/>
+        <activity android:label="@string/analysis_title_empty_folders" android:name="com.piriform.ccleaner.ui.activity.EmptyFoldersCleaningResultsActivity" android:screenOrientation="sensorPortrait" android:theme="@style/CCleanerSubScreenTheme"/>
+        <activity android:label="@string/analysis_title_whatsapp_sent_audio" android:name="com.piriform.ccleaner.cleaning.results.CleaningResultsWhatsAppSentAudioActivity" android:screenOrientation="sensorPortrait" android:theme="@style/CCleanerSubScreenTheme"/>
+        <activity android:label="@string/analysis_title_whatsapp_sent_images" android:name="com.piriform.ccleaner.cleaning.results.CleaningResultsWhatsAppSentImagesActivity" android:screenOrientation="sensorPortrait" android:theme="@style/CCleanerSubScreenTheme"/>
+        <activity android:label="@string/analysis_title_whatsapp_sent_video" android:name="com.piriform.ccleaner.cleaning.results.CleaningResultsWhatsAppSentVideoActivity" android:screenOrientation="sensorPortrait" android:theme="@style/CCleanerSubScreenTheme"/>
+        <activity android:label="@string/analysis_title_whatsapp_voice_notes" android:name="com.piriform.ccleaner.cleaning.results.CleaningResultsWhatsAppVoiceNotesActivity" android:screenOrientation="sensorPortrait" android:theme="@style/CCleanerSubScreenTheme"/>
+        <activity android:label="@string/analysis_title_whatsapp_voice_notes" android:name="com.piriform.ccleaner.cleaning.results.CleaningResultsWhatsAppOldBackupsActivity" android:screenOrientation="sensorPortrait" android:theme="@style/CCleanerSubScreenTheme"/>
+        <activity android:label="@string/drawer_title_settings" android:name="com.piriform.ccleaner.ui.activity.SettingsActivity" android:screenOrientation="sensorPortrait"/>
+        <activity android:label="@string/settings_title_licenses" android:name="com.piriform.ccleaner.ui.activity.LicensesActivity" android:screenOrientation="sensorPortrait" android:theme="@style/CCleanerSubScreenTheme"/>
+        <activity android:label="@string/settings_title_license_opensource" android:name="com.piriform.ccleaner.ui.activity.SoftwareLicencesActivity" android:screenOrientation="sensorPortrait" android:theme="@style/CCleanerSubScreenTheme"/>
+        <activity android:label="@string/quick_clean_config_title" android:name="com.piriform.ccleaner.ui.activity.QuickCleanWidgetConfigurationActivity" android:screenOrientation="sensorPortrait">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/quick_clean_config_title" android:name="com.piriform.ccleaner.ui.activity.QuickCleanNotificationConfigurationActivity" android:screenOrientation="sensorPortrait"/>
+        <activity android:label="@string/custom_folders_config_title" android:name="com.piriform.ccleaner.ui.activity.CustomFoldersSettingsActivity" android:screenOrientation="sensorPortrait" android:theme="@style/CCleanerSubScreenTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.piriform.ccleaner.rooted.RootUninstallerActivity" android:screenOrientation="sensorPortrait" android:theme="@style/NoDisplay"/>
+        <activity android:name="com.piriform.ccleaner.rooted.RootDisablerActivity" android:screenOrientation="sensorPortrait" android:theme="@style/NoDisplay"/>
+        <service android:name="com.piriform.ccleaner.cleaning.AnalysisAndCleaningService"/>
+        <service android:name="com.piriform.ccleaner.storageanalyzer.backend.StorageAnalyzerAndroidService"/>
+        <service android:name="com.piriform.ccleaner.widget.QuickCleanWidgetService"/>
+        <service android:name="com.piriform.ccleaner.reminder.ReminderNotifierService"/>
+        <service android:enabled="@bool/advanced_clean_available" android:label="@string/app_name" android:name="com.piriform.ccleaner.cleaning.advanced.AdvancedCacheCleaningService" android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService"/>
+            </intent-filter>
+            <meta-data android:name="android.accessibilityservice" android:resource="@xml/advanced_cache_cleaning_service_config"/>
+        </service>
+        <receiver android:name="com.piriform.ccleaner.widget.QuickCleanAppWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/quick_clean_appwidget_info"/>
+        </receiver>
+        <receiver android:name="com.piriform.ccleaner.alarm.BootTimeAlarmRestorer">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.piriform.ccleaner.alarm.AlarmBroadcastReceiver"/>
+        <receiver android:name="com.piriform.ccleaner.alarm.PackageReplacedAlarmRestorer">
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="@string/content_provider_authority" android:exported="false" android:name="com.piriform.ccleaner.data.CCleanerContentProvider"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
+        <receiver android:enabled="true" android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" android:permission="android.permission.INSTALL_PACKAGES">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION"/>
+                <category android:name="com.piriform.ccleaner"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"/>
+        <service android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="com.piriform.ccleaner.firebaseinitprovider" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.facebook.ads.AudienceNetworkActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.google.android.gms.ads.AdActivity" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity" android:theme="@style/Theme.IAPTheme"/>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <receiver android:enabled="false" android:exported="false" android:name="com.avast.android.burger.internal.AutoSenderBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:exported="true" android:name="com.avast.android.burger.internal.ReferralReceiver">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.avast.android.burger.internal.BurgerMessageService"/>
+        <service android:exported="false" android:name="com.evernote.android.job.v21.PlatformJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="false" android:name="com.evernote.android.job.v14.PlatformAlarmService"/>
+        <receiver android:exported="false" android:name="com.evernote.android.job.v14.PlatformAlarmReceiver">
+            <intent-filter>
+                <action android:name="com.evernote.android.job.v14.RUN_JOB"/>
+                <action android:name="net.vrallev.android.job.v14.RUN_JOB"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.evernote.android.job.JobBootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.QUICKBOOT_POWERON"/>
+                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON"/>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="false" android:exported="true" android:name="com.evernote.android.job.gcm.PlatformGcmService" android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE">
+            <intent-filter>
+                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.evernote.android.job.JobRescheduleService"/>
+        <meta-data android:name="io.fabric.ApiKey" android:value="5b4c4842120534c415ab9cd3cf0b59ef97adc64b"/>
+    </application>
+</manifest>

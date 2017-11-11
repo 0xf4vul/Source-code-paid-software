@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="analysis_group_short_summary">
+        <item quantity="other">Celkovo: %1$d položiek, %2$s na vyčistenie</item>
+        <item quantity="one">Celkovo: %1$d položka, %2$s na vyčistenie</item>
+        <item quantity="few">Celkovo: %1$d položky, %2$s na vyčistenie</item>
+    </plurals>
+    <plurals name="analysis_group_short_summary_no_mb">
+        <item quantity="other">Celkovo: %1$d položiek na vyčistenie</item>
+        <item quantity="one">Celkovo: %1$d položka na vyčistenie</item>
+        <item quantity="few">Celkovo: %1$d položky na vyčistenie</item>
+    </plurals>
+    <plurals name="apk_files_analysis_progress_info">
+        <item quantity="other">APK súbory %1$d súborov, %2$s</item>
+        <item quantity="one">APK súbory %1$d súbor, %2$s</item>
+        <item quantity="few">APK súbory %1$d súbory, %2$s</item>
+    </plurals>
+    <plurals name="bluetooth_folder_analysis_progress_info">
+        <item quantity="other">Bluetooth priečinok: %1$d súborov, %2$s</item>
+        <item quantity="one">Bluetooth priečinok: %1$d súbor, %2$s</item>
+        <item quantity="few">Bluetooth priečinok: %1$d súbory, %2$s</item>
+    </plurals>
+    <plurals name="cache_analysis_short_summary">
+        <item quantity="other">Celkovo: %1$d aplikácií, %2$s na vyčistenie</item>
+        <item quantity="one">Celkovo: %1$d aplikácia, %2$s na vyčistenie</item>
+        <item quantity="few">Celkovo: %1$d aplikácie, %2$s na vyčistenie</item>
+    </plurals>
+    <plurals name="calls">
+        <item quantity="other">%1$d hovorov</item>
+        <item quantity="one">%1$d hovor</item>
+        <item quantity="few">%1$d hovory</item>
+    </plurals>
+    <plurals name="calls_found">
+        <item quantity="other">%1$d nájdených hovorov</item>
+        <item quantity="one">%1$d nájdený hovor</item>
+        <item quantity="few">%1$d nájdené hovory</item>
+    </plurals>
+    <plurals name="calls_have_been_deleted">
+        <item quantity="other">%1$d hovorov</item>
+        <item quantity="one">%1$d hovor</item>
+        <item quantity="few">%1$d hovory</item>
+    </plurals>
+    <plurals name="calls_to_delete">
+        <item quantity="other">%1$d hovorov na vymazanie</item>
+        <item quantity="one">%1$d hovor na vymazanie</item>
+        <item quantity="few">%1$d hovory na vymazanie</item>
+    </plurals>
+    <plurals name="clean_processes">
+        <item quantity="other">Ukončiť procesy</item>
+        <item quantity="one">Ukončiť proces</item>
+        <item quantity="few">Ukončiť procesy</item>
+    </plurals>
+    <plurals name="custom_folders_analysis_progress_info">
+        <item quantity="other">Vlastné súbory a priečinky: %1$d súborov, %2$s</item>
+        <item quantity="one">Vlastné súbory a priečinky: %1$d súbor, %2$s</item>
+        <item quantity="few">Vlastné súbory a priečinky: %1$d súbory, %2$s</item>
+    </plurals>
+    <plurals name="download_analysis_progress_info">
+        <item quantity="other">Sťahovanie: %1$d súborov, %2$s</item>
+        <item quantity="one">Sťahovanie: %1$d súbor, %2$s</item>
+        <item quantity="few">Sťahovanie: %1$d súbory, %2$s</item>
+    </plurals>
+    <plurals name="empty_folders_analysis_progress_info">
+        <item quantity="other">Prázdne priečinky: %1$d priečinkov</item>
+        <item quantity="one">Prázdne priečinky: %1$d priečinok</item>
+        <item quantity="few">Prázdne priečinky: %1$d priečinky</item>
+    </plurals>
+    <plurals name="empty_folders_analysis_short_summary">
+        <item quantity="other">%1$d priečinkov</item>
+        <item quantity="one">%1$d priečinok</item>
+        <item quantity="few">%1$d priečinky</item>
+    </plurals>
+    <plurals name="folder_analysis_short_summary">
+        <item quantity="other">Celkovo: %1$d súborov, %2$s na vyčistenie</item>
+        <item quantity="one">Celkovo: %1$d súbor, %2$s na vyčistenie</item>
+        <item quantity="few">Celkovo: %1$d súbory, %2$s na vyčistenie</item>
+    </plurals>
+    <plurals name="folder_contains_locked_items">
+        <item quantity="other">Tento priečinok nebude odstránený, pretože obsahuje %d zamknutých položiek.</item>
+        <item quantity="one">Tento priečinok nebude odstránený, pretože obsahuje %d zamknutú položku.</item>
+        <item quantity="few">Tento priečinok nebude odstránený, pretože obsahuje %d zamknuté položky.</item>
+    </plurals>
+    <plurals name="google_play_number_of_items_in_search_history">
+        <item quantity="other">%1$d položiek</item>
+        <item quantity="one">%1$d položka</item>
+        <item quantity="few">%1$d položky</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="other">%1$d správ</item>
+        <item quantity="one">%1$d správa</item>
+        <item quantity="few">%1$d správy</item>
+    </plurals>
+    <plurals name="messages_found">
+        <item quantity="other">%1$d nájdených správ</item>
+        <item quantity="one">%1$d nájdená správa</item>
+        <item quantity="few">%1$d nájdené správy</item>
+    </plurals>
+    <plurals name="messages_have_been_deleted">
+        <item quantity="other">%1$d správ</item>
+        <item quantity="one">%1$d správa</item>
+        <item quantity="few">%1$d správy</item>
+    </plurals>
+    <plurals name="messages_to_delete">
+        <item quantity="other">%1$d správ na vymazanie</item>
+        <item quantity="one">%1$d správa na vymazanie</item>
+        <item quantity="few">%1$d správy na vymazanie</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d vybraných</item>
+        <item quantity="one">%1$d vybraný</item>
+        <item quantity="few">%1$d vybrané</item>
+    </plurals>
+    <plurals name="processes_quantity">
+        <item quantity="other">%1$d procesov</item>
+        <item quantity="one">%1$d proces</item>
+        <item quantity="few">%1$d procesy</item>
+    </plurals>
+    <plurals name="result_clean_empty_folders">
+        <item quantity="other">%1$d priečinkov</item>
+        <item quantity="one">%1$d priečinok</item>
+        <item quantity="few">%1$d priečinky</item>
+    </plurals>
+    <plurals name="result_clean_folder">
+        <item quantity="other">%1$d súborov, %2$s</item>
+        <item quantity="one">%1$d súbor, %2$s</item>
+        <item quantity="few">%1$d súbory, %2$s</item>
+    </plurals>
+    <plurals name="root_system_app_uninstall_reboot_countdown_text">
+        <item quantity="other">Reštartovanie zariadenia za %d sekúnd…</item>
+        <item quantity="one">Reštartovanie zariadenia za %d sekundu…</item>
+        <item quantity="few">Reštartovanie zariadenia za %d sekundy…</item>
+    </plurals>
+    <plurals name="thumbnail_cache_analysis_progress_info">
+        <item quantity="other">Vyrovnávacia pamäť náhľadov: %1$d súborov, %2$s</item>
+        <item quantity="one">Vyrovnávacia pamäť náhľadov: %1$d súbory, %2$s</item>
+        <item quantity="few">Vyrovnávacia pamäť náhľadov: %1$d súbory, %2$s</item>
+    </plurals>
+    <plurals name="visited_sites">
+        <item quantity="other">%1$d navštívených stránok</item>
+        <item quantity="one">%1$d navštívená stránka</item>
+        <item quantity="few">%1$d navštívené stránky</item>
+    </plurals>
+    <plurals name="whatsapp_old_backups_analysis_progress_info">
+        <item quantity="other">Staré zálohy WhatsApp: %1$d súborov, %2$s</item>
+        <item quantity="one">Staré zálohy WhatsApp: %1$d súbor, %2$s</item>
+        <item quantity="few">Staré zálohy WhatsApp: %1$d súbory, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_audio_analysis_progress_info">
+        <item quantity="other">Odoslané zvuky WhatsApp: %1$d súborov, %2$s</item>
+        <item quantity="one">Odoslané zvuky WhatsApp: %1$d súbor, %2$s</item>
+        <item quantity="few">Odoslané zvuky WhatsApp: %1$d súbory, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_images_analysis_progress_info">
+        <item quantity="other">Odoslané obrázky WhatsApp: %1$d súborov, %2$s</item>
+        <item quantity="one">Odoslané obrázky WhatsApp: %1$d súbor, %2$s</item>
+        <item quantity="few">Odoslané obrázky WhatsApp: %1$d súbory, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_sent_video_analysis_progress_info">
+        <item quantity="other">Odoslané videá WhatsApp: %1$d súborov, %2$s</item>
+        <item quantity="one">Odoslané videá WhatsApp: %1$d súbor, %2$s</item>
+        <item quantity="few">Odoslané videá WhatsApp: %1$d súbory, %2$s</item>
+    </plurals>
+    <plurals name="whatsapp_voice_notes_analysis_progress_info">
+        <item quantity="other">Hlasové poznámky WhatsApp: %1$d súbor,ov, %2$s</item>
+        <item quantity="one">Hlasové poznámky WhatsApp: %1$d súbor, %2$s</item>
+        <item quantity="few">Hlasové poznámky WhatsApp: %1$d súbory, %2$s</item>
+    </plurals>
+</resources>

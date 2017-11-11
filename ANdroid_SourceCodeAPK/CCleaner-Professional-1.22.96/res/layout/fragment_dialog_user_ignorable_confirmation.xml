@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="?android:dividerHorizontal" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/padding_big" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/dialog_message" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@android:style/TextAppearance.Theme.Dialog" />
+        <CheckBox android:id="@id/dialog_checkbox_user_ignore" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_xl" android:text="@string/delete_potential_userdata_folder_confirmation_checkbox_text" />
+    </LinearLayout>
+    <Button android:id="@id/dialog_button_view_details" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/delete_potential_userdata_folder_view_details_button" style="@android:style/Widget.Holo.Light.Button.Borderless.Small" />
+</LinearLayout>

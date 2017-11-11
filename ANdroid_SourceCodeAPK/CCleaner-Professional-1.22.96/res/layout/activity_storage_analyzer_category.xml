@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/include_toolbar" />
+        <com.piriform.ccleaner.ui.view.InfoBarView android:gravity="center" android:id="@id/storage_analyzer_category_info_bar" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/toolbar" />
+        <View android:id="@id/storage_analyzer_category_info_bar_shadow" android:layout_below="@id/storage_analyzer_category_info_bar" style="@style/InfoBarShadow" />
+        <android.support.v7.widget.RecyclerView android:id="@id/storage_category_list" android:background="@color/content_bg" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/storage_analyzer_category_info_bar_shadow" />
+        <com.piriform.ccleaner.storageanalyzer.frontend.StorageAnalyzerCategoryEmptyView android:gravity="center_vertical" android:orientation="vertical" android:id="@id/storage_analyzer_category_empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar" android:alpha="0.0" />
+        <include layout="@layout/merge_delete_button_and_pro_purchased_card" />
+    </RelativeLayout>
+    <com.piriform.ccleaner.professional.ui.ProCardView android:layout_gravity="bottom|center" android:id="@id/pro_card_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/padding_medium" android:layout_marginRight="@dimen/padding_medium" android:layout_marginBottom="@dimen/padding_medium" app:titleText="@string/pro_upsell_title_storage_analyzer" app:bodyText="@string/pro_upsell_body_storage_analyzer" />
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@android:id/icon" android:duplicateParentState="true" android:layout_width="@dimen/icon_size_small" android:layout_height="@dimen/icon_size_small" android:layout_marginRight="@dimen/scheduler_setting_icon_to_text_margin" android:src="@drawable/ic_notification" android:contentDescription="@null" />
+    <LinearLayout android:orientation="vertical" android:duplicateParentState="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_big" android:layout_marginBottom="@dimen/padding_big" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/scheduler_setting_primary_text_size" android:textColor="@color/primary_text" android:id="@android:id/text1" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+        <TextView android:textSize="@dimen/scheduler_setting_secondary_text_size" android:textColor="@color/secondary_text" android:ellipsize="end" android:id="@android:id/text2" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" />
+    </LinearLayout>
+    <CheckBox android:id="@id/checkbox" android:visibility="gone" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/scheduler_setting_text_to_checkbox_margin" />
+</merge>

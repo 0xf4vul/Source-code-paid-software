@@ -1,0 +1,31 @@
+.class public interface abstract Lcom/piriform/ccleaner/a/f;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/piriform/ccleaner/a/f$a;
+    }
+.end annotation
+
+
+# virtual methods
+.method public abstract a()V
+.end method
+
+.method public abstract a(F)V
+.end method
+
+.method public abstract a(Lcom/piriform/ccleaner/a/a/d;)V
+.end method
+
+.method public abstract a(Lcom/piriform/ccleaner/c;)V
+.end method
+
+.method public abstract a(Ljava/lang/String;)V
+.end method
+
+.method public abstract b()V
+.end method

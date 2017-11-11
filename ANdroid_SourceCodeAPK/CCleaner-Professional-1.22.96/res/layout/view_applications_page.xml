@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.piriform.ccleaner.ui.view.InfoBarView android:id="@id/info_bar" android:layout_width="fill_parent" android:layout_height="@dimen/info_bar_height" />
+    <FrameLayout android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.piriform.ccleaner.appmanager.ApplicationListRecyclerView android:id="@id/app_list" android:paddingBottom="@dimen/fab_list_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/ListView" />
+        <View android:layout_gravity="top" style="@style/InfoBarShadow" />
+    </FrameLayout>
+</LinearLayout>

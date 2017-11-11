@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/CardListItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/analysis_image" android:src="@drawable/ic_analyze" android:contentDescription="@null" style="@style/AnalysisListItemImage" />
+    <RelativeLayout android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="100.0">
+        <TextView android:id="@id/analysis_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" style="@style/ListItemText.Title" />
+        <TextView android:id="@id/analysis_result" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/analysis_name" style="@style/ListItemText.Subtitle" />
+        <GridLayout android:orientation="horizontal" android:id="@id/analysis_result_grid" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/analysis_name" android:rowCount="2" android:columnCount="2" style="@style/ListItemText.Subtitle">
+            <TextView />
+            <TextView android:layout_marginLeft="@dimen/padding_medium" />
+            <TextView />
+            <TextView android:layout_marginLeft="@dimen/padding_medium" />
+        </GridLayout>
+        <TextView android:id="@id/analysis_result_count" android:paddingLeft="@dimen/padding_medium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/analysis_name" android:layout_alignBaseline="@id/analysis_name" android:layout_toEndOf="@id/analysis_name" style="@style/ListItemText.SubSubtitle" />
+    </RelativeLayout>
+    <FrameLayout android:layout_gravity="center_vertical" style="@style/ListItemCheckBoxContainer">
+        <CheckBox android:layout_gravity="center" android:id="@id/analysis_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+        <ImageView android:id="@id/cleaning_status" android:contentDescription="@null" style="@style/AnalysisItemCleaningStatus" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/sys_info_card_bottom_padding">
+        <TextView android:gravity="center_vertical" android:id="@id/header_text" android:paddingLeft="@dimen/sys_info_card_padding" android:paddingRight="@dimen/sys_info_card_padding" android:layout_width="fill_parent" android:layout_height="@dimen/sys_info_header_height" style="@style/SystemInfoHeader" />
+        <View style="@style/CardViewDivider" />
+        <LinearLayout android:orientation="vertical" android:id="@id/body" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>
