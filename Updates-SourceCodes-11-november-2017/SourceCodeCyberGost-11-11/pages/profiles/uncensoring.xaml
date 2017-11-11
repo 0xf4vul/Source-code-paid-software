@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="CyberGhost.Pages.Profiles.Uncensoring" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:uig="clr-namespace:CyberGhost.Components;assembly=CyberGhost,Version=6.0.8.2959,Culture=neutral,PublicKeyToken=9ae55dfbb6aa9a6e">
+  <Grid Margin="0,10,2,0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Background="{StaticResource WindowBackgroundColorBrush}">
+    <uig:UnblockItemGrid x:Name="UnblockItemGrid" />
+  </Grid>
+</UserControl>

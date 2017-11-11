@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ResourceDictionary.MergedDictionaries>
+    <ResourceDictionary Source="ModernUI.CyberGhost.xaml" />
+  </ResourceDictionary.MergedDictionaries>
+  <SolidColorBrush x:Key="WindowBorder" Color="{StaticResource BaseColorBlue}" Opacity=".5" />
+  <SolidColorBrush x:Key="WindowBorderActive" Color="{StaticResource BaseColorBlue}" />
+  <SolidColorBrush x:Key="ProfileColor" Color="{StaticResource BaseColorBlue}" />
+  <SolidColorBrush x:Key="ProfileTextColor" Color="#000000" />
+</ResourceDictionary>
